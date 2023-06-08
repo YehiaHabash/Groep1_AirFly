@@ -5,21 +5,21 @@ html{
 body{
     background-color: #2f3035;
     background-size: cover;
-    background-image: url("");
     background-repeat: no-repeat;
+    background-image: url("VliegtuigFoto.jpg");
     background-position: center;
 }
 
 .content{
     display: flex;
-    flex-direction: row;
+    position: center;
 }
 
 .container{
+    position: center;
     margin-left: auto;
     margin-right: auto;
     width: 1024px;
-    background-color: red;
 }
 
 header{
@@ -27,11 +27,14 @@ header{
     margin-right: 300px;
     height: 118px;
     text-align: center;
-    color: black;
+    color: white;
     padding-top: 20px;
     font-size: 45px;
     margin-top: 50px;
-    font-family: 'Limelight', cursive;
+    font-family: 'Arial Black', cursive;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 nav{
@@ -42,35 +45,71 @@ nav{
 }
 
 main {
-    height: 250px;
     text-align: center;
-    padding-top: 50px;
-    padding-left: 240px;
-    padding-right: 240px;
-    font-family: 'Limelight', cursive;
-    background-color: blue;
+    padding: 50px 100px 80px;
+    font-family: 'Arial Black', cursive;
+    color: white;
+    font-size: 15px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 nav a{
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
+    font-family: "Arial Black", cursive;
     padding-left: 10px;
     padding-right: 10px;
+    color: white;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
-a:hover{
-    text-decoration: underline;
-    text-decoration-color: white;
-    text-decoration-thickness: 4px;
+img{
+    height: 115px;
+    padding-left: 35px;
+    padding-top: 30px;
 }
 
-.Logo{
-    width: 100px;
-    height: 100px;
+footer{
+    padding-left: 500px;
+}
 
-    margin-top: 5px;
-    margin-left: 20px;
-    background-image: url(Logo1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+.registreren{
+    padding-top: 60px;
+}
+
+a{
+    color: white;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    display: inline-block;
+    position: relative;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
 }
