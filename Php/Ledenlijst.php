@@ -33,7 +33,7 @@
     </nav>
 
     <main>
-        <h>CONTACT</h>
+        <h>LEDENLIJST</h>
     </main>
 
 </div>

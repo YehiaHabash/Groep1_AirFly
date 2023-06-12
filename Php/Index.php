@@ -28,7 +28,7 @@
         <a href="#" class="hover-underline-animation">HOME</a>
         <a href="#" class="hover-underline-animation">FOTOS</a>
         <a href="#" class="hover-underline-animation">PLANNING</a>
-        <a href="#" class="hover-underline-animation">LEDENLIJST</a>
+        <a href="Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
         <a href="contact.php" class="hover-underline-animation">CONTACT</a>
     </nav>
 
