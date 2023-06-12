@@ -3,91 +3,68 @@ html{
 }
 
 body{
-    background-color: #2f3035;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: gray;
     background-image: url("VliegtuigFoto.jpg");
-    background-position: center;
-}
-
-.content{
-    display: flex;
-    position: center;
 }
 
 .container{
-    position: center;
-    margin-left: auto;
+    height: 100%;
     margin-right: auto;
+    margin-left: auto;
     width: 1024px;
 }
 
+img{
+    height: 120px;
+    position: absolute;
+    margin-left: auto;
+    left: 15px;
+}
+
+.Registreren{
+    background-color: rgb(0,0,0,0.3);
+    position: fixed;
+    right: 15px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 13px;
+}
+
 header{
-    margin-left: 300px;
-    margin-right: 300px;
-    height: 118px;
+    height: 120px;
     text-align: center;
-    color: white;
-    padding-top: 20px;
-    font-size: 45px;
     margin-top: 50px;
-    font-family: 'Arial Black', cursive;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    font-size: 50px;
+    color: white;
 }
 
 nav{
-    background-color: rgba(0, 0, 0, 0.3);
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    font-size: 13px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: rgb(0,0,0,0.3);
 }
 
-main {
+main{
+    padding-top: 60px;
     text-align: center;
-    padding: 50px 100px 80px;
-    font-family: 'Arial Black', cursive;
-    color: white;
-    font-size: 15px;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-}
-
-nav a{
-    text-decoration: none;
-    font-size: 12px;
+    font-size: 20px;
     font-family: "Arial Black", cursive;
-    padding-left: 10px;
-    padding-right: 10px;
     color: white;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-
-img{
-    height: 115px;
-    padding-left: 35px;
-    padding-top: 30px;
 }
 
 footer{
-    padding-left: 500px;
-}
-
-.registreren{
-    padding-top: 60px;
+    text-align: center;
+    padding-top: 100px;
 }
 
 a{
-    color: white;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    display: inline-block;
-    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: "Arial Black", cursive;
 }
 
 .hover-underline-animation {
@@ -101,7 +78,7 @@ a{
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 3px;
+    height: 2.5px;
     bottom: 0;
     left: 0;
     background-color: white;
@@ -113,3 +90,4 @@ a{
     transform: scaleX(1);
     transform-origin: bottom center;
 }
+
