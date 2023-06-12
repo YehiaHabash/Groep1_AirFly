@@ -127,8 +127,8 @@ html{
 body{
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: gray;
-    background-image: url("VliegtuigFoto.jpg");
+    background-color: cornflowerblue;
+    background-image: url("skycontact.jpg");
 }
 
 .container{
@@ -147,11 +147,11 @@ img{
 
 .Registreren{
     background-color: rgb(0,0,0,0.3);
+    position: fixed;
     right: 15px;
     padding-top: 14px;
     padding-bottom: 14px;
     font-size: 13px;
-    position: fixed;
 }
 
 header{
@@ -203,7 +203,7 @@ a{
     height: 2.5px;
     bottom: 0;
     left: 0;
-    background-color: white;
+    background-color: #9e0d9d;
     transform-origin: bottom center;
     transition: transform 0.25s ease-out;
 }
@@ -212,4 +212,3 @@ a{
     transform: scaleX(1);
     transform-origin: bottom center;
 }
-

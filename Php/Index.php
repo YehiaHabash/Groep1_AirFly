@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="CSS.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
@@ -29,7 +29,7 @@
         <a href="#" class="hover-underline-animation">FOTOS</a>
         <a href="#" class="hover-underline-animation">PLANNING</a>
         <a href="#" class="hover-underline-animation">LEDENLIJST</a>
-        <a href="#" class="hover-underline-animation">CONTACT</a>
+        <a href="contact.php" class="hover-underline-animation">CONTACT</a>
     </nav>
 
     <main>
