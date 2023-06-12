@@ -187,12 +187,15 @@ a{
     padding-right: 10px;
     padding-left: 10px;
     font-family: "Arial Black", cursive;
+    text-decoration: none;
+    color: white;
 }
 
 .hover-underline-animation {
     display: inline-block;
     position: relative;
-    color: white;
+    text-decoration: none;
+
 }
 
 .hover-underline-animation::after {
@@ -203,7 +206,7 @@ a{
     height: 2.5px;
     bottom: 0;
     left: 0;
-    background-color: #9e0d9d;
+    background-color: white;
     transform-origin: bottom center;
     transition: transform 0.25s ease-out;
 }
