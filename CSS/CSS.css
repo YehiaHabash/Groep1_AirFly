@@ -6,10 +6,10 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: gray;
-    background-image: url("VliegtuigFoto.jpg");
+    background-image: url("img/Blue.jpg");
 }
 
-.container{
+.container{a
     height: 100%;
     margin-right: auto;
     margin-left: auto;

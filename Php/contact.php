@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="CSS.css">
+    <link rel="stylesheet" href="../Php/CSS.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
@@ -25,7 +25,7 @@
     <header>Sky High</header>
 
     <nav>
-        <a href="Index.php" class="hover-underline-animation">HOME</a>
+        <a href="../Index.php" class="hover-underline-animation">HOME</a>
         <a href="#" class="hover-underline-animation">FOTOS</a>
         <a href="#" class="hover-underline-animation">PLANNING</a>
         <a href="Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
@@ -52,7 +52,7 @@
     </div>
 
     <div class="contact-col">
-        <img src="email.png">
+        <img src="">
         <h2><br>E-mail ons</h2>
         <p>       <br></p>
         <div class="layer2">
@@ -61,7 +61,7 @@
     </div>
 
     <div class="contact-col">
-        <img src="location.png">
+        <img src="../img/location.png">
         <h2><br>Bezoek ons</h2>
         <p>       <br></p>
         <div class="layer2">
