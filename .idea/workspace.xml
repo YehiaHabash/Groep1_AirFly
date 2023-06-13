@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcb717c8-db56-49eb-80a3-6175a18e4079" name="Changes" comment="dd">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Including/Index.php" beforeDir="false" />
+    <list default="true" id="dcb717c8-db56-49eb-80a3-6175a18e4079" name="Changes" comment="nieuwe bestanden">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/CSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/CSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/SkyHighLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/contactbackground.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/sky.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/skycontact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Php/CSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/Php/CSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/Index.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Php/Ledenlijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/Ledenlijst.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/SkyHighLogo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/contactbackground.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/sky.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/skycontact.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686209424775</updated>
       <workItem from="1686209426279" duration="8728000" />
-      <workItem from="1686297209215" duration="25186000" />
+      <workItem from="1686297209215" duration="29283000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1686209524278</created>
@@ -131,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686646066372</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="nieuwe bestanden">
+      <created>1686649837418</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686649837418</updated>
+    </task>
+    <task id="LOCAL-00009" summary="nieuwe bestanden">
+      <created>1686650701195</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686650701195</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +185,7 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="New commit" />
     <MESSAGE value="dd" />
-    <option name="LAST_COMMIT_MESSAGE" value="dd" />
+    <MESSAGE value="nieuwe bestanden" />
+    <option name="LAST_COMMIT_MESSAGE" value="nieuwe bestanden" />
   </component>
 </project>
