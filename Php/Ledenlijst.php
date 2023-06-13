@@ -28,7 +28,7 @@
 
 
     <nav>
-        <a href="Index.php" class="hover-underline-animation">HOME</a>
+        <a href="../Index.php" class="hover-underline-animation">HOME</a>
         <a href="#" class="hover-underline-animation">FOTOS</a>
         <a href="#" class="hover-underline-animation">PLANNING</a>
         <a href="Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
@@ -36,6 +36,7 @@
     </nav>
 
     <main>
+        <body>
         <section class="team">
             <div class="container">
                 <h1>OUR TEAM</h1>
@@ -53,7 +54,7 @@
                         <h3>Student</h3>
                         <p>MBO college</p>
 
-
+</body>
                     </div>
                 </div>
             </div>
