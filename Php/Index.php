@@ -7,6 +7,7 @@
     <meta name="keywords" content="Keywords">
     <meta name="author" content="Yehia Habash">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Sky High</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
 
     <div class="Registreren">
         <a href="#" class="hover-underline-animation">REGISTREREN</a>
-        <a href="#" class="hover-underline-animation">INLOGGEN</a>
+        <a href="Login.php" class="hover-underline-animation">INLOGGEN</a>
     </div>
 
     <header>Sky High</header>
