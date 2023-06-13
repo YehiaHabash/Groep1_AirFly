@@ -31,13 +31,15 @@
         <a href="#" class="hover-underline-animation">LEDENLIJST</a>
         <a href="contact.php" class="hover-underline-animation">CONTACT</a>
     </nav>
+
+
 </div>
 
-<!--    <main>
-        <h>CONTACT</h>
-    </main>-->
+<main>
+    <h>CONTACT</h>
+</main>-->
 <div class="contact">
-    <h2>CONTACT</h2>
+<!--    <h2>CONTACT</h2>-->
 
     <div class="row">
          <div class="contact-col">
