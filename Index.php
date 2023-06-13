@@ -1,3 +1,7 @@
+<?php
+
+require_once 'database/conn.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

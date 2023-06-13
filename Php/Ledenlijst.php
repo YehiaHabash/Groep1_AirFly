@@ -196,7 +196,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-color: cornflowerblue;
-        background-image: url("Blue.jpg");
+        background-image: url("../img/Blue.jpg");
         min-height: 100%;
         background-position: center center;
         background-attachment: fixed;
