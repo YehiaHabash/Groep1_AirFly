@@ -6,7 +6,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: gray;
-    background-image: url("img/Blue.jpg");
+    background-image: url("../img/Blue.jpg");
 }
 
 .container{a

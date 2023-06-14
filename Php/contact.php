@@ -14,7 +14,7 @@
 <div class="container">
 
     <div class="Logo">
-        <img src="SkyHighLogo.png" alt="SkyHighLogo">
+        <img src="../img/SkyHighLogo.png" alt="SkyHighLogo">
     </div>
 
     <div class="Registreren">
@@ -26,8 +26,8 @@
 
     <nav>
         <a href="../Index.php" class="hover-underline-animation">HOME</a>
-        <a href="#" class="hover-underline-animation">FOTOS</a>
-        <a href="#" class="hover-underline-animation">PLANNING</a>
+        <a href="fotos.php" class="hover-underline-animation">FOTOS</a>
+        <a href="Planning.php" class="hover-underline-animation">PLANNING</a>
         <a href="Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
         <a href="contact.php" class="hover-underline-animation">CONTACT</a>
     </nav>
@@ -61,7 +61,7 @@
     </div>
 
     <div class="contact-col">
-        <img src="../img/location.png">
+        <img src="">
         <h2><br>Bezoek ons</h2>
         <p>       <br></p>
         <div class="layer2">

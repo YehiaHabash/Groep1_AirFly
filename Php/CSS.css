@@ -183,6 +183,7 @@ p{
 }
 .layer2:hover{
     background: #75c7fa;
+
 }
 .layer2 p{
     width: 100%;
@@ -195,7 +196,11 @@ p{
     opacity: 0;
     transition: 0.5s;
 }
-.layer2:hover p{
+.layer2:hover p {
     bottom: 40%;
     opacity: 1;
 }
+
+
+
+
