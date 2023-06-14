@@ -1,11 +1,11 @@
-<?php
+<!--/--><?php
 
-require_once 'database/conn.php'; ?>
+//require_once 'database/conn.php'; ?><!--/-->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="Php/CSS.css">
+    <link rel="stylesheet" href="Php/CSS/main.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
@@ -33,13 +33,10 @@ require_once 'database/conn.php'; ?>
         <a href="index.php" class="hover-underline-animation">HOME</a>
         <a href="#" class="hover-underline-animation">FOTOS</a>
         <a href="#" class="hover-underline-animation">PLANNING</a>
-<<<<<<<< HEAD:Index.php
         <a href="Php/Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
         <a href="Php/contact.php" class="hover-underline-animation">CONTACT</a>
-========
         <a href="#" class="hover-underline-animation">LEDENLIJST</a>
         <a href="contact.php" class="hover-underline-animation">CONTACT</a>
->>>>>>>> origin/Branch_Saira:Php/Index.php
     </nav>
 
     <main>
