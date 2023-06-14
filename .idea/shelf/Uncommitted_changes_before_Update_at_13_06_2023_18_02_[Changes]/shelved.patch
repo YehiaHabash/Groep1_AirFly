@@ -1,0 +1,71 @@
+Index: Php/contact.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <link rel=\"stylesheet\" href=\"CSS/main.css\">\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"description\" content=\"Content\">\r\n    <meta name=\"keywords\" content=\"Keywords\">\r\n    <meta name=\"author\" content=\"Saira Maranan\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Sky High</title>\r\n</head>\r\n<body>\r\n\r\n<div class=\"container\">\r\n\r\n    <div class=\"Logo\">\r\n        <img src=\"SkyHighLogo.png\" alt=\"SkyHighLogo\">\r\n    </div>\r\n\r\n    <div class=\"Registreren\">\r\n        <a href=\"#\" class=\"hover-underline-animation\">REGISTREREN</a>\r\n        <a href=\"#\" class=\"hover-underline-animation\">INLOGGEN</a>\r\n    </div>\r\n\r\n    <header>Sky High</header>\r\n\r\n    <nav>\r\n        <a href=\"../Index.php\" class=\"hover-underline-animation\">HOME</a>\r\n        <a href=\"#\" class=\"hover-underline-animation\">FOTOS</a>\r\n        <a href=\"#\" class=\"hover-underline-animation\">PLANNING</a>\r\n        <a href=\"#\" class=\"hover-underline-animation\">LEDENLIJST</a>\r\n        <a href=\"contact.php\" class=\"hover-underline-animation\">CONTACT</a>\r\n    </nav>\r\n\r\n\r\n</div>\r\n\r\n<main>\r\n    <h>CONTACT</h>\r\n</main>-->\r\n<div class=\"contact\">\r\n<!--    <h2>CONTACT</h2>-->\r\n\r\n    <div class=\"row\">\r\n         <div class=\"contact-col\">\r\n             <img src=\"Images/Telefoon.png\">\r\n             <h2><br>Bel ons</h2>\r\n             <p>       <br></p>\r\n             <div class=\"layer\">\r\n        <p>Telefonisch ondersteuning is beschikbaar <br> van 08:00 uur tot 17:00 uur.<br> <br> Bel ons gerust <br> +316123456789 </p>\r\n             </div>\r\n    </div>\r\n\r\n    <div class=\"contact-col\">\r\n        <img src=\"Images/email.png\">\r\n        <h2><br>E-mail ons</h2>\r\n        <p>       <br></p>\r\n        <div class=\"layer2\">\r\n        <p>Voor algemene vragen kunt u via e-mail contact met ons opnemen.</p>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"contact-col\">\r\n        <img src=\"Images/location.png\">\r\n        <h2><br>Bezoek ons</h2>\r\n        <p>       <br></p>\r\n        <div class=\"layer2\">\r\n        <p>Adres, postcode, plaats, provincie.</p>\r\n        </div>\r\n\r\n    </div>\r\n\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Php/contact.php b/Php/contact.php
+--- a/Php/contact.php	(revision ba07ae25762a3d299636076b3ed0ba7618e42d31)
++++ b/Php/contact.php	(date 1686672002157)
+@@ -28,7 +28,7 @@
+         <a href="../Index.php" class="hover-underline-animation">HOME</a>
+         <a href="#" class="hover-underline-animation">FOTOS</a>
+         <a href="#" class="hover-underline-animation">PLANNING</a>
+-        <a href="#" class="hover-underline-animation">LEDENLIJST</a>
++        <a href="Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
+         <a href="contact.php" class="hover-underline-animation">CONTACT</a>
+     </nav>
+ 
+Index: Php/Ledenlijst.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Php/Ledenlijst.php b/Php/Ledenlijst.php
+new file mode 100644
+--- /dev/null	(date 1686672002148)
++++ b/Php/Ledenlijst.php	(date 1686672002148)
+@@ -0,0 +1,42 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <link rel="stylesheet" href="style_contact.css">
++    <meta charset="UTF-8">
++    <meta name="description" content="Content">
++    <meta name="keywords" content="Keywords">
++    <meta name="author" content="Saira Maranan">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Sky High</title>
++</head>
++<body>
++
++<div class="container">
++
++    <div class="Logo">
++        <img src="SkyHighLogo.png" alt="SkyHighLogo">
++    </div>
++
++    <div class="Registreren">
++        <a href="#" class="hover-underline-animation">REGISTREREN</a>
++        <a href="#" class="hover-underline-animation">INLOGGEN</a>
++    </div>
++
++    <header>Sky High</header>
++
++    <nav>
++        <a href="Index.php" class="hover-underline-animation">HOME</a>
++        <a href="#" class="hover-underline-animation">FOTOS</a>
++        <a href="#" class="hover-underline-animation">PLANNING</a>
++        <a href="Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
++        <a href="contact.php" class="hover-underline-animation">CONTACT</a>
++    </nav>
++
++    <main>
++        <h>LEDENLIJST</h>
++    </main>
++
++</div>
++
++</body>
++</html>
