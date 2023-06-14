@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0da790e0-21a3-4b16-9ef6-15ca8321db31" name="Changes" comment="nieuwe bestanden">
+    <list default="true" id="0da790e0-21a3-4b16-9ef6-15ca8321db31" name="Changes" comment="folders gefixt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/CSS.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/fotos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/inloggen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/registeren.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Php/CSS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Php/CSS/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/Images/Telefoon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/Images/VliegtuigFoto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/Images/email.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/Images/location.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/conn.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Blue.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/SkyHighLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contactbackground.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/location.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sky.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/skycontact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/inloggen.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/inloggen.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686650701195</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="folders gefixt">
+      <created>1686728868380</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686728868380</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +189,7 @@
     <MESSAGE value="dd" />
     <MESSAGE value="nieuwe bestanden" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="folders gefixt" />
+    <option name="LAST_COMMIT_MESSAGE" value="folders gefixt" />
   </component>
 </project>

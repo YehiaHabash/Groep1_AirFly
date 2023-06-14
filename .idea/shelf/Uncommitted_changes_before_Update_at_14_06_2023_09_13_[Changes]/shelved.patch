@@ -1,0 +1,113 @@
+Index: Index.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\n\r\nrequire_once 'database/conn.php'; ?>\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <link rel=\"stylesheet\" href=\"Php/CSS.css\">\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"description\" content=\"Content\">\r\n    <meta name=\"keywords\" content=\"Keywords\">\r\n    <meta name=\"author\" content=\"Yehia Habash\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n\r\n    <title>Sky High</title>\r\n</head>\r\n<body>\r\n\r\n<div class=\"container\">\r\n\r\n    <div class=\"Logo\">\r\n        <img src=\"Images/SkyHighLogo.png\" alt=\"SkyHighLogo\">\r\n    </div>\r\n\r\n    <div class=\"Registreren\">\r\n        <a href=\"#\" class=\"hover-underline-animation\">REGISTREREN</a>\r\n        <a href=\"Login.php\" class=\"hover-underline-animation\">INLOGGEN</a>\r\n    </div>\r\n\r\n    <header>Sky High</header>\r\n\r\n    <nav>\r\n        <a href=\"index.php\" class=\"hover-underline-animation\">HOME</a>\r\n        <a href=\"#\" class=\"hover-underline-animation\">FOTOS</a>\r\n        <a href=\"#\" class=\"hover-underline-animation\">PLANNING</a>\r\n<<<<<<<< HEAD:Index.php\r\n        <a href=\"Php/Ledenlijst.php\" class=\"hover-underline-animation\">LEDENLIJST</a>\r\n        <a href=\"Php/contact.php\" class=\"hover-underline-animation\">CONTACT</a>\r\n========\r\n        <a href=\"#\" class=\"hover-underline-animation\">LEDENLIJST</a>\r\n        <a href=\"contact.php\" class=\"hover-underline-animation\">CONTACT</a>\r\n>>>>>>>> origin/Branch_Saira:Php/Index.php\r\n    </nav>\r\n\r\n    <main>\r\n        <h>HOME</h>\r\n    </main>\r\n\r\n    <footer>\r\n        <div id=\"ww_6bb00a1f5e810\" v='1.3' loc='id' a='{\"t\":\"horizontal\",\"lang\":\"nl\",\"sl_lpl\":1,\"ids\":[\"wl7908\"],\"font\":\"Arial\",\"sl_ics\":\"one_a\",\"sl_sot\":\"celsius\",\"cl_bkg\":\"#FFFFFF00\",\"cl_font\":\"#FFFFFF\",\"cl_cloud\":\"#d4d4d4\",\"cl_persp\":\"#2196F3\",\"cl_sun\":\"#FFC107\",\"cl_moon\":\"#FFC107\",\"cl_thund\":\"#FF5722\"}'>More forecasts: <a href=\"https://oneweather.org/nl/amsterdam/30_days/\" id=\"ww_6bb00a1f5e810_u\" target=\"_blank\">30 dagen weer</a></div><script async src=\"https://app1.weatherwidget.org/js/?id=ww_6bb00a1f5e810\"></script>\r\n    </footer>\r\n\r\n</div>\r\n\r\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n<link href=\"https://fonts.googleapis.com/css2?family=Limelight&display=swap\" rel=\"stylesheet\">\r\n<script src=\"../Javascript/Javascript.js\"></script>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Index.php b/Index.php
+--- a/Index.php	(revision 26b2bb9520c8f2c02288fa6b0bade58a564168ea)
++++ b/Index.php	(date 1686726650988)
+@@ -1,11 +1,11 @@
+-<?php
++<!--/--><?php
+ 
+-require_once 'database/conn.php'; ?>
++//require_once 'database/conn.php'; ?><!--/-->
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+-    <link rel="stylesheet" href="Php/CSS.css">
++    <link rel="stylesheet" href="Php/CSS/main.css">
+     <meta charset="UTF-8">
+     <meta name="description" content="Content">
+     <meta name="keywords" content="Keywords">
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"dcb717c8-db56-49eb-80a3-6175a18e4079\" name=\"Changes\" comment=\"nieuwe bestanden\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/CSS/CSS.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/CSS/CSS.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Images/Blue.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Images/SkyHighLogo.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Images/contactbackground.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Images/sky.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Images/skycontact.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Index.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Index.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Php/CSS.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Php/CSS.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Php/Ledenlijst.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Php/Ledenlijst.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Php/contact.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Php/contact.php\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Merge.Settings\">\r\n    <option name=\"BRANCH\" value=\"origin/Branch_Glenn\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Branch_Glenn\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"PhpWorkspaceProjectConfiguration\">\r\n    <include_path>\r\n      <path value=\"$PROJECT_DIR$\" />\r\n    </include_path>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2QuhYxU53KoOvMzb9Wub86tdUn7\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"last_opened_file_path\": \"C:/Users/glenn/PhpstormProjects\",\r\n    \"list.type.of.created.stylesheet\": \"CSS\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File\": [\r\n      \"CSS\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"dcb717c8-db56-49eb-80a3-6175a18e4079\" name=\"Changes\" comment=\"\" />\r\n      <created>1686209424775</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1686209424775</updated>\r\n      <workItem from=\"1686209426279\" duration=\"8728000\" />\r\n      <workItem from=\"1686297209215\" duration=\"29283000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first commit\">\r\n      <created>1686209524278</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1686209524278</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"second commit\">\r\n      <created>1686296080842</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1686296080842</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"second commit\">\r\n      <created>1686553889301</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1686553889301</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"New commit\">\r\n      <created>1686553953268</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1686553953268</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"dd\">\r\n      <created>1686555794442</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1686555794442</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"dd\">\r\n      <created>1686567782941</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1686567782941</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"dd\">\r\n      <created>1686646066372</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1686646066372</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"nieuwe bestanden\">\r\n      <created>1686649837418</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1686649837418</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"nieuwe bestanden\">\r\n      <created>1686650701195</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1686650701195</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"10\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"Branch_Glenn\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n              <option name=\"COLUMN_ID_WIDTH\">\r\n                <map>\r\n                  <entry key=\"Table.Default.Author.ColumnIdWidth\" value=\"164\" />\r\n                  <entry key=\"Table.Default.Date.ColumnIdWidth\" value=\"201\" />\r\n                  <entry key=\"Table.Space.CommitStatus.ColumnIdWidth\" value=\"115\" />\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first commit\" />\r\n    <MESSAGE value=\"second commit\" />\r\n    <MESSAGE value=\"New commit\" />\r\n    <MESSAGE value=\"dd\" />\r\n    <MESSAGE value=\"nieuwe bestanden\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"nieuwe bestanden\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 26b2bb9520c8f2c02288fa6b0bade58a564168ea)
++++ b/.idea/workspace.xml	(date 1686726651184)
+@@ -1,18 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="dcb717c8-db56-49eb-80a3-6175a18e4079" name="Changes" comment="nieuwe bestanden">
++    <list default="true" id="0da790e0-21a3-4b16-9ef6-15ca8321db31" name="Changes" comment=".">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/CSS/CSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/CSS.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Images/Blue.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Images/SkyHighLogo.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Images/contactbackground.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Images/sky.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Images/skycontact.jpg" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Php/CSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/Php/CSS.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Php/Ledenlijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/Ledenlijst.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/contact.php" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -40,6 +31,9 @@
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$USER_HOME$/OneDrive/Documents/GitHub/Groep1_AirFly/Php/Index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
++  </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+@@ -54,32 +48,33 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "last_opened_file_path": "C:/Users/glenn/PhpstormProjects",
+-    "list.type.of.created.stylesheet": "CSS",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/glenn/PhpstormProjects&quot;,
++    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   },
+-  "keyToStringList": {
+-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+-      "CSS"
++  &quot;keyToStringList&quot;: {
++    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
++      &quot;CSS&quot;
+     ]
+   }
+-}]]></component>
++}</component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="dcb717c8-db56-49eb-80a3-6175a18e4079" name="Changes" comment="" />
++      <changelist id="0da790e0-21a3-4b16-9ef6-15ca8321db31" name="Changes" comment="." />
+       <created>1686209424775</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1686209424775</updated>
+       <workItem from="1686209426279" duration="8728000" />
+       <workItem from="1686297209215" duration="29283000" />
++      <workItem from="1686726205328" duration="443000" />
+     </task>
+     <task id="LOCAL-00001" summary="first commit">
+       <created>1686209524278</created>
