@@ -1,6 +1,7 @@
 <?php
 
-require_once 'Php/database/conn.php'; ?>
+require_once 'Php/database/conn.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,26 +17,8 @@ require_once 'Php/database/conn.php'; ?>
 </head>
 <body>
 
-<div class="Database">
+<div class="users">
 
-    <?php
-    $sql = "SELECT * FROM users";
-    if ($result = $conn->query($sql)) {
-        while ($row = $result->fetch_row()) {
-
-    ?>
-
-    <p><?php echo $row[0]?></p>
-    <p><?php echo $row[1]?></p>
-    <p><?php echo $row[2]?></p>
-    <p><?php echo $row[3]?></p>
-    <p><?php echo $row[4]?></p>
-    <p><?php echo $row[5]?></p>
-
-    <?php
-        }
-    }
-    ?>
 
 </div>
 <div class="container">
@@ -45,16 +28,18 @@ require_once 'Php/database/conn.php'; ?>
     </div>
 
     <div class="Registreren">
-        <a href="#" class="hover-underline-animation">REGISTREREN</a>
+        <a href="Php/registreren.php" class="hover-underline-animation">REGISTREREN</a>
         <a href="Php/inloggen.php" class="hover-underline-animation">INLOGGEN</a>
+
+
     </div>
 
     <header>Sky High</header>
 
     <nav>
-        <a href="Index.php" class="hover-underline-animation">HOME</a>
-        <a href="#" class="hover-underline-animation">FOTOS</a>
-        <a href="#" class="hover-underline-animation">PLANNING</a>
+        <a href="index.php" class="hover-underline-animation">HOME</a>
+        <a href="Php/fotos.php" class="hover-underline-animation">FOTOS</a>
+        <a href="Php/Planning.php" class="hover-underline-animation">PLANNING</a>
         <a href="Php/Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
         <a href="Php/contact.php" class="hover-underline-animation">CONTACT</a>
     </nav>
@@ -72,6 +57,6 @@ require_once 'Php/database/conn.php'; ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
-<script src="Php/javascript/Javascript.js"></script>
+<script src="../Javascript/Javascript.js"></script>
 </body>
 </html>
