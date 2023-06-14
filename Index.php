@@ -1,6 +1,6 @@
-<?php
+<!--/--><?php
 
-require_once 'database/conn.php';
+//require_once 'database/conn.php';/
 ?>
 
 <!DOCTYPE html>
@@ -33,7 +33,7 @@ require_once 'database/conn.php';
     <header>Sky High</header>
 
     <nav>
-        <a href="index.php" class="hover-underline-animation">HOME</a>
+        <a href="Index.php" class="hover-underline-animation">HOME</a>
         <a href="Php/fotos.php" class="hover-underline-animation">FOTOS</a>
         <a href="Php/Planning.php" class="hover-underline-animation">PLANNING</a>
         <a href="Php/Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
@@ -53,6 +53,6 @@ require_once 'database/conn.php';
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
-<script src="../Javascript/Javascript.js"></script>
+<script src="Javascript/Javascript.js"></script>
 </body>
 </html>

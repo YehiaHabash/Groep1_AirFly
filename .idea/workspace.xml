@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dcb717c8-db56-49eb-80a3-6175a18e4079" name="Changes" comment="nieuwe bestanden">
-      <change afterPath="$PROJECT_DIR$/CSS/fotos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Php/Planning.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Php/fotos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Php/inloggen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Php/registreren.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/CSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/CSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Php/CSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/Php/CSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Php/Ledenlijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/Ledenlijst.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/Planning.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/Planning.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/fotos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/fotos.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
+      <path value="" />
       <path value="$PROJECT_DIR$" />
     </include_path>
   </component>
@@ -62,6 +63,9 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/glenn/PhpstormProjects",
     "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -70,6 +74,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wwwye\PhpstormProjects\Groep1_AirFly\CSS" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,6 +89,7 @@
       <updated>1686209424775</updated>
       <workItem from="1686209426279" duration="8728000" />
       <workItem from="1686297209215" duration="53010000" />
+      <workItem from="1686731807841" duration="873000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1686209524278</created>
