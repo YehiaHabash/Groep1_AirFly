@@ -1,12 +1,11 @@
 <!--/--><?php
 
-//require_once 'database/conn.php';/
-?>
+//require_once 'database/conn.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="Php/CSS.css">
+    <link rel="stylesheet" href="Php/CSS/main.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
@@ -20,22 +19,20 @@
 <div class="container">
 
     <div class="Logo">
-        <img src="img/SkyHighLogo.png" alt="SkyHighLogo">
+        <img src="Php/img/SkyHighLogo.png" alt="SkyHighLogo">
     </div>
 
     <div class="Registreren">
-        <a href="Php/registreren.php" class="hover-underline-animation">REGISTREREN</a>
-        <a href="Php/inloggen.php" class="hover-underline-animation">INLOGGEN</a>
-
-
+        <a href="#" class="hover-underline-animation">REGISTREREN</a>
+        <a href="Login.php" class="hover-underline-animation">INLOGGEN</a>
     </div>
 
     <header>Sky High</header>
 
     <nav>
         <a href="Index.php" class="hover-underline-animation">HOME</a>
-        <a href="Php/fotos.php" class="hover-underline-animation">FOTOS</a>
-        <a href="Php/Planning.php" class="hover-underline-animation">PLANNING</a>
+        <a href="#" class="hover-underline-animation">FOTOS</a>
+        <a href="#" class="hover-underline-animation">PLANNING</a>
         <a href="Php/Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
         <a href="Php/contact.php" class="hover-underline-animation">CONTACT</a>
     </nav>
@@ -53,6 +50,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
-<script src="Javascript/Javascript.js"></script>
+<script src="../Javascript/Javascript.js"></script>
 </body>
 </html>

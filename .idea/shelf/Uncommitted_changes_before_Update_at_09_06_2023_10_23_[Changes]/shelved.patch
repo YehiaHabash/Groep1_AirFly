@@ -1,0 +1,8 @@
+Index: README.md
+===================================================================
+diff --git a/README.md b/README.md
+deleted file mode 100644
+--- a/README.md	(revision e094b8a0a613a5f1b82c9b2b69b785240a48c053)
++++ /dev/null	(revision e094b8a0a613a5f1b82c9b2b69b785240a48c053)
+@@ -1,1 +0,0 @@
+-
