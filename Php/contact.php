@@ -19,7 +19,7 @@
 
     <div class="Registreren">
         <a href="#" class="hover-underline-animation">REGISTREREN</a>
-        <a href="#" class="hover-underline-animation">INLOGGEN</a>
+        <a href="login.php" class="hover-underline-animation">INLOGGEN</a>
     </div>
 
     <header>Sky High</header>
@@ -37,6 +37,5 @@
     </main>
 
 </div>
-
 </body>
 </html>
