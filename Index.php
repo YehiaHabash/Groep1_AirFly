@@ -1,12 +1,12 @@
 <?php
 
-require_once 'database/conn.php';
+require_once 'Php/database/conn.php';
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="Php/CSS.css">
+    <link rel="stylesheet" href="Php/CSS/main.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
@@ -17,10 +17,14 @@ require_once 'database/conn.php';
 </head>
 <body>
 
+<div class="users">
+
+
+</div>
 <div class="container">
 
     <div class="Logo">
-        <img src="img/SkyHighLogo.png" alt="SkyHighLogo">
+        <img src="Php/img/SkyHighLogo.png" alt="SkyHighLogo">
     </div>
 
     <div class="Registreren">
