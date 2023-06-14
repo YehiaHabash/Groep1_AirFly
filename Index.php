@@ -1,8 +1,3 @@
-<?php
-
-require_once 'database/conn.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,7 +28,7 @@ require_once 'database/conn.php';
     <header>Sky High</header>
 
     <nav>
-        <a href="index.php" class="hover-underline-animation">HOME</a>
+        <a href="Index.php" class="hover-underline-animation">HOME</a>
         <a href="Php/fotos.php" class="hover-underline-animation">FOTOS</a>
         <a href="Php/Planning.php" class="hover-underline-animation">PLANNING</a>
         <a href="Php/Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
