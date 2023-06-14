@@ -8,7 +8,7 @@ body{
     background-position: center, center;
     background-attachment: fixed;
     background-color: gray;
-    background-image: url("../img/Blue.jpg");
+    background-image: url("VliegtuigFoto.jpg");
     /*min-height: 100%;*/
 }
 
@@ -113,7 +113,7 @@ a{
 
 .contact-col{
     flex-basis: 25%;
-    background-color: rgb(0,0,0,0.3);
+    background-color: rgb(0,0,0,0.1);
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
@@ -148,11 +148,11 @@ a{
     font-weight: 100;
     font-size: 17px;
     bottom: 0;
-    left: 50%
+    left: 50%;
     transform: translateX(-40%);
     position: absolute;
     opacity: 0;
-    transition: 0.7s;
+    transition: 0.5s;
 }
 
 .layer:hover p{
@@ -160,7 +160,7 @@ a{
     opacity: 1;
 }
 .contact h2{
-    color: white;
+    color: black;
 }
 .contact-col h2{
     color: black;
@@ -181,22 +181,22 @@ p{
     transition: 0.5s;
 }
 .layer2:hover{
-    background: #75c7fa;
-
+    background: white;
 }
 .layer2 p{
     width: 100%;
     font-weight: 100;
     font-size: 17px;
     bottom: 0;
-    left: 50%
-    transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-40%);
     position: absolute;
     opacity: 0;
     transition: 0.5s;
 }
-.layer2:hover p {
-    bottom: 40%;
+
+.layer2:hover p{
+    bottom: 25%;
     opacity: 1;
 }
 
