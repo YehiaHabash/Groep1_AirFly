@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../Php/CSS.css">
+    <link rel="stylesheet" href="../Php/CSS/main.css ">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
@@ -14,7 +14,7 @@
 <div class="container">
 
     <div class="Logo">
-        <img src="SkyHighLogo.png" alt="SkyHighLogo">
+        <img src="img/SkyHighLogo.png" alt="SkyHighLogo">
     </div>
 
     <div class="Registreren">
@@ -37,13 +37,13 @@
 
 <main>
     <h>CONTACT</h>
-</main>-->
+</main>
 <div class="contact">
 <!--    <h2>CONTACT</h2>-->
 
     <div class="row">
          <div class="contact-col">
-             <img src="Telefoon.png">
+             <img src="img/Telefoon.png">
              <h2><br>Bel ons</h2>
              <p>       <br></p>
              <div class="layer">
@@ -52,7 +52,7 @@
     </div>
 
     <div class="contact-col">
-        <img src="">
+        <img src="img/email.png">
         <h2><br>E-mail ons</h2>
         <p>       <br></p>
         <div class="layer2">
@@ -61,7 +61,7 @@
     </div>
 
     <div class="contact-col">
-        <img src="../img/location.png">
+        <img src="img/location.png">
         <h2><br>Bezoek ons</h2>
         <p>       <br></p>
         <div class="layer2">

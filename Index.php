@@ -1,11 +1,11 @@
-<?php
+<!--/--><?php
 
-require_once 'database/conn.php'; ?>
+//require_once 'database/conn.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="Php/CSS.css">
+    <link rel="stylesheet" href="Php/CSS/main.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
@@ -19,7 +19,7 @@ require_once 'database/conn.php'; ?>
 <div class="container">
 
     <div class="Logo">
-        <img src="Images/SkyHighLogo.png" alt="SkyHighLogo">
+        <img src="Php/img/SkyHighLogo.png" alt="SkyHighLogo">
     </div>
 
     <div class="Registreren">
@@ -30,7 +30,7 @@ require_once 'database/conn.php'; ?>
     <header>Sky High</header>
 
     <nav>
-        <a href="index.php" class="hover-underline-animation">HOME</a>
+        <a href="Index.php" class="hover-underline-animation">HOME</a>
         <a href="#" class="hover-underline-animation">FOTOS</a>
         <a href="#" class="hover-underline-animation">PLANNING</a>
         <a href="Php/Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
