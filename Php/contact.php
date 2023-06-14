@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../Php/CSS/main.css">
+    <link rel="stylesheet" href="../Php/CSS.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
@@ -43,7 +43,7 @@
 
     <div class="row">
          <div class="contact-col">
-             <img src="Images/Telefoon.png">
+             <img src="Telefoon.png">
              <h2><br>Bel ons</h2>
              <p>       <br></p>
              <div class="layer">
@@ -52,7 +52,7 @@
     </div>
 
     <div class="contact-col">
-        <img src="Images/email.png">
+        <img src="">
         <h2><br>E-mail ons</h2>
         <p>       <br></p>
         <div class="layer2">
@@ -61,7 +61,7 @@
     </div>
 
     <div class="contact-col">
-        <img src="Images/location.png">
+        <img src="../img/location.png">
         <h2><br>Bezoek ons</h2>
         <p>       <br></p>
         <div class="layer2">

@@ -37,7 +37,7 @@
 </div>
 
 <main>
-    <h>LEDENLIJST</h>
+    <h>FOTOS</h>
     <p>
 
     </p>
