@@ -1,6 +1,7 @@
-<!--/--><?php
+<?php
 
-//require_once 'database/conn.php'; ?>
+require_once 'Php/database/conn.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,6 +17,10 @@
 </head>
 <body>
 
+<div class="users">
+
+
+</div>
 <div class="container">
 
     <div class="Logo">
@@ -23,16 +28,18 @@
     </div>
 
     <div class="Registreren">
-        <a href="#" class="hover-underline-animation">REGISTREREN</a>
-        <a href="Login.php" class="hover-underline-animation">INLOGGEN</a>
+        <a href="Php/registreren.php" class="hover-underline-animation">REGISTREREN</a>
+        <a href="Php/inloggen.php" class="hover-underline-animation">INLOGGEN</a>
+
+
     </div>
 
     <header>Sky High</header>
 
     <nav>
-        <a href="Index.php" class="hover-underline-animation">HOME</a>
-        <a href="#" class="hover-underline-animation">FOTOS</a>
-        <a href="#" class="hover-underline-animation">PLANNING</a>
+        <a href="index.php" class="hover-underline-animation">HOME</a>
+        <a href="Php/fotos.php" class="hover-underline-animation">FOTOS</a>
+        <a href="Php/Planning.php" class="hover-underline-animation">PLANNING</a>
         <a href="Php/Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
         <a href="Php/contact.php" class="hover-underline-animation">CONTACT</a>
     </nav>
