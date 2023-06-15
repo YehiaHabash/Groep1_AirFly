@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcb717c8-db56-49eb-80a3-6175a18e4079" name="Changes" comment="nieuwe bestanden">
-      <change afterPath="$PROJECT_DIR$/Php/database/query.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/CSS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Php/CSS/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/Ledenlijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/Ledenlijst.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/Planning.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/Planning.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/fotos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/fotos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/inloggen.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/inloggen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/registreren.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/registreren.php" afterDir="false" />
-    </list>
+    <list default="true" id="dcb717c8-db56-49eb-80a3-6175a18e4079" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +27,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/OneDrive/Documents/GitHub/Groep1_AirFly/Php/Index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
