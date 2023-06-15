@@ -153,6 +153,7 @@ a{
     position: absolute;
     opacity: 0;
     transition: 0.5s;
+    text-align: center;
 }
 
 .layer:hover p{

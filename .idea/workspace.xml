@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="0c97ddc2-1e27-498b-b8e1-9374db692e4e" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/CSS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Php/CSS/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,6 +202,7 @@
     <MESSAGE value="New commit" />
     <MESSAGE value="dd" />
     <MESSAGE value="nieuwe bestanden" />
-    <option name="LAST_COMMIT_MESSAGE" value="nieuwe bestanden" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

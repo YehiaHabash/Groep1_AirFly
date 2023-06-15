@@ -1,6 +1,6 @@
-<?php
+<!--/--><?php
 
-require_once 'Php/database/conn.php';
+//require_once 'Php/database/conn.php';/
 ?>
 
 <!DOCTYPE html>
@@ -18,24 +18,6 @@ require_once 'Php/database/conn.php';
 <body>
 
 <div class="users">
-    <?php
-    $sql = "SELECT * FROM users";
-    if ($result = $conn->query($sql)) {
-        while ($row = $result->fetch_row()) {
-    ?>
-    <p><?php echo $row[0]?></p>
-    <p><?php echo $row[1]?></p>
-    <p><?php echo $row[2]?></p>
-    <p><?php echo $row[3]?></p>
-    <p><?php echo $row[4]?></p>
-    <p><?php echo $row[5]?></p>
-
-
-    <?php
-        }
-    }
-
-    ?>
 
 </div>
 <div class="container">
