@@ -181,7 +181,7 @@ p{
     transition: 0.5s;
 }
 .layer2:hover{
-    background: white;
+    background: #75c7fa;
 }
 .layer2 p{
     width: 100%;
