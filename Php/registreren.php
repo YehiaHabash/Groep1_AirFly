@@ -31,10 +31,10 @@
                 <label for="passwordInput" class="form-label">Password</label>
             </div>
 
-            <a href="../Index.php" class="forgot-pwd">Wachtwoord vergeten?</a>
+            <a href="../index.php" class="forgot-pwd">Wachtwoord vergeten?</a>
 
             <button type="submit" class="submit-btn">registreren</button>
-            <p class="sign-up-text"> Gast? <a href="../Index.php">Klik hier</a></p>
+            <p class="sign-up-text"> Gast? <a href="../index.php">Klik hier</a></p>
             <p class="sign-up-text"> Toch inloggen? <a href="inloggen.php">Klik hier</a></p>
         </form>
 
