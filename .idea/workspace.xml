@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0da790e0-21a3-4b16-9ef6-15ca8321db31" name="Changes" comment="." />
+    <list default="true" id="dcb717c8-db56-49eb-80a3-6175a18e4079" name="Changes" comment="nieuwe bestanden">
+      <change afterPath="$PROJECT_DIR$/Php/database/query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/CSS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Php/CSS/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/Ledenlijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/Ledenlijst.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/Planning.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/Planning.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/fotos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/fotos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/inloggen.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/inloggen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/registreren.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/registreren.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,9 +37,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/OneDrive/Documents/GitHub/Groep1_AirFly/Php/Index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,17 +68,21 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\glenn\PhpstormProjects\Groep1_AirFly\Php\database" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0da790e0-21a3-4b16-9ef6-15ca8321db31" name="Changes" comment="folders gefixt" />
+      <changelist id="dcb717c8-db56-49eb-80a3-6175a18e4079" name="Changes" comment="" />
       <created>1686209424775</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686209424775</updated>
       <workItem from="1686209426279" duration="8728000" />
-      <workItem from="1686297209215" duration="29283000" />
-      <workItem from="1686732784474" duration="4392000" />
+      <workItem from="1686297209215" duration="53010000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1686209524278</created>
@@ -136,28 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686650701195</updated>
     </task>
-    <task id="LOCAL-00010" summary="folders gefixt">
-      <created>1686728868380</created>
+    <task id="LOCAL-00010" summary="nieuwe bestanden">
+      <created>1686654902312</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1686728868380</updated>
+      <updated>1686654902312</updated>
     </task>
-    <task id="LOCAL-00011" summary="folders gefixt">
-      <created>1686732160027</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1686732160027</updated>
-    </task>
-    <task id="LOCAL-00012" summary=".">
-      <created>1686812819488</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1686812819488</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,8 +196,6 @@
     <MESSAGE value="New commit" />
     <MESSAGE value="dd" />
     <MESSAGE value="nieuwe bestanden" />
-    <MESSAGE value="folders gefixt" />
-    <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="nieuwe bestanden" />
   </component>
 </project>
