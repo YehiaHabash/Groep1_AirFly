@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcb717c8-db56-49eb-80a3-6175a18e4079" name="Changes" comment="nieuwe bestanden">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/inloggen.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/inloggen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/registreren.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/registreren.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-    </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +30,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/OneDrive/Documents/GitHub/Groep1_AirFly/Php/Index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
