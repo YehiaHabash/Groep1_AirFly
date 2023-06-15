@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0da790e0-21a3-4b16-9ef6-15ca8321db31" name="Changes" comment="folders gefixt">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/CSS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Php/CSS/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="0da790e0-21a3-4b16-9ef6-15ca8321db31" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +71,7 @@
       <updated>1686209424775</updated>
       <workItem from="1686209426279" duration="8728000" />
       <workItem from="1686297209215" duration="29283000" />
-      <workItem from="1686732784474" duration="3944000" />
+      <workItem from="1686732784474" duration="4392000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1686209524278</created>
@@ -154,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686732160027</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=".">
+      <created>1686812819488</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686812819488</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,8 +199,8 @@
     <MESSAGE value="New commit" />
     <MESSAGE value="dd" />
     <MESSAGE value="nieuwe bestanden" />
-    <MESSAGE value="." />
     <MESSAGE value="folders gefixt" />
-    <option name="LAST_COMMIT_MESSAGE" value="folders gefixt" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
