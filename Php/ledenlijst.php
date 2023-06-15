@@ -26,11 +26,11 @@
     <header>Sky High</header>
 
     <nav>
-        <a href="../Index.php" class="hover-underline-animation">HOME</a>
+        <a href="../index.php" class="hover-underline-animation">HOME</a>
         <a href="fotos.php" class="hover-underline-animation">FOTOS</a>
-        <a href="Planning.php" class="hover-underline-animation">PLANNING</a>
-        <a href="Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
-        <a href="contact.php" id="contactpage" class="hover-underline-animation">CONTACT</a>
+        <a href="planning.php" class="hover-underline-animation">PLANNING</a>
+        <a href="ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
+        <a href="contact.php" class="hover-underline-animation">CONTACT</a>
     </nav>
 
 

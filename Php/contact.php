@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../Php/CSS/main.css ">
+    <link rel="stylesheet" href="../Php/CSS/main.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
@@ -26,8 +26,8 @@
 
     <nav>
         <a href="../Index.php" class="hover-underline-animation">HOME</a>
-        <a href="#" class="hover-underline-animation">FOTOS</a>
-        <a href="#" class="hover-underline-animation">PLANNING</a>
+        <a href="fotos.php" class="hover-underline-animation">FOTOS</a>
+        <a href="Planning.php" class="hover-underline-animation">PLANNING</a>
         <a href="Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
         <a href="contact.php" id="contactpage" class="hover-underline-animation">CONTACT</a>
     </nav>

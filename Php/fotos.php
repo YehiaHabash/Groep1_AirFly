@@ -14,7 +14,7 @@
 <div class="container">
 
     <div class="Logo">
-        <img src="../img/SkyHighLogo.png" alt="SkyHighLogo">
+        <img src="img/SkyHighLogo.png" alt="SkyHighLogo">
 
     </div>
 
