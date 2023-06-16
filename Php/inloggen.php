@@ -16,7 +16,7 @@ tussenvoegsel,
 achternaam,
 email,
 telfoonnummer,
-gebootedatum)
+gebootedatum);
 VALUES(
 '$username',
 '$tussenvoegsel',
