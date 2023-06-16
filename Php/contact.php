@@ -29,7 +29,6 @@
         <a href="fotos.php" class="hover-underline-animation">FOTOS</a>
         <a href="planning.php" class="hover-underline-animation">PLANNING</a>
         <a href="ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
-        <a href="contact.php" class="hover-underline-animation">CONTACT</a>
     </nav>
 
 
@@ -71,6 +70,8 @@
     </div>
 
     </div>
+
 </div>
+<script src="../Php/javascript/Javascript.js"></script>
 </body>
 </html>
