@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../Php/CSS/main.css">
+    <script src="https://kit.fontawesome.com/87a9ed9bc2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
@@ -18,51 +19,56 @@
     </div>
 
     <div class="Registreren">
-        <a href="#" class="hover-underline-animation">REGISTREREN</a>
-        <a href="#" class="hover-underline-animation">INLOGGEN</a>
+        <a href="registreren.php" class="hover-underline-animation">REGISTREREN</a>
+        <a href="inloggen.php" class="hover-underline-animation">INLOGGEN</a>
     </div>
 
     <header>Sky High</header>
 
     <nav>
-        <a href="../index.php" class="hover-underline-animation">HOME</a>
+        <a href="index.php" class="hover-underline-animation">HOME</a>
         <a href="fotos.php" class="hover-underline-animation">FOTOS</a>
         <a href="planning.php" class="hover-underline-animation">PLANNING</a>
         <a href="ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
+        <a href="contact.php" class="hover-underline-animation">CONTACT</a>
     </nav>
 
 
 </div>
 
 <main>
-    <h1>CONTACT</h1>
+    <h>CONTACT</h>
 </main>
 <div class="contact">
 <!--    <h2>CONTACT</h2>-->
 
     <div class="row">
          <div class="contact-col">
+
              <img src="img/Telefoon.png">
              <h2><br>Bel ons</h2>
-             <p>       <br></p>
+
              <div class="layer">
         <p>Telefonisch ondersteuning is beschikbaar <br> van 08:00 uur tot 17:00 uur.<br> <br> Bel ons gerust <br> +316123456789 </p>
              </div>
     </div>
 
     <div class="contact-col">
+
+
         <img src="img/email.png">
         <h2><br>E-mail ons</h2>
-        <p>       <br></p>
+
         <div class="layer2">
         <p>Voor algemene vragen kunt u via e-mail contact met ons opnemen.</p>
         </div>
     </div>
 
     <div class="contact-col">
-        <img src="../Php/img/location.png">
+
+        <img src="img/location.png">
         <h2><br>Bezoek ons</h2>
-        <p>       <br></p>
+
         <div class="layer2">
         <p>Adres, postcode, plaats, provincie.</p>
         </div>
@@ -70,8 +76,6 @@
     </div>
 
     </div>
-
 </div>
-<script src="../Php/javascript/Javascript.js"></script>
 </body>
 </html>
