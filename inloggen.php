@@ -1,7 +1,7 @@
 <?php
 require_once "database/conn.php";
 
-$username = "admin";
+$username = "roger";
 $tussenvoegsel = "admin";
 $achternaam = "admin";
 $email = "admin@admin.nl";
