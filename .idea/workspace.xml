@@ -2,9 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c97ddc2-1e27-498b-b8e1-9374db692e4e" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/Groep1_AirFly.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Groep1_AirFly.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_06_2023_09_26_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_06_2023_09_26__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/CSS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Php/CSS/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/CSS/VliegtuigFoto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/CSS/fotos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/CSS/inloggen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/CSS/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/CSS/registeren.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/Including/Javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/database/conn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/database/query.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/fotos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/img/Blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/img/SkyHighLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/img/Telefoon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/img/VliegtuigFoto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/img/contactbackground.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/img/email.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/img/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/img/location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/img/sky.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/img/skycontact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/inloggen.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/ledenlijst.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/planning.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/registreren.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686739251520</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=".">
+      <created>1686815157932</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686815157932</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
