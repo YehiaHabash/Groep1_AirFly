@@ -55,11 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/glenn/PhpstormProjects",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
+
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -83,7 +79,7 @@
       <updated>1686209424775</updated>
       <workItem from="1686209426279" duration="8728000" />
       <workItem from="1686297209215" duration="53010000" />
-      <workItem from="1686813196588" duration="387000" />
+      <workItem from="1686813196588" duration="12419000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1686209524278</created>
@@ -162,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686739251520</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="nieuwe bestanden">
+      <created>1686813722719</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686813722719</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
