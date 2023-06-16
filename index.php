@@ -20,25 +20,6 @@ require_once 'Php/database/conn.php';
 
 
 <div class="users">
-    <?php
-    $sql = "SELECT * FROM users";
-    if ($result = $conn->query($sql)) {
-        while ($row = $result->fetch_row()) {
-    ?>
-    <p><?php echo $row[0]?></p>
-    <p><?php echo $row[1]?></p>
-    <p><?php echo $row[2]?></p>
-    <p><?php echo $row[3]?></p>
-    <p><?php echo $row[4]?></p>
-    <p><?php echo $row[5]?></p>
-
-
-
-    <?php
-        }
-    }
-
-    ?>
 
 
 
@@ -79,6 +60,6 @@ require_once 'Php/database/conn.php';
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
-<script src="Php/Including/Javascript.js"></script>
+<script src="Php/javascript/Javascript.js"></script>
 </body>
 </html>

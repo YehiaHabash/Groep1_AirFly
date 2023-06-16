@@ -10,7 +10,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_2023_18_17__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_2023_18_17__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_06_2023_09_13__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_06_2023_09_13__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/CSS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Php/CSS/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/database/conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/database/conn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/fotos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/fotos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Php/inloggen.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/inloggen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/planning.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/planning.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/registreren.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/registreren.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +91,7 @@
       <updated>1686209424775</updated>
       <workItem from="1686209426279" duration="8728000" />
       <workItem from="1686297209215" duration="53010000" />
-      <workItem from="1686813196588" duration="13296000" />
+      <workItem from="1686813196588" duration="12419000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1686209524278</created>
@@ -170,14 +177,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686813722719</updated>
     </task>
-    <task id="LOCAL-00013" summary="nieuwe bestanden">
-      <created>1686908877438</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1686908877438</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
