@@ -25,10 +25,10 @@
     <header>Sky High</header>
 
     <nav>
-        <a href="../Index.php" class="hover-underline-animation">HOME</a>
+        <a href="../index.php" class="hover-underline-animation">HOME</a>
         <a href="fotos.php" class="hover-underline-animation">FOTOS</a>
-        <a href="Planning.php" class="hover-underline-animation">PLANNING</a>
-        <a href="Ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
+        <a href="planning.php" class="hover-underline-animation">PLANNING</a>
+        <a href="ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
         <a href="contact.php" class="hover-underline-animation">CONTACT</a>
     </nav>
 
@@ -36,7 +36,7 @@
 </div>
 
 <main>
-    <h>CONTACT</h>
+    <h1>CONTACT</h1>
 </main>
 <div class="contact">
 <!--    <h2>CONTACT</h2>-->
@@ -61,7 +61,7 @@
     </div>
 
     <div class="contact-col">
-        <img src="img/location.png">
+        <img src="../Php/img/location.png">
         <h2><br>Bezoek ons</h2>
         <p>       <br></p>
         <div class="layer2">
