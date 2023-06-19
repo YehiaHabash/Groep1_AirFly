@@ -1287,7 +1287,7 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="358" parent="338" name="gebruiker_id">
-      <AutoIncrement>4</AutoIncrement>
+      <AutoIncrement>7</AutoIncrement>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1307,94 +1307,99 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="362" parent="338" name="e-mail">
+    <column id="362" parent="338" name="email">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="363" parent="338" name="telefoonnummer">
+    <column id="363" parent="338" name="wachtwoord">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="364" parent="338" name="geboortedatum">
-      <DataType>date|0s</DataType>
+    <column id="364" parent="338" name="telefoonnummer">
+      <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <index id="365" parent="338" name="PRIMARY">
+    <column id="365" parent="338" name="geboortedatum">
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <index id="366" parent="338" name="PRIMARY">
       <ColNames>gebruiker_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="366" parent="338" name="PRIMARY">
+    <key id="367" parent="338" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="367" parent="339" name="Vliegtuig_id">
+    <column id="368" parent="339" name="Vliegtuig_id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="368" parent="339" name="vliegtuignaam">
+    <column id="369" parent="339" name="vliegtuignaam">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="369" parent="339" name="reparatie">
+    <column id="370" parent="339" name="reparatie">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <foreign-key id="370" parent="339" name="vliegtuig_ibfk_1">
+    <foreign-key id="371" parent="339" name="vliegtuig_ibfk_1">
       <ColNames>Vliegtuig_id</ColNames>
       <RefColNames>Vlucht_id</RefColNames>
       <RefTableName>vluchten</RefTableName>
     </foreign-key>
-    <index id="371" parent="339" name="PRIMARY">
+    <index id="372" parent="339" name="PRIMARY">
       <ColNames>Vliegtuig_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="372" parent="339" name="PRIMARY">
+    <key id="373" parent="339" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="373" parent="340" name="Vlucht_id">
+    <column id="374" parent="340" name="Vlucht_id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="374" parent="340" name="passagiers">
+    <column id="375" parent="340" name="passagiers">
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="375" parent="340" name="prijs">
+    <column id="376" parent="340" name="prijs">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="376" parent="340" name="vliegtuignaam">
+    <column id="377" parent="340" name="vliegtuignaam">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="377" parent="340" name="locatie">
+    <column id="378" parent="340" name="locatie">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <index id="378" parent="340" name="PRIMARY">
+    <index id="379" parent="340" name="PRIMARY">
       <ColNames>Vlucht_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="379" parent="340" name="PRIMARY">
+    <key id="380" parent="340" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
