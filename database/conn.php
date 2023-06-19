@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$dbname = "";
+$dbname = "skyhigh";
 
 
 $conn = new mysqli($host, $user, $pass, $dbname);
@@ -11,4 +11,3 @@ if ($conn->connect_error) {
     die("Connectie niet gelukt");
 }
 ?>
-

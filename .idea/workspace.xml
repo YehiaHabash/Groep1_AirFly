@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac056fc5-b60c-47a4-a4f8-078c31ac6b53" name="Changes" comment="nieuwe bestanden">
-      <change afterPath="$PROJECT_DIR$/Php/CSS/snowzweefvliegtuig.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Php/database/escapeString.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Php/database/insert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_06_2023_09_26_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_06_2023_09_26__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/CSS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Php/CSS/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/database/conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/database/conn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/database/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/database/query.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/registreren.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/registreren.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/Branch_Glenn" />
+    <option name="BRANCH" value="origin/Branch_Saira" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -58,33 +43,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mariadb&quot;
-    ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;CSS&quot;
-    ]
-  }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wwwye\PhpstormProjects\Groep1_AirFly\Php\CSS" />
-      <recent name="C:\Users\glenn\PhpstormProjects\Groep1_AirFly\Php\database" />
-    </key>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="ac056fc5-b60c-47a4-a4f8-078c31ac6b53" name="Changes" comment="nieuwe bestanden" />
-      <created>1686209424775</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1686209424775</updated>
-      <workItem from="1686209426279" duration="8728000" />
-      <workItem from="1686297209215" duration="53010000" />
 
     </task>
     <task id="LOCAL-00001" summary="first commit">
@@ -164,12 +122,12 @@
       <option name="project" value="LOCAL" />
       <updated>1686739251520</updated>
     </task>
-    <task id="LOCAL-00012" summary="nieuwe bestanden">
-      <created>1686813722719</created>
+    <task id="LOCAL-00012" summary=".">
+      <created>1686815157932</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1686813722719</updated>
+      <updated>1686815157932</updated>
     </task>
     <option name="localTasksCounter" value="13" />
     <servers />
@@ -213,6 +171,7 @@
     <MESSAGE value="New commit" />
     <MESSAGE value="dd" />
     <MESSAGE value="nieuwe bestanden" />
-    <option name="LAST_COMMIT_MESSAGE" value="nieuwe bestanden" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
