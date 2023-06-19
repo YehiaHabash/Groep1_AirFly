@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac056fc5-b60c-47a4-a4f8-078c31ac6b53" name="Changes" comment="nieuwe bestanden">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77db8f60-d17b-4fe2-a548-f71117e56dec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77db8f60-d17b-4fe2-a548-f71117e56dec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/registreren.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registreren.php" beforeDir="false" afterPath="$PROJECT_DIR$/registreren.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +100,9 @@
       <workItem from="1687158148554" duration="5490000" />
       <workItem from="1687164871581" duration="110000" />
       <workItem from="1687164992902" duration="2359000" />
+      <workItem from="1687167684683" duration="349000" />
+      <workItem from="1687169629646" duration="742000" />
+      <workItem from="1687175905011" duration="211000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1686209524278</created>
@@ -200,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687166902830</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="nieuwe bestanden">
+      <created>1687167693837</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687167693837</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
