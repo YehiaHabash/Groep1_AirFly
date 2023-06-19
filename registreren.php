@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'database/conn.php';
+require_once 'database/conn.php';
 ?>
 
 
