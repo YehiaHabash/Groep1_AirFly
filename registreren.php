@@ -1,8 +1,3 @@
-<?php
-session_start();
-require_once 'database/conn.php';
-?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,21 +17,7 @@ require_once 'database/conn.php';
 <main>
     <p>
     <div class="login-container">
-        <?php include('bericht.php'); ?>
 
-        <form>
-            <h1>Registreren</h1>
-            <div class="form-row">
-                <input type="email" id="emailInput" class="form-input" placeholder="example@email.com">
-                <label for="emailInput" class="form-label">Email</label>
-            </div>
-            <div class="form-row">
-                <input type="name" id="nameInput" class="form-input" placeholder="name">
-                <label for="nameInput" class="form-label">Naam</label>
-            </div>
-            <div class="form-row">
-                <input type="password" id="passwordInput" class="form-input" placeholder="pwd">
-                <label for="passwordInput" class="form-label">Password</label>
             </div>
 
             <a href="index.php" class="forgot-pwd">Wachtwoord vergeten?</a>
