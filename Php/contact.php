@@ -29,7 +29,6 @@
         <a href="fotos.php" class="hover-underline-animation">FOTOS</a>
         <a href="planning.php" class="hover-underline-animation">PLANNING</a>
         <a href="ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
-        <a href="contact.php" id="contactpage" class="hover-underline-animation">CONTACT</a>
     </nav>
 
     <main>
@@ -48,14 +47,7 @@
                 </div>
             </div>
 
-            <div class="contact-col">
-                <img src="img/email.png">
-                <h2><br>E-mail ons</h2>
-                <p>       <br></p>
-                <div class="layer2">
-                    <p>Voor algemene vragen kunt u via e-mail contact met ons opnemen.</p>
-                </div>
-            </div>
+
 
             <div class="contact-col">
                 <img src="img/location.png">
@@ -66,6 +58,7 @@
                 </div>
 
             </div>
+
 
         </div>
 
