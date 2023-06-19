@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
@@ -29,42 +30,6 @@
         <a href="fotos.php" class="hover-underline-animation">FOTOS</a>
         <a href="planning.php" class="hover-underline-animation">PLANNING</a>
         <a href="ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
-    </nav>
 
-    <main>
-        <h>CONTACT</h>
-    </main>
-    <div class="contact">
-        <!--    <h2>CONTACT</h2>-->
-
-        <div class="row">
-            <div class="contact-col">
-                <img src="img/Telefoon.png">
-                <h2><br>Bel ons</h2>
-                <p>       <br></p>
-                <div class="layer">
-                    <p>Telefonisch ondersteuning is beschikbaar <br> van 08:00 uur tot 17:00 uur.<br> <br> Bel ons gerust <br> +316123456789 </p>
-                </div>
-            </div>
-
-
-
-            <div class="contact-col">
-                <img src="img/location.png">
-                <h2><br>Bezoek ons</h2>
-                <p>       <br></p>
-                <div class="layer2">
-                    <p>Adres, postcode, plaats, provincie.</p>
-                </div>
-
-            </div>
-
-
-        </div>
-
-    </div>
-</div>
-
-<script src="../Php/javascript/Javascript.js"></script>
 </body>
 </html>
