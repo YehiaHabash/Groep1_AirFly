@@ -1,3 +1,9 @@
+<?php
+session_start();
+require 'database/conn.php';
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +22,8 @@
 <main>
     <p>
     <div class="login-container">
+        <?php include('bericht.php'); ?>
+
         <form>
             <h1>Registreren</h1>
             <div class="form-row">
