@@ -51,44 +51,46 @@
         </form>
 
         <?php
-        $username = mysqli_real_escape_string($conn, $username);
-        $password = mysqli_real_escape_string($conn, $tussenvoegsel);
-        $email = mysqli_real_escape_string($conn, $achternaam);
-        $birthDate = mysqli_real_escape_string($conn, $email);
-        $birthDate = mysqli_real_escape_string($conn, $telefoonnummer);
-        $birthDate = mysqli_real_escape_string($conn, $geboortedatum);
+        $host = "localhost";
+        $user = "root";
+        $pass = "";
+        $dbname = "skyhigh";
 
+        $conn = new mysqli($host, $user, $pass, $dbname);
+        if ($conn->connect_error) {
+            echo("connectie is mislukt");
+            die("Connectie niet gelukt");
+        }
         ?>
 
         <?php
-        function clean_data($data)
-        {
-            $data = trim($data);
-            $data = stripcslashes($data);
-            $data = htmlspecialchars($data);
-            return $data;
+        $sql = "SELECT * FROM users";
+        if ($result = $conn->query($sql)) {
+            while ($row = $result->fetch_row()) {
+                echo $row[0];
+            }
         }
         ?>
+
         <?php
 
         if($_SERVER['REQUEST_METHOD'] == "POST"){
 
             echo "hello world";
 
-            $voornaam = $_POST['voornaam'];
+            $username = $_POST['voornaam'];
             $tussenvoegsel = $_POST['tussenvoegsel'];
             $achternaam = $_POST['achternaam'];
             $email = $_POST['email'];
-            $userRole = 2;
             $telefoonnummer = $_POST['telefoonnummer'];
             $geboortedatum = $_POST['y/m/d'];
 
-            $username = "localhost";
-            $tussenvoegsel = "van de";
-            $achternaam = "admin";
-            $email = "admin@gmail.com";
-            $telefoonnummer = "0612345678";
-            $geboortedatum = date("y/m/d");
+            $username = 'voornaam';
+            $tussenvoegsel = 'tussenvoegsel';
+            $achternaam = 'achternaam';
+            $email = 'email';
+            $telefoonnummer = 'telefoonnummer';
+            $geboortedatum = 'y/m/d';
 
             $sql = "INSERT INTO users
 (voornaam,
@@ -113,6 +115,16 @@ VALUES(
                 mysqli_close($conn);
 
             }
+        }
+        ?>
+
+        <?php
+        function clean_data($data)
+        {
+            $data = trim($data);
+            $data = stripcslashes($data);
+            $data = htmlspecialchars($data);
+            return $data;
         }
         ?>
 
