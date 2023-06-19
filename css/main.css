@@ -184,7 +184,7 @@ a{
 }
 
 .layer:hover p{
-    bottom: 25%;
+    bottom: 20%;
     opacity: 1;
 }
 .contact h2{
@@ -228,7 +228,7 @@ p{
 }
 
 .layer2:hover p{
-    bottom: 40%;
+    bottom: 35%;
     opacity: 1;
 }
 
