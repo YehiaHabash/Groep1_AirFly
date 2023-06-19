@@ -1,53 +1,15 @@
-<?php
-require_once "Php/database/conn.php";
-
-$username = "localhost";
-$tussenvoegsel = "admin";
-$achternaam = "admin";
-$email = "admin@admin.nl";
-$telefoonnummer = "06523242424";
-$geboortedatum = date(  'Y/m/d');
-
-
-
-$sql = "INSERT INTO users
-(voornaam,
-tussenvoegsel,
-achternaam,
-email,
-telfoonnummer,
-gebootedatum)
-VALUES(
-'$username',
-'$tussenvoegsel',
-'$achternaam',
-'$email',
-'$telefoonnummer'
-'$geboortedatum')";
-
-$result = mysqli_query($conn, $sql);
-header("location: index.php");
-if (!$result) {
-    echo "Query error";
-    mysqli_close($conn);
-
-}
-?>
-
-
 
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../Php/CSS/inloggen.css">
+    <link rel="stylesheet" href="css/inloggen.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
     <meta name="author" content="Glenn van der Wal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sky High</title>
-
 </head>
 <body>
 <div class="container">
@@ -75,11 +37,12 @@ if (!$result) {
             <a href="" class="forgot-pwd">Wachtwoord vergeten</a>
 
             <button type="submit" class="submit-btn">Login</button>
-            <p class="sign-up-text"> Gast? <a href="../index.php">Klik hier</a></p>
+            <p class="sign-up-text"> Gast? <a href="index.php">Klik hier</a></p>
         </form>
         <p class="sign-up-text">Nog geen account? <a href="registreren.php">Registreer hier</a></p>
 
     </div>
+    </p>
 </main>
 
 </body>

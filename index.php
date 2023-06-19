@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="Php/CSS/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
@@ -26,8 +26,8 @@
     </div>
 
     <div class="Registreren">
-        <a href="Php/registreren.php" class="hover-underline-animation">REGISTREREN</a>
-        <a href="Php/inloggen.php" class="hover-underline-animation">INLOGGEN</a>
+        <a href="registreren.php" class="hover-underline-animation">REGISTREREN</a>
+        <a href="inloggen.php" class="hover-underline-animation">INLOGGEN</a>
 
 
     </div>
@@ -36,10 +36,10 @@
 
     <nav>
         <a href="index.php" class="hover-underline-animation">HOME</a>
-        <a href="Php/fotos.php" class="hover-underline-animation">FOTOS</a>
-        <a href="Php/planning.php" class="hover-underline-animation">PLANNING</a>
-        <a href="Php/ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
-        <a href="Php/contact.php" class="hover-underline-animation">CONTACT</a>
+        <a href="fotos.php" class="hover-underline-animation">FOTOS</a>
+        <a href="planning.php" class="hover-underline-animation">PLANNING</a>
+        <a href="ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
+        <a href="contact.php" class="hover-underline-animation">CONTACT</a>
     </nav>
 
     <main>
