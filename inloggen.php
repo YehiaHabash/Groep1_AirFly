@@ -20,16 +20,15 @@
     <p>
     <div class="login-container">
 
-
-        <form>
+        <form action="inloggen.php" method="POST">
             <h1>inloggen</h1>
             <div class="form-row">
-                <input type="email" id="emailInput" class="form-input" placeholder="example@email.com">
+                <input type="email" id="emailInput" class="form-input" placeholder="example@email.com" name="email">
                 <label for="emailInput" class="form-label">Email</label>
 
             </div>
             <div class="form-row">
-                <input type="password" id="passwordInput" class="form-input" placeholder="pwd">
+                <input type="password" id="passwordInput" class="form-input" placeholder="pwd" name="wachtwoord">
                 <label for="passwordInput" class="form-label">Password</label>
 
             </div>
@@ -42,6 +41,40 @@
 
     </div>
     </p>
+    <?php
+
+    require_once "database/conn.php";
+
+
+    if ($_SERVER['REQUEST_METHOD'] === "POST") {
+    session_start();
+    if (!empty($_POST['email']) && !empty($_POST['wachtwoord'])) {
+    $email = $_POST['email'];
+    $wachtwoord = $_POST['wachtwoord'];
+
+    require_once "database/cleanDataFunction.php";
+
+    $email = clean_data($email);
+    $wachtwoord = clean_data($wachtwoord);
+
+    $dbemail = mysqli_real_escape_string($conn, $email);
+    $dbwachtwoord = mysqli_real_escape_string($conn, $wachtwoord);
+
+    $dbwachtwoord = sha1($dbwachtwoord);
+
+    $sql = "SELECT * FROM users WHERE email = '$dbemail' AND wachtwoord = '$dbwachtwoord'";
+
+    $result = mysqli_query($conn, $sql);
+    $number = mysqli_num_rows($result);
+
+    if ($number >= 1) {
+    $_SESSION['login'] = true;
+    $_SESSION['user'] = $dbemail;
+    header ("location: index.php");
+    }
+    }
+    }
+    ?>
 </main>
 
 </body>

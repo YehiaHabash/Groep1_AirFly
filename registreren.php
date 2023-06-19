@@ -16,10 +16,10 @@
 <main>
     <p>
     <div class="login-container">
-        <form>
+        <form method="POST" action="registreren.php">
             <h1>Registreren</h1>
             <div class="form-row">
-                <input type="text" id="voornaamInput" class="form-input" placeholder="example@email.com">
+                <input type="text" id="voornaamInput" class="form-input" placeholder="example@email.com" name="voornaam">
                 <label for="voornaamInput" class="form-label">Voornaam</label>
             </div>
             <div class="form-row">
@@ -35,8 +35,8 @@
                 <label for="emailInput" class="form-label">Email</label>
             </div>
             <div class="form-row">
-                <input type=password id="passwordIpnut" class="form-input" placeholder="password">
-                <label for="passwordIpnut" class="form-label">Email</label>
+                <input type=password id="passwordIpnut" class="form-input" placeholder="password" name="wachtwoord">
+                <label for="passwordIpnut" class="form-label">wachtwoord</label>
             </div>
             <div class="form-row">
                 <input type="number" id="telefoonInput" class="form-input" placeholder="last name">
@@ -59,55 +59,53 @@
         require_once "database/conn.php";
 
         session_start();
-        if (isset($_SESSION['login'])){
-            echo $_SESSION['user'];
-        }
+
         if($_SERVER['REQUEST_METHOD'] == "POST"){
 
-            $username = $_POST['username'];
+            $voornaam = $_POST['voornaam'];
             $tussenvoegsel = $_POST['tussenvoegsel'];
             $achternaam = $_POST['achternaam'];
             $email = $_POST['email'];
-            $password = $_POST['password'];
+            $wachtwoord = $_POST['wachtwoord'];
             $telefoonnummer = $_POST['telefoonnummer'];
             $geboortedatum = date("Y/m/d");
 
             require_once "database/cleanDataFunction.php";
 
-            $username = clean_data($username);
+            $voornaam = clean_data($voornaam);
             $tussenvoegsel = clean_data($tussenvoegsel);
             $achternaam = clean_data($achternaam);
             $email = clean_data($email);
-            $password = clean_data($password);
+            $wachtwoord = clean_data($wachtwoord);
             $telefoonnummer = clean_data($telefoonnummer);
             $geboortedatum = clean_data($geboortedatum);
 
 
-            $username = mysqli_real_escape_string($conn, $username);
+            $voornaam = mysqli_real_escape_string($conn, $voornaam);
             $tussenvoegsel = mysqli_real_escape_string($conn, $tussenvoegsel);
             $achternaam = mysqli_real_escape_string($conn, $achternaam);
             $email = mysqli_real_escape_string($conn, $email);
-            $password = mysqli_real_escape_string($conn, $password);
+            $wachtwoord = mysqli_real_escape_string($conn, $wachtwoord);
             $telefoonnummer = mysqli_real_escape_string($conn, $telefoonnummer);
             $geboortedatum = mysqli_real_escape_string($conn, $geboortedatum);
 
 
-            $password = sha1($password);
+            $wachtwoord = sha1($wachtwoord);
 
             $sql = "INSERT INTO users
-(userName,
+(voornaam,
 tussenvoegsel,
 achternaam,
 email,
-password,
+wachtwoord,
 telefoonnummer,
 geboortedatum)
 VALUES(
-'$username',
+'$voornaam',
 '$tussenvoegsel',
 '$achternaam',
 '$email',
-'$password',
+'$wachtwoord',
 '$telefoonnummer',
 '$geboortedatum')";
 
@@ -118,13 +116,6 @@ VALUES(
                 mysqli_close($conn);
 
             }
-        }
-        $sql = "SELECT * FROM users";
-        if ($result = $conn->query($sql)) {
-            while ($row = $result->fetch_row()) {
-                echo $row[0];
-            }
-
         }
         ?>
 
