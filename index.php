@@ -1,8 +1,3 @@
-<?php
-
-require_once 'Php/database/conn.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
