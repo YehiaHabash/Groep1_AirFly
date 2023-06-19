@@ -52,7 +52,7 @@ require_once "database/conn.php";
     <p><?php echo $row[2]?></p>
     <p><?php echo $row[3]?></p>
     <p><?php echo $row[4]?></p>
-    <p><?php echo $row[5]?></p>
+
     <?php
     }
     }

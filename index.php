@@ -1,7 +1,3 @@
-<?php
-session_start();
-require 'database/conn.php';
-?>
 
 <!DOCTYPE html>
 <html lang="en">
