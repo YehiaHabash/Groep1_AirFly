@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../Php/CSS/inloggen.css">
+    <link rel="stylesheet" href="css/inloggen.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
@@ -35,7 +36,7 @@
             <a href="" class="forgot-pwd">Wachtwoord vergeten</a>
 
             <button type="submit" class="submit-btn">Login</button>
-            <p class="sign-up-text"> Gast? <a href="../index.php">Klik hier</a></p>
+            <p class="sign-up-text"> Gast? <a href="index.php">Klik hier</a></p>
         </form>
         <p class="sign-up-text">Nog geen account? <a href="registreren.php">Registreer hier</a></p>
 
