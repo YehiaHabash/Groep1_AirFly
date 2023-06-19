@@ -31,8 +31,12 @@
                 <label for="achternaamInput" class="form-label">Achternaam</label>
             </div>
             <div class="form-row">
-                <input type="email" id="emailInput" class="form-input" placeholder="last name">
+                <input type="email" id="emailInput" class="form-input" placeholder="email">
                 <label for="emailInput" class="form-label">Email</label>
+            </div>
+            <div class="form-row">
+                <input type=password id="passwordIpnut" class="form-input" placeholder="password">
+                <label for="passwordIpnut" class="form-label">Email</label>
             </div>
             <div class="form-row">
                 <input type="number" id="telefoonInput" class="form-input" placeholder="last name">
@@ -51,62 +55,61 @@
         </form>
 
         <?php
-        $host = "localhost";
-        $user = "root";
-        $pass = "";
-        $dbname = "skyhigh";
 
-        $conn = new mysqli($host, $user, $pass, $dbname);
-        if ($conn->connect_error) {
-            echo("connectie is mislukt");
-            die("Connectie niet gelukt");
+        require_once "database/conn.php";
+
+        session_start();
+        if (isset($_SESSION['login'])){
+            echo $_SESSION['user'];
         }
-        ?>
-
-        <?php
-        $sql = "SELECT * FROM users";
-        if ($result = $conn->query($sql)) {
-            while ($row = $result->fetch_row()) {
-                echo $row[0];
-            }
-        }
-        ?>
-
-        <?php
-
         if($_SERVER['REQUEST_METHOD'] == "POST"){
 
-            echo "hello world";
-
-            $username = $_POST['voornaam'];
+            $username = $_POST['username'];
             $tussenvoegsel = $_POST['tussenvoegsel'];
             $achternaam = $_POST['achternaam'];
             $email = $_POST['email'];
+            $password = $_POST['password'];
             $telefoonnummer = $_POST['telefoonnummer'];
-            $geboortedatum = $_POST['y/m/d'];
+            $geboortedatum = date("Y/m/d");
 
-            $username = 'voornaam';
-            $tussenvoegsel = 'tussenvoegsel';
-            $achternaam = 'achternaam';
-            $email = 'email';
-            $telefoonnummer = 'telefoonnummer';
-            $geboortedatum = 'y/m/d';
+            require_once "database/cleanDataFunction.php";
+
+            $username = clean_data($username);
+            $tussenvoegsel = clean_data($tussenvoegsel);
+            $achternaam = clean_data($achternaam);
+            $email = clean_data($email);
+            $password = clean_data($password);
+            $telefoonnummer = clean_data($telefoonnummer);
+            $geboortedatum = clean_data($geboortedatum);
+
+
+            $username = mysqli_real_escape_string($conn, $username);
+            $tussenvoegsel = mysqli_real_escape_string($conn, $tussenvoegsel);
+            $achternaam = mysqli_real_escape_string($conn, $achternaam);
+            $email = mysqli_real_escape_string($conn, $email);
+            $password = mysqli_real_escape_string($conn, $password);
+            $telefoonnummer = mysqli_real_escape_string($conn, $telefoonnummer);
+            $geboortedatum = mysqli_real_escape_string($conn, $geboortedatum);
+
+
+            $password = sha1($password);
 
             $sql = "INSERT INTO users
-(voornaam,
+(userName,
 tussenvoegsel,
 achternaam,
 email,
+password,
 telefoonnummer,
-geboortedatum,
-)
+geboortedatum)
 VALUES(
 '$username',
 '$tussenvoegsel',
 '$achternaam',
 '$email',
+'$password',
 '$telefoonnummer',
-'$geboortedatum',)";
+'$geboortedatum')";
 
             $result = mysqli_query($conn, $sql);
             header("location: index.php");
@@ -116,15 +119,12 @@ VALUES(
 
             }
         }
-        ?>
+        $sql = "SELECT * FROM users";
+        if ($result = $conn->query($sql)) {
+            while ($row = $result->fetch_row()) {
+                echo $row[0];
+            }
 
-        <?php
-        function clean_data($data)
-        {
-            $data = trim($data);
-            $data = stripcslashes($data);
-            $data = htmlspecialchars($data);
-            return $data;
         }
         ?>
 
