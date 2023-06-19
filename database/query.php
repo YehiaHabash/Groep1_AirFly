@@ -7,4 +7,3 @@ if ($result = $conn->query($sql)) {
 
 }
 ?>
-
