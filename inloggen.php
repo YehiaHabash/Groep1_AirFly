@@ -23,7 +23,7 @@
         <form action="inloggen.php" method="POST">
             <h1>inloggen</h1>
             <div class="form-row">
-                <input type="email" id="emailInput" class="form-input" placeholder="example@email.com" name="email">
+                <input type="text" id="emailInput" class="form-input" placeholder="example@email.com" name="email">
                 <label for="emailInput" class="form-label">Email</label>
 
             </div>
