@@ -4,6 +4,7 @@ require_once "database/conn.php";
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/ledenlijst.css">
     <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
@@ -41,25 +42,7 @@ require_once "database/conn.php";
 
 <main>
     <h>LEDENLIJST</h>
-    <p>
-        <?php
-        $sql = "SELECT * FROM users";
-        if ($result = $conn->query($sql)) {
-        while ($row = $result->fetch_row()) {
-        ?>
-    <p><?php echo $row[0]?></p>
-    <p><?php echo $row[1]?></p>
-    <p><?php echo $row[2]?></p>
-    <p><?php echo $row[3]?></p>
-    <p><?php echo $row[4]?></p>
 
-    <?php
-    }
-    }
-
-    ?>
-
-    </p>
 </main>
 
 </body>
