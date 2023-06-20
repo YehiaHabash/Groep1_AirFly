@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,6 +24,7 @@
     <div class="Registreren">
         <a href="registreren.php" class="hover-underline-animation">REGISTREREN</a>
         <a href="inloggen.php" class="hover-underline-animation">INLOGGEN</a>
+        <a href="uitloggen.php" class="hover-underline-animation">UITLOGGEN</a>
 
 
     </div>
@@ -37,6 +37,7 @@
         <a href="planning.php" class="hover-underline-animation">PLANNING</a>
         <a href="ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
         <a href="contact.php" class="hover-underline-animation">CONTACT</a>
+        <a href="secret.php" class="hover-underline-animation">SECRET</a>
     </nav>
 
     <main>
@@ -52,6 +53,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
-<script src="including/Javascript.js"></script>
+<script src="includes/Javascript.js"></script>
 </body>
 </html>
