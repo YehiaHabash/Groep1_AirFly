@@ -16,6 +16,7 @@
 <main>
     <p>
     <div class="login-container">
+        <?php include('bericht.php'); ?>
         <form method="POST" action="registreren.php">
             <h1>Registreren</h1>
             <div class="form-row">
@@ -23,15 +24,15 @@
                 <label for="voornaamInput" class="form-label">Voornaam</label>
             </div>
             <div class="form-row">
-                <input type="text" id="tussenvoegselInput" class="form-input" placeholder="name">
+                <input type="text" id="tussenvoegselInput" class="form-input" placeholder="name" name="tussenvoegsel">
                 <label for="tussenvoegselInput" class="form-label">Tussenvoegsel</label>
             </div>
             <div class="form-row">
-                <input type="text" id="achternaamInput" class="form-input" placeholder="pwd">
+                <input type="text" id="achternaamInput" class="form-input" placeholder="pwd" name="achternaam">
                 <label for="achternaamInput" class="form-label">Achternaam</label>
             </div>
             <div class="form-row">
-                <input type="email" id="emailInput" class="form-input" placeholder="email">
+                <input type="email" id="emailInput" class="form-input" placeholder="email" name="email">
                 <label for="emailInput" class="form-label">Email</label>
             </div>
             <div class="form-row">
@@ -39,11 +40,11 @@
                 <label for="passwordIpnut" class="form-label">wachtwoord</label>
             </div>
             <div class="form-row">
-                <input type="number" id="telefoonInput" class="form-input" placeholder="last name">
+                <input type="number" id="telefoonInput" class="form-input" placeholder="last name" name="telefoonnummer">
                 <label for="telefoonInput" class="form-label">Telefoonnummer</label>
             </div>
             <div class="form-row">
-                <input type="date" id="geboortedatumInput" class="form-input" placeholder="last name">
+                <input type="date" id="geboortedatumInput" class="form-input" placeholder="last name" name="">
                 <label for="geboortedatumInput" class="form-label">Geboortedatum</label>
             </div>
 
@@ -55,10 +56,13 @@
         </form>
 
         <?php
-
         require_once "database/conn.php";
 
         session_start();
+
+        if (isset($_SESSION['login'])){
+            echo $_SESSION['user'];
+        }
 
         if($_SERVER['REQUEST_METHOD'] == "POST"){
 
@@ -114,6 +118,7 @@ VALUES(
             if (!$result) {
                 echo "Query error";
                 mysqli_close($conn);
+
 
             }
         }
