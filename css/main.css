@@ -49,6 +49,7 @@ nav{
     padding-top: 14px;
     padding-bottom: 14px;
     background-color: rgb(0,0,0,0.3);
+    text-underline: none;
 }
 
 main{
