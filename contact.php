@@ -42,7 +42,8 @@
             <h2><br>E-mail ons</h2>
 
             <div class="layer2">
-                <p>Voor algemene vragen kunt u via e-mail contact met ons opnemen.</p>
+                <p>Voor algemene vragen kunt u via e-mail contact met ons opnemen.<br><br>
+                    <a href=mailto:zweefvliegclubskyhigh@gmail.com><i class="fa-solid fa-envelope"></i>skyhigh@gmail.com</a></p>
             </div>
         </div>
 
@@ -52,7 +53,9 @@
             <h2><br>Bezoek ons</h2>
 
             <div class="layer2">
-                <p>Adres, postcode, plaats, provincie.</p>
+                <p>Arena 301, 1213 NW <br>Hilversum<br>
+                    <br><a href="https://goo.gl/maps/iCq2VdFgGf9mp4Ty6">Klik hier</a>
+                </p>
             </div>
 
         </div>
