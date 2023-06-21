@@ -61,7 +61,7 @@
 
             <div class="layer2">
                 <p>Voor algemene vragen kunt u via e-mail contact met ons opnemen.<br><br>
-                <a href=mailto:zweefvliegclubskyhigh@gmail.com>skyhigh@gmail.com</a></p>
+                    <a href=mailto:zweefvliegclubskyhigh@gmail.com><i class="fa-solid fa-envelope"></i>skyhigh@gmail.com</a></p>
             </div>
         </div>
 
