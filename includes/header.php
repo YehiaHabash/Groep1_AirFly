@@ -9,9 +9,22 @@
             <button class="dropbtn"><?php echo $_SESSION["user"];?></button>
             <div class="dropdown-content">
                 <a href="uitloggen.php">UITLOGGEN</a>
+                <div class="dropdown-submenu">
+                    <a href="#" onclick="toggleSettings()">INSTELLINGEN</a>
+                    <div class="dropdown-submenu-content">
+                        <a href="mijn-profiel.php">Mijn profiel</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <script>
+        function toggleSettings() {
+            var submenu = document.getElementsByClassName("dropdown-submenu-content")[0];
+            submenu.classList.toggle("show");
+        }
+    </script>
 
 <?php } else {?>
 <div class="Registreren">

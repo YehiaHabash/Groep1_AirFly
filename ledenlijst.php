@@ -143,6 +143,7 @@ require_once "database/conn.php";
 
     <!--    <div class="team-container">-->
 
+
     <?php
     require_once "database/conn.php";
 
@@ -196,6 +197,7 @@ require_once "database/conn.php";
 
     </body>
     </html>
+
 </main>
 
 </body>
