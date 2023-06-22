@@ -1,6 +1,5 @@
-<?php
-require_once "database/conn.php";
-?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,36 +13,25 @@ require_once "database/conn.php";
     <title>Sky High</title>
 </head>
 <body>
-
 <div class="container">
-
     <div class="Logo">
         <img src="img/SkyHighLogo.png" alt="SkyHighLogo">
-
     </div>
 
-    <div class="Registreren">
-        <a href="#" class="hover-underline-animation">REGISTREREN</a>
-        <a href="#" class="hover-underline-animation">INLOGGEN</a>
-    </div>
+    <?php include_once "./includes/header.php"; ?>
+    <?php
 
-    <header>Sky High</header>
-
-    <nav>
-        <a href="index.php" class="hover-underline-animation">HOME</a>
-        <a href="fotos.php" class="hover-underline-animation">FOTOS</a>
-        <a href="planning.php" class="hover-underline-animation">PLANNING</a>
-        <a href="ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
-        <a href="contact.php" class="hover-underline-animation">CONTACT</a>
-    </nav>
-
-
+    // Controleer of de gebruiker is ingelogd
+    if (!isset($_SESSION['login'])) {
+        // Stuur de gebruiker naar de inlogpagina als deze niet is ingelogd
+        header('Location: inloggen.php');
+        exit;
+    }
+    ?>
 </div>
 
 <main>
     <h>LEDENLIJST</h>
-
 </main>
-
 </body>
 </html>
