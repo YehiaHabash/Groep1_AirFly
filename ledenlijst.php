@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/87a9ed9bc2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/ledenlijst.css">
     <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
@@ -18,8 +19,7 @@
         <img src="img/SkyHighLogo.png" alt="SkyHighLogo">
     </div>
 
-    <?php include_once "./includes/header.php"; ?>
-    <?php
+
 
     // Controleer of de gebruiker is ingelogd
     if (!isset($_SESSION['login'])) {
@@ -31,7 +31,7 @@
 </div>
 
 <main>
-    <h>LEDENLIJST</h>
+
 </main>
 </body>
 </html>
