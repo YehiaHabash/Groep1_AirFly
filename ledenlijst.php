@@ -42,7 +42,7 @@ require_once "database/conn.php";
 </div>
 
 <main>
-    <h>Ons Team</h>
+    <h>LEDENLIJST</h>
     <!DOCTYPE html>
     <html>
     <head>
