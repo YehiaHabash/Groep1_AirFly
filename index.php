@@ -17,7 +17,7 @@
 </div>
 <div class="container">
 
-<?php include_once "./includes/header.php"; ?>
+
 
     <main>
         <h>HOME</h>

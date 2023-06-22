@@ -1,139 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="skyhigh@localhost">
   <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.40">
-    <root id="1">
-      <DefaultCasing>lower/lower</DefaultCasing>
-      <DefaultEngine>InnoDB</DefaultEngine>
-      <Grants>|root||root|127.0.0.1|ALTER|G
-|root||root|::1|ALTER|G
-|root||root|localhost|ALTER|G
-|root||root|127.0.0.1|ALTER ROUTINE|G
-|root||root|::1|ALTER ROUTINE|G
-|root||root|localhost|ALTER ROUTINE|G
-|root||root|127.0.0.1|CREATE|G
-|root||root|::1|CREATE|G
-|root||root|localhost|CREATE|G
-|root||root|127.0.0.1|CREATE ROUTINE|G
-|root||root|::1|CREATE ROUTINE|G
-|root||root|localhost|CREATE ROUTINE|G
-|root||root|127.0.0.1|CREATE TABLESPACE|G
-|root||root|::1|CREATE TABLESPACE|G
-|root||root|localhost|CREATE TABLESPACE|G
-|root||root|127.0.0.1|CREATE TEMPORARY TABLES|G
-|root||root|::1|CREATE TEMPORARY TABLES|G
-|root||root|localhost|CREATE TEMPORARY TABLES|G
-|root||root|127.0.0.1|CREATE USER|G
-|root||root|::1|CREATE USER|G
-|root||root|localhost|CREATE USER|G
-|root||root|127.0.0.1|CREATE VIEW|G
-|root||root|::1|CREATE VIEW|G
-|root||root|localhost|CREATE VIEW|G
-|root||root|127.0.0.1|DELETE|G
-|root||root|::1|DELETE|G
-|root||root|localhost|DELETE|G
-|root||root|127.0.0.1|DELETE HISTORY|G
-|root||root|::1|DELETE HISTORY|G
-|root||root|localhost|DELETE HISTORY|G
-|root||root|127.0.0.1|DROP|G
-|root||root|::1|DROP|G
-|root||root|localhost|DROP|G
-|root||root|127.0.0.1|EVENT|G
-|root||root|::1|EVENT|G
-|root||root|localhost|EVENT|G
-|root||root|127.0.0.1|EXECUTE|G
-|root||root|::1|EXECUTE|G
-|root||root|localhost|EXECUTE|G
-|root||root|127.0.0.1|FILE|G
-|root||root|::1|FILE|G
-|root||root|localhost|FILE|G
-|root||root|127.0.0.1|INDEX|G
-|root||root|::1|INDEX|G
-|root||root|localhost|INDEX|G
-|root||root|127.0.0.1|INSERT|G
-|root||root|::1|INSERT|G
-|root||root|localhost|INSERT|G
-|root||root|127.0.0.1|LOCK TABLES|G
-|root||root|::1|LOCK TABLES|G
-|root||root|localhost|LOCK TABLES|G
-|root||root|127.0.0.1|PROCESS|G
-|root||root|::1|PROCESS|G
-|root||root|localhost|PROCESS|G
-|root||root|127.0.0.1|REFERENCES|G
-|root||root|::1|REFERENCES|G
-|root||root|localhost|REFERENCES|G
-|root||root|127.0.0.1|RELOAD|G
-|root||root|::1|RELOAD|G
-|root||root|localhost|RELOAD|G
-|root||root|127.0.0.1|REPLICATION CLIENT|G
-|root||root|::1|REPLICATION CLIENT|G
-|root||root|localhost|REPLICATION CLIENT|G
-|root||root|127.0.0.1|REPLICATION SLAVE|G
-|root||root|::1|REPLICATION SLAVE|G
-|root||root|localhost|REPLICATION SLAVE|G
-|root||root|127.0.0.1|SELECT|G
-|root||root|::1|SELECT|G
-|root||root|localhost|SELECT|G
-|root||root|127.0.0.1|SHOW DATABASES|G
-|root||root|::1|SHOW DATABASES|G
-|root||root|localhost|SHOW DATABASES|G
-|root||root|127.0.0.1|SHOW VIEW|G
-|root||root|::1|SHOW VIEW|G
-|root||root|localhost|SHOW VIEW|G
-|root||root|127.0.0.1|SHUTDOWN|G
-|root||root|::1|SHUTDOWN|G
-|root||root|localhost|SHUTDOWN|G
-|root||root|127.0.0.1|SUPER|G
-|root||root|::1|SUPER|G
-|root||root|localhost|SUPER|G
-|root||root|127.0.0.1|TRIGGER|G
-|root||root|::1|TRIGGER|G
-|root||root|localhost|TRIGGER|G
-|root||root|127.0.0.1|UPDATE|G
-|root||root|::1|UPDATE|G
-|root||root|localhost|UPDATE|G
-|root||root|127.0.0.1|grant option|G
-|root||root|::1|grant option|G
-|root||root|localhost|grant option|G
-phpmyadmin|schema||pma|localhost|DELETE|G
-phpmyadmin|schema||pma|localhost|INSERT|G
-phpmyadmin|schema||pma|localhost|SELECT|G
-phpmyadmin|schema||pma|localhost|UPDATE|G
-test|schema||&apos;&apos;||ALTER|G
-test|schema||&apos;&apos;||CREATE|G
-test|schema||&apos;&apos;||CREATE ROUTINE|G
-test|schema||&apos;&apos;||CREATE TEMPORARY TABLES|G
-test|schema||&apos;&apos;||CREATE VIEW|G
-test|schema||&apos;&apos;||DELETE|G
-test|schema||&apos;&apos;||DELETE HISTORY|G
-test|schema||&apos;&apos;||DROP|G
-test|schema||&apos;&apos;||EVENT|G
-test|schema||&apos;&apos;||INDEX|G
-test|schema||&apos;&apos;||INSERT|G
-test|schema||&apos;&apos;||LOCK TABLES|G
-test|schema||&apos;&apos;||REFERENCES|G
-test|schema||&apos;&apos;||SELECT|G
-test|schema||&apos;&apos;||SHOW VIEW|G
-test|schema||&apos;&apos;||TRIGGER|G
-test|schema||&apos;&apos;||UPDATE|G
-test\\_%|schema||&apos;&apos;||ALTER|G
-test\\_%|schema||&apos;&apos;||CREATE|G
-test\\_%|schema||&apos;&apos;||CREATE ROUTINE|G
-test\\_%|schema||&apos;&apos;||CREATE TEMPORARY TABLES|G
-test\\_%|schema||&apos;&apos;||CREATE VIEW|G
-test\\_%|schema||&apos;&apos;||DELETE|G
-test\\_%|schema||&apos;&apos;||DELETE HISTORY|G
-test\\_%|schema||&apos;&apos;||DROP|G
-test\\_%|schema||&apos;&apos;||EVENT|G
-test\\_%|schema||&apos;&apos;||INDEX|G
-test\\_%|schema||&apos;&apos;||INSERT|G
-test\\_%|schema||&apos;&apos;||LOCK TABLES|G
-test\\_%|schema||&apos;&apos;||REFERENCES|G
-test\\_%|schema||&apos;&apos;||SELECT|G
-test\\_%|schema||&apos;&apos;||SHOW VIEW|G
-test\\_%|schema||&apos;&apos;||TRIGGER|G
-test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
-      <ServerVersion>10.4.28</ServerVersion>
-    </root>
+    <root id="1"/>
     <collation id="2" parent="1" name="armscii8_bin">
       <Charset>armscii8</Charset>
     </collation>
@@ -1287,7 +1155,7 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="358" parent="338" name="gebruiker_id">
-      <AutoIncrement>7</AutoIncrement>
+      <AutoIncrement>4</AutoIncrement>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1307,99 +1175,94 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="362" parent="338" name="email">
+    <column id="362" parent="338" name="e-mail">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="363" parent="338" name="wachtwoord">
+    <column id="363" parent="338" name="telefoonnummer">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="364" parent="338" name="telefoonnummer">
-      <DataType>varchar(255)|0s</DataType>
+    <column id="364" parent="338" name="geboortedatum">
+      <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="365" parent="338" name="geboortedatum">
-      <DataType>date|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>8</Position>
-    </column>
-    <index id="366" parent="338" name="PRIMARY">
+    <index id="365" parent="338" name="PRIMARY">
       <ColNames>gebruiker_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="367" parent="338" name="PRIMARY">
+    <key id="366" parent="338" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="368" parent="339" name="Vliegtuig_id">
+    <column id="367" parent="339" name="Vliegtuig_id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="369" parent="339" name="vliegtuignaam">
+    <column id="368" parent="339" name="vliegtuignaam">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="370" parent="339" name="reparatie">
+    <column id="369" parent="339" name="reparatie">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <foreign-key id="371" parent="339" name="vliegtuig_ibfk_1">
+    <foreign-key id="370" parent="339" name="vliegtuig_ibfk_1">
       <ColNames>Vliegtuig_id</ColNames>
       <RefColNames>Vlucht_id</RefColNames>
       <RefTableName>vluchten</RefTableName>
     </foreign-key>
-    <index id="372" parent="339" name="PRIMARY">
+    <index id="371" parent="339" name="PRIMARY">
       <ColNames>Vliegtuig_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="373" parent="339" name="PRIMARY">
+    <key id="372" parent="339" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="374" parent="340" name="Vlucht_id">
+    <column id="373" parent="340" name="Vlucht_id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="375" parent="340" name="passagiers">
+    <column id="374" parent="340" name="passagiers">
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="376" parent="340" name="prijs">
+    <column id="375" parent="340" name="prijs">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="377" parent="340" name="vliegtuignaam">
+    <column id="376" parent="340" name="vliegtuignaam">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="378" parent="340" name="locatie">
+    <column id="377" parent="340" name="locatie">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <index id="379" parent="340" name="PRIMARY">
+    <index id="378" parent="340" name="PRIMARY">
       <ColNames>Vlucht_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="380" parent="340" name="PRIMARY">
+    <key id="379" parent="340" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
