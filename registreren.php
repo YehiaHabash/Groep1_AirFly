@@ -124,5 +124,6 @@ VALUES(
     </div>
     </p>
 </main>
+<script src="includes/javascript.js"></script>
 </body>
 </html>

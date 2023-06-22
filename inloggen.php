@@ -33,7 +33,7 @@
             </div>
             <a href="" class="forgot-pwd">Wachtwoord vergeten</a>
 
-            <button type="submit" class="submit-btn">Login</button>
+            <button type="submit" class="submit-btn" id="logging">Login</button>
             <p class="sign-up-text"> Gast? <a href="index.php">Klik hier</a></p>
         </form>
         <p class="sign-up-text">Nog geen account? <a href="registreren.php">Registreer hier</a></p>
@@ -77,4 +77,5 @@
 </main>
 
 </body>
+<script src="includes/javascript.js"></script>
 </html>
