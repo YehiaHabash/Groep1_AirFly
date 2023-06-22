@@ -165,7 +165,7 @@ require_once "database/conn.php";
                 ?>
 
                 <div class="info">
-                    <img src="img/pf.png" alt="Foto" width="200">
+                    <img src="img/contactbackground.jpg" alt="Foto" width="200">
                     <h5><?php echo $voornaam; ?> <?php echo $tussenvoegsel; ?> <?php echo $achternaam; ?></h5>
 
 
