@@ -78,12 +78,12 @@ a{
     position: relative;
     color:white;
 }
-/*.link a:active{
+/*.Registreren a:active{
     color: red;
 }
-.link a:hover{
-     color: red;
- }*/
+.Registreren a:hover{
+     color: red;*/
+ }
 .hover-underline-animation::after {
     content: '';
     position: absolute;
