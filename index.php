@@ -32,12 +32,14 @@
     <header>Sky High</header>
 
     <nav>
+        <div class="link">
         <a href="index.php" class="hover-underline-animation">HOME</a>
         <a href="fotos.php" class="hover-underline-animation">FOTOS</a>
         <a href="planning.php" class="hover-underline-animation">PLANNING</a>
         <a href="ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
         <a href="contact.php" class="hover-underline-animation">CONTACT</a>
         <a href="secret.php" class="hover-underline-animation">SECRET</a>
+        </div>
     </nav>
 
     <main>
