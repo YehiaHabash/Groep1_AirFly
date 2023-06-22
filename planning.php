@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reserveren.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
@@ -14,16 +15,6 @@
 
 <div class="container">
 
-    <?php include_once "./includes/header.php"; ?>
-    <?php
-
-    // Controleer of de gebruiker is ingelogd
-    if (!isset($_SESSION['login'])) {
-        // Stuur de gebruiker naar de inlogpagina als deze niet is ingelogd
-        header('Location: inloggen.php');
-        exit;
-    }
-    ?>
 
 </div>
 
@@ -36,17 +27,16 @@
         <title>Vluchtreservering</title>
         <style>
 
-            <?php include_once "./css/reserveren.css"; ?>
 
         </style>
         <script>
             var vliegtuigStatus = {
-                "ABC123": {
+                "Hilversum_air1": {
                     isInOnderhoud: true,
                     foto: "link_naar_vliegtuig_ABC123.jpg",
                     prijs: "$200"
                 },
-                "XYZ789": {
+                "Hilversum_air2": {
                     isInOnderhoud: false,
                     foto: "link_naar_vliegtuig_XYZ789.jpg",
                     prijs: "$150"
@@ -68,7 +58,7 @@
                 var isInOnderhoud = vliegtuigStatus[vliegtuigID].isInOnderhoud;
                 var fotoURL = vliegtuigStatus[vliegtuigID].foto;
                 var prijs = vliegtuigStatus[vliegtuigID].prijs;
-                var bericht = isInOnderhoud ? "Dit vliegtuig is in onderhoud." : "Dit vliegtuig is vrij voor gebruik. Prijs: " + prijs;
+                var bericht = isInOnderhoud ? "Dit vliegtuig is in onderhoud." : "Dit vliegtuig is vrij voor gebruik. " + prijs;
                 document.getElementById("successMessage").textContent = bericht;
                 document.getElementById("successMessage").style.display = "block";
                 document.getElementById("vliegtuigFoto").src = fotoURL;
@@ -86,15 +76,20 @@
     <body>
     <h1>Vluchtreservering</h1>
 
-    <form>
-        <label for="naam">Naam:</label>
-        <input type="text" id="naam" name="naam" required>
-
-        <label for="vertrek">Vertrek:</label>
-        <select id="vertrek" name="vertrek">
-            <option value="Hilversum">Hilversum</option>
-            <option value="Amsterdam">Amsterdam</option>
-        </select>
+    <form method="POST" action="planning.php">
+        <div style="display: flex; justify-content: space-between;">
+            <div>
+                <label for="naam">naam:</label>
+                <input type="text" id="naam" name="naam" required>
+            </div>
+            <div>
+                <label for="vertrek">vertrek:</label>
+                <select id="vertrek" name="vertrek">
+                    <option value="Hilversum">Hilversum</option>
+                    <option value="Amsterdam">Amsterdam</option>
+                </select>
+            </div>
+        </div>
 
         <label for="bestemming">Bestemming:</label>
         <select id="bestemming" name="bestemming">
@@ -106,13 +101,68 @@
         <input type="date" id="datum" name="datum" required>
 
         <label for="vliegtuig">Vliegtuig:</label>
-        <select id="vliegtuig">
-            <option value="ABC123">ABC123 ($200)</option>
-            <option value="XYZ789">XYZ789 ($150)</option>
+        <select id="vliegtuig" name="vliegtuig">
+            <option value="Hilversum_air1">Hilversum air1</option>
+            <option value="Hilversum_air2">Hilversum air2</option>
         </select>
 
-        <input type="button" value="Reserveer" onclick="reserveerVlucht()">
+        <input type="submit" value="Reserveer">
+
     </form>
+
+    <?php
+
+    require_once "database/conn.php";
+
+    if ($_SERVER['REQUEST_METHOD'] == "POST") {
+
+        $naam = $_POST['naam'];
+        $vertrek = $_POST['vertrek'];
+        $bestemming = $_POST['bestemming'];
+        $datum = date("Y/m/d");
+        $vliegtuig = $_POST['vliegtuig'];
+
+
+        require_once "database/cleanDataFunction.php";
+
+        $naam = clean_data($naam);
+        $vertrek = clean_data($vertrek);
+        $bestemming = clean_data($bestemming);
+        $datum = clean_data($datum);
+        $vliegtuig = clean_data($vliegtuig);
+
+
+        $naam = mysqli_real_escape_string($conn, $naam);
+        $vertrek = mysqli_real_escape_string($conn, $vertrek);
+        $bestemming = mysqli_real_escape_string($conn, $bestemming);
+        $datum = mysqli_real_escape_string($conn, $datum);
+        $vliegtuig = mysqli_real_escape_string($conn, $vliegtuig);
+
+
+        $sql = "INSERT INTO vluchten
+(naam,
+vertrek,
+bestemming,
+datum,
+vliegtuig
+ )
+VALUES(
+'$naam',
+'$vertrek',
+'$bestemming',
+'$datum',
+'$vliegtuig')";
+
+        $result = mysqli_query($conn, $sql);
+        header("location: succesvolle_boeking.php");
+
+        if (!$result) {
+            echo "Query error";
+            mysqli_close($conn);
+
+        }
+    }
+    ?>
 
     <div id="successMessage" class="success-message" style="display: none;">
         <!-- Het bericht zal hier worden weergegeven -->
@@ -121,11 +171,12 @@
     <div>
         <img id="vliegtuigFoto" src="" alt="Vliegtuig foto" style="display: none; margin-top: 20px; max-width: 300px;">
     </div>
+
     </body>
     </html>
 
-
 </main>
+<a href="./index.php" class="button hover-underline-animation">HOME</a>
 
 </body>
 </html>
