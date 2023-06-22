@@ -16,7 +16,6 @@
 <main>
     <p>
     <div class="login-container">
-        <?php include('bericht.php'); ?>
         <form method="POST" action="registreren.php">
             <h1>Registreren</h1>
             <div class="form-row">
