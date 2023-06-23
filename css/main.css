@@ -83,7 +83,7 @@ a{
 }
 .Registreren a:hover{
      color: red;*/
- }
+
 .hover-underline-animation::after {
     content: '';
     position: absolute;
@@ -220,7 +220,7 @@ p{
     transition: 0.5s;
 }
 .layer2:hover{
-    background: #75c7fa;
+    background: indianred;
 }
 .layer2 p{
     width: 100%;

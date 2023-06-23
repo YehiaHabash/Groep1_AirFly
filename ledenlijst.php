@@ -15,32 +15,11 @@ require_once "database/conn.php";
     <title>Sky High</title>
 </head>
 <body>
-
 <div class="container">
 
-    <div class="Logo">
-        <img src="img/SkyHighLogo.png" alt="SkyHighLogo">
-
-    </div>
-
-    <div class="Registreren">
-        <a href="registreren.php" class="hover-underline-animation">REGISTREREN</a>
-        <a href="inloggen.php" class="hover-underline-animation">INLOGGEN</a>
-    </div>
-
-    <header>Sky High</header>
-
-    <nav>
-        <a href="index.php" class="hover-underline-animation">HOME</a>
-        <a href="fotos.php" class="hover-underline-animation">FOTOS</a>
-        <a href="planning.php" class="hover-underline-animation">PLANNING</a>
-        <a href="ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
-        <a href="contact.php" class="hover-underline-animation">CONTACT</a>
-    </nav>
-
+    <?php include_once "./includes/header.php"; ?>
 
 </div>
-
 <main>
     <h>LEDENLIJST</h>
     <!DOCTYPE html>
@@ -48,6 +27,9 @@ require_once "database/conn.php";
     <head>
         <title>Team Pagina</title>
         <style>
+            body{
+                background-image: url("img/a.jpeg");
+            }
             /*.team-container {
                 display: flex;
                 flex-wrap: wrap;
@@ -76,6 +58,7 @@ require_once "database/conn.php";
             .team-member .info {
 
                 flex-basis: 27%;
+                background-color: rgb(0,0,0,0.1);
                 /*background-color: blue;*/
                 border-radius: 10px;
                 margin-bottom: 30px;
