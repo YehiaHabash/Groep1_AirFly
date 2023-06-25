@@ -15,6 +15,7 @@
 <div class="container">
 
     <?php include_once "includes/header.php"; ?>
+    <?php include "database/conn.php"; ?>
 
     <main>
 
@@ -22,10 +23,9 @@
 
     </main>
 
-    <form action="fotos.php" method="post" enctype="multipart/form-data">
-        Select Image File to Upload:
-        <input type="file" name="file">
-        <input type="submit" name="submit" value="Upload">
+    <form action="fotos.php" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <input type="submit" value="Upload">
     </form>
 
     <?php
@@ -35,17 +35,17 @@
 
     // File upload path
     $targetDir = "img";
-    $fileName = basename($_FILES["file"]["name"]);
+    $fileName = basename($_FILES(["bestand", "name"]));
     $len = !isset($cOTLdata['char_data']) ? 0 : count($cOTLdata['char_data']);
     $targetFilePath = $targetDir . $fileName;
     $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
 
-    if(isset($_POST["submit"]) && !empty($_FILES["file"]["name"])){
+    if(isset($_POST["submit"]) && !empty($_FILES["bestand"]["name"])){
         // Allow certain file formats
         $allowTypes = array('jpg','png','jpeg','pdf');
         if(in_array($fileType, $allowTypes)){
             // Upload file to server
-            if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePath)){
+            if(move_uploaded_file($_FILES(["bestand"]["name"]), $targetFilePath)){
                 // Insert image file name into database
                 $insert = $conn->query("INSERT into fotos (bestand_naam, geüpload_op) VALUES ('".$fileName."', NOW())");
                 if($insert){
@@ -65,6 +65,7 @@
 
     // Display status message
     echo $statusMsg;
+
     ?>
 
     <?php
@@ -92,7 +93,7 @@
 
     if($query->num_rows > 1){
         while($row = $query->fetch_assoc()){
-            $imageURL = 'img' .$row["bestand_naam"];
+            $imageURL = 'img' .$row["file_name"];
             ?>
             <img src="<?php echo $imageURL; ?>" alt=""/>
         <?php }
@@ -102,11 +103,11 @@
         <?php
     }
 
-    ?>
+    header("index.php");
+    exit();
 
+    ?>
 
 </body>
 <script src="includes/javascript.js"></script>
 </html>
-
-
