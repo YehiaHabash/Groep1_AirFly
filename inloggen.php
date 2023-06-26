@@ -44,6 +44,7 @@
     <?php
 
     require_once "database/conn.php";
+    require "includes/header.php";
 
 
     if ($_SERVER['REQUEST_METHOD'] === "POST") {
@@ -68,7 +69,6 @@
 
     $result = mysqli_query($conn, $sql);
     $number = mysqli_num_rows($result);
-
 
     if ($number >= 1) {
     $_SESSION['login'] = true;

@@ -1,3 +1,4 @@
+<?php require_once("database/conn.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,90 +24,75 @@
 
     </main>
 
-    <form action="fotos.php" method="POST" enctype="multipart/form-data">
-        <input type="file" name="image">
-        <input type="submit" value="Upload">
-    </form>
+    <div class="Container">
+        <form class="upload-container" action="fotos.php" method="POST" enctype="multipart/form-data">
+            <label>Foto</label>
+            <input type="file" name="image" class="form-control" required>
+            <label>Comment</label>
+            <input type="text" name="title" class="form-control">
+            <br><br>
+            <button name="form_submit" class="btn-primary">Uploaden</button>
+        </form>
 
-    <?php
-    // Include the database configuration file
-    include 'database/conn.php';
-    $statusMsg = '';
+    </div>
+</div>
 
-    // File upload path
-    $targetDir = "img";
-    $fileName = basename($_FILES(["bestand", "name"]));
-    $len = !isset($cOTLdata['char_data']) ? 0 : count($cOTLdata['char_data']);
-    $targetFilePath = $targetDir . $fileName;
-    $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
+<div class="container_display">
+    <table cellpadding="10">
+        <tr>
+            <th>Foto</th>
+            <th>Comment</th>
+        </tr>
+        <?php $res = mysqli_query($conn, "SELECT* from fotos ORDER by id DESC");
+        while ($row = mysqli_fetch_array($res)) {
+            echo '<tr> 
+                  <td><img src="img/' . $row['image'] . '" height="200"></td> 
+                  <td>' . $row['title'] . '</td> 
 
-    if(isset($_POST["submit"]) && !empty($_FILES["bestand"]["name"])){
-        // Allow certain file formats
-        $allowTypes = array('jpg','png','jpeg','pdf');
-        if(in_array($fileType, $allowTypes)){
-            // Upload file to server
-            if(move_uploaded_file($_FILES(["bestand"]["name"]), $targetFilePath)){
-                // Insert image file name into database
-                $insert = $conn->query("INSERT into fotos (bestand_naam, geüpload_op) VALUES ('".$fileName."', NOW())");
-                if($insert){
-                    $statusMsg = "The file ".$fileName. " has been uploaded successfully.";
-                }else{
-                    $statusMsg = "File upload failed, please try again.";
-                }
-            }else{
-                $statusMsg = "Sorry, there was an error uploading your file.";
-            }
-        }else{
-            $statusMsg = 'Sorry, only JPG, JPEG, PNG, GIF, & PDF files are allowed to upload.';
+				</tr>';
+
+        } ?>
+
+    </table>
+
+</div>
+
+<?php
+if (isset($_POST['form_submit'])) {
+    $title = $_POST['title'];
+    $folder = "img/";
+    $image_file = $_FILES['image']['name'];
+    $file = $_FILES['image']['tmp_name'];
+    $path = $folder . $image_file;
+    $target_file = $folder . basename($image_file);
+    $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
+//Allow only JPG, JPEG, PNG & GIF etc formats
+    if ($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
+        && $imageFileType != "gif") {
+        $error[] = 'Sorry, only JPG, JPEG, PNG & GIF files are allowed';
+    }
+//Set image upload size
+    if ($_FILES["image"]["size"] > 10048576) {
+        $error[] = 'Sorry, your image is too large. Upload less than 1 MB KB in size.';
+    }
+    if (!isset($error)) {
+        // move image in folder
+        move_uploaded_file($file, $target_file);
+        $result = mysqli_query($conn, "INSERT INTO fotos(image,title) VALUES('$image_file','$title')");
+        if ($result) {
+            header("location:index.php?image_success=1");
+        } else {
+            echo 'Something went wrong';
         }
-    }else{
-        $statusMsg = 'Please select a file to upload.';
     }
+}
+if (isset($error)) {
 
-    // Display status message
-    echo $statusMsg;
-
-    ?>
-
-    <?php
-    // Include the database configuration file
-    include 'database/conn.php';
-
-    // Get images from the database
-    $query = $conn->query("SELECT * FROM fotos ORDER BY geüpload_op DESC");
-
-    if($query->num_rows > 1){
-        while($row = $query->fetch_assoc()){
-            $imageURL = 'img'.$row["file_name"];
-            ?>
-            <img src="<?php echo $imageURL; ?>" alt="" />
-        <?php }
-    }else{ ?>
-        <p>No image(s) found!</p>
-    <?php } ?>
-
-    <?php
-
-    include 'database/conn.php';
-
-    $query = $conn->query("SELECT * FROM fotos ORDER BY geüpload_op DESC");
-
-    if($query->num_rows > 1){
-        while($row = $query->fetch_assoc()){
-            $imageURL = 'img' .$row["file_name"];
-            ?>
-            <img src="<?php echo $imageURL; ?>" alt=""/>
-        <?php }
-    }else{
-        ?>
-        <p>No image(s) found!</p>
-        <?php
+    foreach ($error as $error) {
+        echo '<div class="message">' . $error . '</div><br>';
     }
-
-    header("index.php");
-    exit();
-
-    ?>
+}
+?>
 
 </body>
 <script src="includes/javascript.js"></script>
