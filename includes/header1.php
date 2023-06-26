@@ -3,10 +3,10 @@
     <img src="img/SkyHighLogo.png" alt="SkyHighLogo">
 </div>
 <link rel="stylesheet" href="css/header.css">
-<?php if (isset($_SESSION["user"])){?>
+<?php if (isset($_SESSION["admin"])){?>
     <div class="Registreren">
         <div class="dropdown">
-            <button class="dropbtn"><?php echo $_SESSION["user"];?></button>
+            <button class="dropbtn"><?php echo $_SESSION["admin"];?></button>
             <div class="dropdown-content">
                 <a href="./uitloggen.php">UITLOGGEN</a>
                 <div class="dropdown-submenu">
@@ -26,14 +26,12 @@
         }
     </script>
 
-
 <?php } else {?>
-<div class="Registreren">
-    <a href="./registreren.php" class="hover-underline-animation">REGISTREREN</a>
-    <a href="./inloggen.php" class="hover-underline-animation">INLOGGEN</a>
-</div>
+    <div class="Registreren">
+        <a href="./registreren.php" class="hover-underline-animation">REGISTREREN</a>
+        <a href="./inloggen.php" class="hover-underline-animation">INLOGGEN</a>
+    </div>
 <?php } ?>
-
 
 
 <header>Sky High</header>
