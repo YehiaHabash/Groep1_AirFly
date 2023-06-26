@@ -183,7 +183,7 @@ a{
     font-weight: 100;
     font-size: 17px;
     bottom: 0;
-    left: 50%;
+    left: 40%;
     transform: translateX(-40%);
     position: absolute;
     opacity: 0;
@@ -220,14 +220,14 @@ p{
     transition: 0.5s;
 }
 .layer2:hover{
-    background: indianred;
+    background: #75c7fa;
 }
 .layer2 p{
     width: 100%;
     font-weight: 100;
     font-size: 17px;
     bottom: 0;
-    left: 50%;
+    left: 40%;
     transform: translateX(-40%);
     position: absolute;
     opacity: 0;

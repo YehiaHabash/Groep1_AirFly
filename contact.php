@@ -22,7 +22,7 @@
     <h>CONTACT</h>
     <style>
         body{
-            background-image: url("img/skycontact.jpg");
+            background-image: url("img/clear.jpg");
         }
         </style>
 </main>
