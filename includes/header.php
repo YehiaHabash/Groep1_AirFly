@@ -44,5 +44,4 @@
     <a href="./planning.php" class="hover-underline-animation">PLANNING</a>
     <a href="./ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
     <a href="./contact.php" class="hover-underline-animation">CONTACT</a>
-    <a href="./secret.php" class="hover-underline-animation">SECRET</a>
 </nav>

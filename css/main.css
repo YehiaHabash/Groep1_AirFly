@@ -52,6 +52,14 @@ nav{
 
 }
 
+/*nav{*/
+/*    flex: 1;*/
+/*    text-align: center;*/
+/*    list-style: none;*/
+/*    display: inline-block;*/
+/*    padding: 15px 20px;*/
+/*    background-color: #fff3f3;*/
+/*}*/
 main{
     padding-top: 60px;
     text-align: center;
