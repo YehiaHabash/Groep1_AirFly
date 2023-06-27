@@ -113,7 +113,7 @@ VALUES(
 '$geboortedatum')";
 
             $result = mysqli_query($conn, $sql);
-            header("location: index.php");
+            header("location: inloggen.php");
             if (!$result) {
                 echo "Query error";
                 mysqli_close($conn);

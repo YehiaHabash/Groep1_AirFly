@@ -10,9 +10,8 @@
             <div class="dropdown-content">
                 <a href="./uitloggen.php">UITLOGGEN</a>
                 <div class="dropdown-submenu">
-                    <a href="#" onclick="toggleSettings()">INSTELLINGEN</a>
+                    <a href="#" onclick="toggleSettings()">MIJN PROFIEL</a>
                     <div class="dropdown-submenu-content">
-                        <a href="../mijn-profiel.php">Mijn profiel</a>
                     </div>
                 </div>
             </div>
