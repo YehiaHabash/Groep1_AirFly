@@ -20,7 +20,7 @@
     <div class="login-container">
 
         <form action="inloggen.php" method="POST">
-            <h1>inloggen</h1>
+            <h1>Inloggen</h1>
             <div class="form-row">
                 <input type="text" id="emailInput" class="form-input" placeholder="example@email.com" name="email">
                 <label for="emailInput" class="form-label">Email</label>
@@ -33,10 +33,10 @@
             </div>
             <a href="" class="forgot-pwd">Wachtwoord vergeten</a>
 
-            <button type="submit" class="submit-btn">Login</button>
-            <p class="sign-up-text"> Gast? <a href="index.php">Klik hier</a></p>
-        </form>
+
         <p class="sign-up-text">Nog geen account? <a href="registreren.php">Registreer hier</a></p>
+        <p class="sign-up-text">Admin? <a href="admin_log-in.php"> Klik hier</a></p>
+        </form>
 
     </div>
     </p>
@@ -56,7 +56,9 @@
     $email = clean_data($email);
     $wachtwoord = clean_data($wachtwoord);
 
+
     $dbemail = mysqli_real_escape_string($conn, $email);
+
     $dbwachtwoord = mysqli_real_escape_string($conn, $wachtwoord);
 
     $dbwachtwoord = sha1($dbwachtwoord);
@@ -65,6 +67,7 @@
 
     $result = mysqli_query($conn, $sql);
     $number = mysqli_num_rows($result);
+
 
     if ($number >= 1) {
     $_SESSION['login'] = true;
@@ -77,4 +80,5 @@
 </main>
 
 </body>
+<script src="includes/javascript.js"></script>
 </html>

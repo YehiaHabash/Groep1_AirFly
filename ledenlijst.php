@@ -15,16 +15,8 @@ require_once "database/conn.php";
     <title>Sky High</title>
 </head>
 <body>
-
 <div class="container">
 
-    <div class="Logo">
-        <img src="img/SkyHighLogo.png" alt="SkyHighLogo">
-
-    </div>
-
-    <?php include_once "./includes/header.php"; ?>
-</div>
 
 <main>
     <h>LEDENLIJST</h>
@@ -33,6 +25,9 @@ require_once "database/conn.php";
     <head>
         <title>Team Pagina</title>
         <style>
+            body{
+                background-image: url("img/clear.jpg");
+            }
             /*.team-container {
                 display: flex;
                 flex-wrap: wrap;
@@ -55,12 +50,13 @@ require_once "database/conn.php";
                 flex-wrap: wrap;
             }
             .info:hover{
-                background-color: #0ed8ee;
+                background-color: deepskyblue;
             }
 
             .team-member .info {
 
                 flex-basis: 27%;
+                /*background-color: rgb(0,0,0,0.1);*/
                 /*background-color: blue;*/
                 border-radius: 10px;
                 margin-bottom: 30px;
