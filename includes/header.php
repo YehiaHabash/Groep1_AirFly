@@ -10,9 +10,9 @@
             <div class="dropdown-content">
                 <a href="uitloggen.php">UITLOGGEN</a>
                 <div class="dropdown-submenu">
-                    <a href="#" onclick="toggleSettings()">INSTELLINGEN</a>
+                    <a href="#" onclick="toggleSettings()">MIJN PROFIEL</a>
                     <div class="dropdown-submenu-content">
-                        <a href="mijn-profiel.php">Mijn profiel</a>
+                        <a href="mijn-profiel.php">Instellingen</a>
                     </div>
                 </div>
             </div>
@@ -42,5 +42,4 @@
     <a href="./planning.php" class="hover-underline-animation">PLANNING</a>
     <a href="./ledenlijst.php" class="hover-underline-animation">LEDENLIJST</a>
     <a href="./contact.php" class="hover-underline-animation">CONTACT</a>
-    <a href="./secret.php" class="hover-underline-animation">SECRET</a>
 </nav>

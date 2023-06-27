@@ -24,6 +24,7 @@
 
     <html>
     <head>
+
         <title>Vluchtreservering</title>
         <style>
 
@@ -71,6 +72,36 @@
                     window.location.href = "succesvolle_boeking.php";
                 }
             }
+            var isVluchtGeselecteerd = true; // Standaard is de vlucht geselecteerd
+
+            function reserveerVlucht() {
+                // Voeg de code toe voor het reserveren van een vlucht
+            }
+
+            function reserveerLes() {
+                // Voeg de code toe voor het inplannen van een les
+            }
+
+            function toggleReserveringType() {
+                isVluchtGeselecteerd = !isVluchtGeselecteerd;
+
+                var vluchtButton = document.getElementById("vluchtButton");
+                var lesButton = document.getElementById("lesButton");
+
+                if (isVluchtGeselecteerd) {
+                    vluchtButton.classList.add("selected");
+                    lesButton.classList.remove("selected");
+                } else {
+                    vluchtButton.classList.remove("selected");
+                    lesButton.classList.add("selected");
+                }
+
+                var vliegtuigLabel = document.getElementById("vliegtuigLabel");
+                var vliegtuigSelect = document.getElementById("vliegtuig");
+                vliegtuigLabel.style.display = isVluchtGeselecteerd ? "block" : "none";
+                vliegtuigSelect.style.display = isVluchtGeselecteerd ? "block" : "none";
+            }
+
         </script>
     </head>
     <body>
@@ -105,6 +136,8 @@
             <option value="Hilversum_air1">Hilversum air1</option>
             <option value="Hilversum_air2">Hilversum air2</option>
         </select>
+
+
 
         <input type="submit" value="Reserveer">
 
@@ -176,7 +209,7 @@ VALUES(
     </html>
 
 </main>
-<a href="./index.php" class="button hover-underline-animation">HOME</a>
+
 
 </body>
 </html>
