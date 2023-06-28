@@ -64,8 +64,8 @@ require_once "database/conn.php";
                 margin-bottom: 30px;
                 position: relative;
                 overflow: hidden;
-                padding: 9px 12px;
-                padding-left: 50px;
+                /*padding: 9px 12px;*/
+                /*padding-left: 50px;*/
                 box-sizing: border-box;
 
             }
