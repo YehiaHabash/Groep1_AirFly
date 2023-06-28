@@ -10,14 +10,16 @@ require_once "database/conn.php";
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
-    <meta name="author" content="Saira Maranan">
+    <meta name="author" content="Saira Mae Maranan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sky High</title>
 </head>
 <body>
 <div class="container">
 
+    <?php include_once "./includes/header.php"; ?>
 
+</div>
 <main>
     <h>LEDENLIJST</h>
     <!DOCTYPE html>
@@ -56,7 +58,7 @@ require_once "database/conn.php";
             .team-member .info {
 
                 flex-basis: 27%;
-                /*background-color: rgb(0,0,0,0.1);*/
+                background-color: rgb(0,0,0,0.1);
                 /*background-color: blue;*/
                 border-radius: 10px;
                 margin-bottom: 30px;
@@ -146,7 +148,7 @@ require_once "database/conn.php";
                 ?>
 
                 <div class="info">
-                    <img src="img/contactbackground.jpg" alt="Foto" width="200">
+                    <img src="img/pf.png" alt="Foto" width="200">
                     <h5><?php echo $voornaam; ?> <?php echo $tussenvoegsel; ?> <?php echo $achternaam; ?></h5>
 
 

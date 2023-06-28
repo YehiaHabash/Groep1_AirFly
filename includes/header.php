@@ -3,6 +3,8 @@
     <img src="img/SkyHighLogo.png" alt="SkyHighLogo">
 </div>
 <link rel="stylesheet" href="css/header.css">
+<!--<link rel="stylesheet" href="css/main.css">-->
+
 <?php if (isset($_SESSION["user"])){?>
     <div class="Registreren">
         <div class="dropdown">
