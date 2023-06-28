@@ -25,7 +25,7 @@
 
     <footer>
         <div style="display: flex; justify-content: center;">
-            <div style="border: 0px solid #d4d4d4; background-color: transparent; padding: 100px; width: 300px; margin-left: 200px;">
+            <div style="border: 0px solid #d4d4d4; background-color: transparent; padding: 100px; width: 500px; margin-left: 200px;">
                 <div id="ww_efff0b1cd1dc8" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl7908"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"#FFFFFF00","cl_font":"rgba(249,248,248,1)","cl_cloud":"#d4d4d4","cl_persp":"#2196F3","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
                     More forecasts: <a href="https://oneweather.org/nl/amsterdam/30_days/" id="ww_efff0b1cd1dc8_u" target="_blank">het weer 30 dagen</a>
                 </div>
@@ -104,6 +104,8 @@
                     letter-spacing: 1px;
                     padding: 7px 60px 7px 60px;
                     text-transform: uppercase;
+                    margin-left: -60px;
+                    margin-right: 60px;
 
 
                 }
@@ -118,6 +120,7 @@
                     padding-top: 5px;
                     padding-bottom: 5px;
                     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+                    margin-left: -60px;
                 }
             </style>
 
