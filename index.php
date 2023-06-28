@@ -15,139 +15,140 @@
 <div class="container">
 
     <?php include_once "./includes/header.php"; ?>
+    
 </div>
-    <main>
-        <h>HOME</h>
-    </main>
+<main>
+    <h>HOME</h>
+</main>
 
-    <footer>
-        <div style="display: flex; justify-content: center;">
-            <div style="border: 0px solid #d4d4d4; background-color: transparent; padding: 80px; width: 300px; margin-right: 10px;">
-                <div id="ww_efff0b1cd1dc8" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl7908"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"#FFFFFF00","cl_font":"rgba(249,248,248,1)","cl_cloud":"#d4d4d4","cl_persp":"#2196F3","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                    More forecasts: <a href="https://oneweather.org/nl/amsterdam/30_days/" id="ww_efff0b1cd1dc8_u" target="_blank">het weer 30 dagen</a>
-                </div>
-                <script async src="https://app1.weatherwidget.org/js/?id=ww_efff0b1cd1dc8"></script>
+<footer>
+    <div style="display: flex; justify-content: center;">
+        <div style="border: 0px solid #d4d4d4; background-color: transparent; padding: 80px; width: 300px; margin-right: 10px;">
+            <div class="weerbericht" id="ww_efff0b1cd1dc8" v='1.3' loc='id'
+                 a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl7908"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"#FFFFFF00","cl_font":"rgba(249,248,248,1)","cl_cloud":"#d4d4d4","cl_persp":"#2196F3","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+                More forecasts: <a href="https://oneweather.org/nl/amsterdam/30_days/" id="ww_efff0b1cd1dc8_u"
+                                   target="_blank">het weer 30 dagen</a>
             </div>
+            <script async src="https://app1.weatherwidget.org/js/?id=ww_efff0b1cd1dc8"></script>
+        </div>
 
-            <div class="background">
-                <div class="nav">
-                    <div class="navWrapper">
-                    </div>
-                </div>
-
-                <div class="header">
-                    <div class="calendar">
-                        <h5 id="mmyy"></h5>
-                        <h2 id="day"></h2>
-                    </div>
+        <div class="background">
+            <div class="nav">
+                <div class="navWrapper">
                 </div>
             </div>
 
-            <style>
-                @import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+            <div class="header">
+                <div class="calendar">
+                    <h5 id="mmyy"></h5>
+                    <h2 id="day"></h2>
+                </div>
+            </div>
+        </div>
 
-                * {
-                    margin: 0;
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
 
-                }
+            * {
+                margin: 0;
 
-                html {
-                    font-family: "roboto", sans-serif;
-                }
+            }
 
-                .background {
-                    width: 100%;
-                    height: 40vh;
-                    background: transparent;
+            html {
+                font-family: "roboto", sans-serif;
+            }
 
-                }
+            .background {
+                width: 100%;
+                height: 40vh;
+                background: transparent;
 
-                .nav {
-                    width: 100%;
-                    height: 5px;
+            }
 
-                }
+            .nav {
+                width: 100%;
+                height: 5px;
 
-                .navWrapper {
-                    width: 85%;
-                    margin: auto;
-                    padding-top: 38px;
-                }
+            }
 
-                .navWrapper a {
-                    color: white;
-                    text-decoration: none;
-                    font-size: 24px;
-                    font-weight: 900;
-                    letter-spacing: 1px;
-                    text-transform: uppercase;
-                }
+            .navWrapper {
+                width: 85%;
+                margin: auto;
+                padding-top: 38px;
+            }
 
-                .header {
-                    margin-top: 10vh;
-                }
+            .navWrapper a {
+                color: white;
+                text-decoration: none;
+                font-size: 24px;
+                font-weight: 900;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
 
-                .calendar {
-                    margin: auto;
-                    width: 245px;
-                    border-radius: 14px;
-                }
+            .header {
+                margin-top: 10vh;
+            }
 
-                .calendar h5 {
-                    background-color: #2a9de1;
-                    color: white;
-                    font-size: 24px;
-                    font-weight: 900;
-                    letter-spacing: 1px;
-                    padding: 7px 60px 7px 60px;
-                    text-transform: uppercase;
+            .calendar {
+                margin: auto;
+                width: 245px;
+                border-radius: 14px;
+            }
 
-                }
+            .calendar h5 {
+                background-color: #2a9de1;
+                color: white;
+                font-size: 24px;
+                font-weight: 900;
+                letter-spacing: 1px;
+                padding: 7px 60px 7px 60px;
+                text-transform: uppercase;
 
-                .calendar h2 {
-                    color: #202020;
-                    font-size: 125px;
-                    font-weight: 900;
-                    text-align: center;
-                    width: 244px;
-                    background-color: #9cd9ff;
-                    padding-top: 5px;
-                    padding-bottom: 5px;
-                    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-                }
-            </style>
+            }
 
-            <script>
-                var date = new Date();
+            .calendar h2 {
+                color: #202020;
+                font-size: 125px;
+                font-weight: 900;
+                text-align: center;
+                width: 244px;
+                background-color: #9cd9ff;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+            }
+        </style>
 
-                var day = date.getDate();
+        <script>
+            var date = new Date();
 
-                var months = new Array();
-                months[0] = "Januari";
-                months[1] = "Februari";
-                months[2] = "Maart";
-                months[3] = "April";
-                months[4] = "Mei";
-                months[5] = "Juni";
-                months[6] = "Juli";
-                months[7] = "Augustus";
-                months[8] = "September";
-                months[9] = "Oktober";
-                months[10] = "November";
-                months[11] = "December";
+            var day = date.getDate();
 
-                var month = months[date.getMonth()];
+            var months = new Array();
+            months[0] = "Januari";
+            months[1] = "Februari";
+            months[2] = "Maart";
+            months[3] = "April";
+            months[4] = "Mei";
+            months[5] = "Juni";
+            months[6] = "Juli";
+            months[7] = "Augustus";
+            months[8] = "September";
+            months[9] = "Oktober";
+            months[10] = "November";
+            months[11] = "December";
 
-                var year = date.getFullYear();
+            var month = months[date.getMonth()];
 
-                document.getElementById("mmyy").innerHTML = month + " " + year;
+            var year = date.getFullYear();
 
-                document.getElementById("day").innerHTML = day;
-            </script>
+            document.getElementById("mmyy").innerHTML = month + " " + year;
 
-    </footer>
+            document.getElementById("day").innerHTML = day;
+        </script>
 
-
+</footer>
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
