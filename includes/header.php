@@ -3,7 +3,7 @@
     <img class="logo" src="img/SkyHighLogo.png" alt="SkyHighLogo">
 </div>
 <link rel="stylesheet" href="css/header.css">
-<?php if (isset($_SESSION["user"])) { ?>
+
     <div class="Registreren">
         <div class="dropdown">
             <button class="dropbtn"><?php echo $_SESSION["user"]; ?></button>

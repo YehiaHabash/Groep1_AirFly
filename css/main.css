@@ -26,42 +26,37 @@ body {
     left: 15px;
 }
 
-.Registreren {
-    background-color: rgb(0, 0, 0, 0.3);
+
     right: 15px;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    /*padding-top: 14px;*/
+    /*padding-bottom: 14px;*/
     font-size: 13px;
     position: fixed;
 }
 
-header {
+
     height: 120px;
     text-align: center;
     margin-top: 50px;
     font-size: 50px;
     color: white;
+    font-style: italic;
+    font-style: oblique;
 }
 
 nav {
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
     padding-top: 14px;
     padding-bottom: 14px;
-    background-color: rgb(0, 0, 0, 0.3);
 
-}
-
-main {
-    padding-top: 60px;
     text-align: center;
     font-size: 20px;
-    font-family: "Arial Black", cursive;
+    font-family: "Bookman Old Style";
     color: white;
 
 }
 
-footer {
     text-align: center;
     padding-top: 100px;
 }
@@ -71,12 +66,20 @@ a {
     padding-left: 10px;
     font-family: "Arial Black", cursive;
     text-decoration: none;
+
 }
 
 .hover-underline-animation {
+    /*display: inline-block;*/
+    /*list-style: none;*/
+    /*position: relative;*/
+    color: #015381;
+    list-style: none;
     display: inline-block;
+    padding: 12px 30px;
+    background-color: #75c7fa;
     position: relative;
-    color: white;
+
 }
 
 /*.Registreren a:active{
@@ -86,21 +89,31 @@ a {
      color: red;*/
 
 .hover-underline-animation::after {
+    /*content: '';*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*transform: scaleX(0);*/
+    /*height: 2.5px;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*background-color: red;*/
+    /*transform-origin: bottom center;*/
+    /*transition: transform 0.25s ease-out;*/
     content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
+    width: 0%;
     height: 2.5px;
-    bottom: 0;
-    left: 0;
-    background-color: white;
-    transform-origin: bottom center;
-    transition: transform 0.25s ease-out;
+    background: blue;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+
 }
 
+
 .hover-underline-animation:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom center;
+    /*transform: scaleX(1);*/
+    /*transform-origin: bottom center;*/
+    width: 100%;
 }
 
 /*------ CSS voor CONTACT Pagina-------*/
@@ -123,7 +136,7 @@ a {
 
 .contact-col {
     flex-basis: 25%;
-    background-color: rgb(0, 0, 0, 0.1);
+
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
@@ -165,8 +178,6 @@ a {
     transition: 0.5s;
 }
 
-.layer:hover {
-    background: #75c7fa;
 }
 
 /*.layer p{
@@ -227,8 +238,6 @@ p {
     transition: 0.5s;
 }
 
-.layer2:hover {
-    background: #75c7fa;
 }
 
 .layer2 p {
@@ -294,84 +303,3 @@ a[href="mailto:"]:link {
 
  */
 
-.btn {
-    margin-top: 20px;
-    width: 100px;
-    border: 5px white;
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    height: 30px;
-}
-
-/* Style the p tag */
-.btn p {
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: 900;
-    font-size: 20px;
-    margin-left: 30px;
-    transition: all 0.5s ease;
-}
-
-/* Style the first icon with class send */
-.send {
-    position: absolute;
-    top: 15px;
-    left: 30px;
-    color: #fff;
-    transition: all 0.5s ease;
-}
-
-/* Style the second icon with class send2 */
-.send2 {
-    position: absolute;
-    top: 80px;
-    left: 30px;
-    color: #696666;
-    transition: all 0.5s ease;
-}
-
-
-/* Hover effects */
-.btn:hover {
-    background: steelblue;
-    transition: all 0.5s ease;
-}
-
-.btn:hover p {
-    color: #696666;
-    transition: all 0.5s ease;
-    animation: move 1s linear 1s forwards;
-}
-
-.btn:hover .send {
-    top: -50px;
-    transition: all 0.5s ease;
-}
-
-.btn:hover .send2 {
-    top: 15px;
-    transition: all 0.5s ease;
-    animation: sending 1s linear 1s forwards;
-}
-
-
-/* CSS3 animation keyframes */
-@keyframes sending {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translate(40px, -60px);
-    }
-}
-
-@keyframes move {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-18px);
-    }
-}
