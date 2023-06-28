@@ -12,6 +12,16 @@ body {
     /*min-height: 100%;*/
 }
 
+.title{
+    height: 120px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+    font-style: italic;
+    font-style: oblique;
+}
+
 .container {
     height: 100%;
     margin-right: auto;
@@ -26,7 +36,11 @@ body {
     left: 15px;
 }
 
-
+.Registreren {
+    /*background-color: rgb(0,0,0,0.3);*/
+    list-style: none;
+    display: inline-block;
+    padding: 15px 17px;
     right: 15px;
     /*padding-top: 14px;*/
     /*padding-bottom: 14px;*/
@@ -34,7 +48,11 @@ body {
     position: fixed;
 }
 
+/*.Registreren:hover{*/
+/*    background-color: white;*/
+/*}*/
 
+header {
     height: 120px;
     text-align: center;
     margin-top: 50px;
@@ -49,7 +67,19 @@ nav {
     font-size: 14px;
     padding-top: 14px;
     padding-bottom: 14px;
+    /*background-color: rgb(0,0,0,0.3);*/
 
+}
+
+/*.nav {*/
+/*    list-style: none;*/
+/*    display: inline-block;*/
+/*    padding: 15px 20px;*/
+/*    background-color: red;*/
+/*}*/
+
+main {
+    padding-top: 30px;
     text-align: center;
     font-size: 20px;
     font-family: "Bookman Old Style";
@@ -57,6 +87,11 @@ nav {
 
 }
 
+h3 {
+    font-family: "Bell MT", cursive;
+}
+
+footer {
     text-align: center;
     padding-top: 100px;
 }
@@ -79,7 +114,6 @@ a {
     padding: 12px 30px;
     background-color: #75c7fa;
     position: relative;
-
 }
 
 /*.Registreren a:active{
@@ -102,7 +136,7 @@ a {
     content: '';
     width: 0%;
     height: 2.5px;
-    background: blue;
+    background: black;
     display: block;
     margin: auto;
     transition: 0.3s;
@@ -136,7 +170,8 @@ a {
 
 .contact-col {
     flex-basis: 25%;
-
+    /*background-color: rgb(0,0,0,0.5);*/
+    background: #3b70dc;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
@@ -177,6 +212,9 @@ a {
     left: 0;
     transition: 0.5s;
 }
+
+.layer:hover {
+    background-color: #cc2c2c;
 
 }
 
@@ -238,6 +276,8 @@ p {
     transition: 0.5s;
 }
 
+.layer2:hover {
+    background-color: #cc2c2c;
 }
 
 .layer2 p {
@@ -297,9 +337,3 @@ a[href="mailto:"]:link {
 .a:active {
     color: blue;
 }
- */
-
-/* VOOR PLANNING BUTTON?*
-
- */
-

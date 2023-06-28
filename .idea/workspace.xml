@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21ff3aa1-e313-4846-a6e9-8d06ec43a25a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77db8f60-d17b-4fe2-a548-f71117e56dec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77db8f60-d17b-4fe2-a548-f71117e56dec.xml" afterDir="false" />
+    <list default="true" id="033246a6-84e9-436f-9e1f-c91a1b0decaf" name="Changes" comment="a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inloggen.php" beforeDir="false" afterPath="$PROJECT_DIR$/inloggen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registreren.php" beforeDir="false" afterPath="$PROJECT_DIR$/registreren.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +12,172 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/Branch_Glenn" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/OneDrive/Documents/GitHub/Groep1_AirFly/Php/Index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2RSY3A2pDSEuBXWR8kmoPnva5si" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="033246a6-84e9-436f-9e1f-c91a1b0decaf" name="Changes" comment="nieuwe bestanden" />
+      <created>1687244756297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687244756297</updated>
+      <workItem from="1687244759002" duration="18394000" />
+      <workItem from="1687417237737" duration="20169000" />
+      <workItem from="1687503840810" duration="932000" />
+      <workItem from="1687504973348" duration="3291000" />
+      <workItem from="1687768599143" duration="4392000" />
+      <workItem from="1687776578805" duration="767000" />
+      <workItem from="1687901107548" duration="1034000" />
+      <workItem from="1687902267313" duration="5318000" />
+      <workItem from="1687936966568" duration="8405000" />
+    </task>
+    <task id="LOCAL-00001" summary="nieuwe bestanden">
+      <created>1687244796523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687244796523</updated>
+    </task>
+    <task id="LOCAL-00002" summary="links toegevoegd contact pagina">
+      <created>1687254676913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687254676913</updated>
+    </task>
+    <task id="LOCAL-00003" summary="links toegevoegd contact pagina">
+      <created>1687331003054</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687331003054</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ledenlijst pagina">
+      <created>1687426286688</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687426286688</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ledenlijst pagina">
+      <created>1687426876029</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687426876029</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ledenlijst pagina">
+      <created>1687427458381</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687427458381</updated>
+    </task>
+    <task id="LOCAL-00007" summary="admin">
+      <created>1687472680698</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687472680698</updated>
+    </task>
+    <task id="LOCAL-00008" summary="contact&amp;ledenlijst pagina bijgewerkt">
+      <created>1687773313813</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687773313813</updated>
+    </task>
+    <task id="LOCAL-00009" summary="secret pagina verwijderd">
+      <created>1687775974398</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687775974398</updated>
+    </task>
+    <task id="LOCAL-00010" summary="a">
+      <created>1687901186942</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687901186942</updated>
+    </task>
+    <task id="LOCAL-00011" summary="a">
+      <created>1687938999761</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687938999761</updated>
+    </task>
+    <task id="LOCAL-00012" summary="a">
+      <created>1687944634090</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687944634090</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nieuwe bestanden" />
+    <MESSAGE value="links toegevoegd contact pagina" />
+    <MESSAGE value="Ledenlijst pagina" />
+    <MESSAGE value="admin" />
+    <MESSAGE value="contact&amp;ledenlijst pagina bijgewerkt" />
+    <MESSAGE value="secret pagina verwijderd" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
 </project>
