@@ -2,6 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
+
 $dbname = "skyhigh3";
 
 $conn = new mysqli($host, $user, $pass, $dbname);
