@@ -103,8 +103,9 @@
 
         <label for="vliegtuig">Vliegtuig:</label>
         <select id="vliegtuig" name="vliegtuig">
-            <option value="Hilversum_air1">Hilversum air1</option>
-            <option value="Hilversum_air2">Hilversum air2</option>
+            <option>Hilversum air1</option>
+            <option>Hilversum air2</option>
+            <option>Hilversum air3</option>
         </select>
 
         <input type="submit" value="Reserveer">
@@ -114,13 +115,13 @@
     <?php
 
     require_once "database/conn.php";
-
+    session_start();
     if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
         $naam = $_POST['naam'];
         $vertrek = $_POST['vertrek'];
         $bestemming = $_POST['bestemming'];
-        $datum = date("Y/m/d");
+        $datum = $_POST['datum'];
         $vliegtuig = $_POST['vliegtuig'];
 
 
@@ -131,6 +132,8 @@
         $bestemming = clean_data($bestemming);
         $datum = clean_data($datum);
         $vliegtuig = clean_data($vliegtuig);
+
+        $user_email = clean_data($_SESSION['user']);
 
 
         $naam = mysqli_real_escape_string($conn, $naam);
@@ -145,14 +148,16 @@
 vertrek,
 bestemming,
 datum,
-vliegtuig
- )
+vliegtuig,
+email)
 VALUES(
 '$naam',
 '$vertrek',
 '$bestemming',
 '$datum',
-'$vliegtuig')";
+'$vliegtuig',
+'$user_email')";
+
 
         $result = mysqli_query($conn, $sql);
         header("location: succesvolle_boeking.php");
@@ -160,7 +165,6 @@ VALUES(
         if (!$result) {
             echo "Query error";
             mysqli_close($conn);
-
         }
     }
     ?>
@@ -175,9 +179,6 @@ VALUES(
 
     </body>
     </html>
-
 </main>
-
-
 </body>
 </html>
