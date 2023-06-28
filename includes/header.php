@@ -14,7 +14,6 @@
 <link rel="stylesheet" href="css/main.css">
 
 
-<?php if (isset($_SESSION['user'])) { ?>
 
     <div class="Registreren">
         <div class="dropdown">
@@ -46,7 +45,7 @@
 <?php } ?>
 
 
-<header>Sky <Hi></Hi>gh</header>
+<header>SkyHigh <Hi></Hi></header>
 
 <nav>
     <a href="./index.php" class="hover-underline-animation">HOME</a>
