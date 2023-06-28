@@ -12,6 +12,7 @@
 <body>
 <div class="container">
 
+
 </div>
 <main>
 
@@ -33,10 +34,6 @@
             <a href="" class="forgot-pwd">Wachtwoord vergeten</a>
 
             <button type="submit" class="submit-btn">inloggen</button>
-
-
-            <p class="sign-up-text">Nog geen account? <a href="registreren.php">Registreer hier</a></p>
-            <p class="sign-up-text">Admin? <a href="admin_log-in.php"> Klik hier</a></p>
         </form>
 
     </div>
@@ -47,35 +44,36 @@
 
 
     if ($_SERVER['REQUEST_METHOD'] === "POST") {
-        session_start();
-        if (!empty($_POST['email']) && !empty($_POST['wachtwoord'])) {
-            $email = $_POST['email'];
-            $wachtwoord = $_POST['wachtwoord'];
+    session_start();
+    if (!empty($_POST['email']) && !empty($_POST['wachtwoord'])) {
+    $email = $_POST['email'];
+    $wachtwoord = $_POST['wachtwoord'];
 
-            require_once "database/cleanDataFunction.php";
+    require_once "database/cleanDataFunction.php";
 
-            $email = clean_data($email);
-            $wachtwoord = clean_data($wachtwoord);
-
-
-            $dbemail = mysqli_real_escape_string($conn, $email);
-
-            $dbwachtwoord = mysqli_real_escape_string($conn, $wachtwoord);
-
-            $dbwachtwoord = sha1($dbwachtwoord);
-
-            $sql = "SELECT * FROM users WHERE email = '$dbemail' AND wachtwoord = '$dbwachtwoord'";
-
-            $result = mysqli_query($conn, $sql);
-            $number = mysqli_num_rows($result);
+    $email = clean_data($email);
+    $wachtwoord = clean_data($wachtwoord);
 
 
-            if ($number >= 1) {
-                $_SESSION['login'] = true;
-                $_SESSION['user'] = $dbemail;
-                header("location: index.php");
-            }
-        }
+    $dbemail = mysqli_real_escape_string($conn, $email);
+
+    $dbwachtwoord = mysqli_real_escape_string($conn, $wachtwoord);
+
+    $dbwachtwoord = sha1($dbwachtwoord);
+
+    $sql = "SELECT * FROM users WHERE email = '$dbemail' AND wachtwoord = '$dbwachtwoord'";
+
+    $result = mysqli_query($conn, $sql);
+    $number = mysqli_num_rows($result);
+    $sql_data = $result->fetch_array();
+
+
+    if ($number >= 1) {
+    $_SESSION['login'] = true;
+    $_SESSION['user'] = $dbemail;
+    header ("location: index.php");
+    }
+    }
     }
     ?>
 </main>

@@ -1,11 +1,21 @@
 <?php session_start() ?>
 <div class="Logo">
+
     <img src="img/SkyHighLogo.png" alt="SkyHighLogo" class="logo">
 </div>
 <link rel="stylesheet" href="css/header.css">
 <!--<link rel="stylesheet" href="css/main.css">-->
 
 <?php if (isset($_SESSION["user"])) { ?>
+
+    <img class="logo" src="img/SkyHighLogo.png" alt="SkyHighLogo" class="logo">
+</div>
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/main.css">
+
+
+<?php if (isset($_SESSION['user'])) { ?>
+
     <div class="Registreren">
         <div class="dropdown">
             <button class="dropbtn"><?php echo $_SESSION["user"]; ?></button>
@@ -28,7 +38,7 @@
     </script>
 
 
-<?php } else { ?>
+<?php } else {?>
     <div class="Registreren">
         <a href="./registreren.php" class="hover-underline-animation">REGISTREREN</a>
         <a href="./inloggen.php" class="hover-underline-animation">INLOGGEN</a>
@@ -36,7 +46,7 @@
 <?php } ?>
 
 
-<header>Sky High</header>
+<header>Sky <Hi></Hi>gh</header>
 
 <nav>
     <a href="./index.php" class="hover-underline-animation">HOME</a>
