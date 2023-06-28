@@ -23,8 +23,13 @@
 <main>
     <h>CONTACT</h>
     <style>
+
+        body {
+            background-image: url("img/clear.jpg");
+
         body{
             background-image: url("img/Blue.jpg");
+
         }
     </style>
 </main>
@@ -34,29 +39,31 @@
     <div class="row">
         <div class="contact-col">
 
-            <img src="img/Telefoon.png">
+            <img style="padding-left: 100px" src="img/Telefoon.png">
             <h2><br>Bel ons</h2>
 
             <div class="layer">
-                <p>Telefonisch ondersteuning is beschikbaar <br> van 08:00 uur tot 17:00 uur.<br> <br> Bel ons gerust <br> +316123456789 </p>
+                <p>Telefonisch ondersteuning is beschikbaar <br> van 08:00 uur tot 17:00 uur.<br> <br> Bel ons gerust
+                    <br> +316123456789 </p>
             </div>
         </div>
 
         <div class="contact-col">
 
 
-            <img src="img/email.png">
+            <img style="padding-left: 100px" src="img/email.png">
             <h2><br>E-mail ons</h2>
 
             <div class="layer2">
                 <p>Voor algemene vragen kunt u via e-mail contact met ons opnemen.<br><br>
-                    <a href=mailto:zweefvliegclubskyhigh@gmail.com><i class="fa-solid fa-envelope"></i>skyhigh@gmail.com</a></p>
+                    <a href=mailto:zweefvliegclubskyhigh@gmail.com><i class="fa-solid fa-envelope"></i>skyhigh@gmail.com</a>
+                </p>
             </div>
         </div>
 
         <div class="contact-col">
 
-            <img src="img/location.png">
+            <img style="padding-left: 100px" src="img/location.png">
             <h2><br>Bezoek ons</h2>
 
             <div class="layer2">
