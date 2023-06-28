@@ -29,7 +29,7 @@
             <label>Foto</label>
             <input type="file" name="image" class="form-control" required>
             <label>Comment</label>
-            <input type="text" name="title" class="form-control">
+            <input type="text" name="titel" class="form-control">
             <br><br>
             <button name="form_submit" class="btn">Uploaden</button>
         </form>
@@ -43,11 +43,11 @@
             <th>Foto</th>
             <th>Comment</th>
         </tr>
-        <?php $res = mysqli_query($conn, "SELECT* from fotos ORDER by id DESC");
+        <?php $res = mysqli_query($conn, "SELECT * from fotos ORDER by id DESC");
         while ($row = mysqli_fetch_array($res)) {
             echo '<tr> 
-                  <td><img class="fotos" src="img/' . $row['image'] . '" height="200"></td> 
-                  <td>' . $row['title'] . '</td> 
+                  <td><img class="fotos" src="img/' . $row['foto'] . '" height="200"></td> 
+                  <td>' . $row['titel'] . '</td> 
 
 				</tr>';
 
@@ -59,7 +59,7 @@
 
 <?php
 if (isset($_POST['form_submit'])) {
-    $title = $_POST['title'];
+    $titel = $_POST['titel'];
     $folder = "img/";
     $image_file = $_FILES['image']['name'];
     $file = $_FILES['image']['tmp_name'];
@@ -78,7 +78,7 @@ if (isset($_POST['form_submit'])) {
     if (!isset($error)) {
         // move image in folder
         move_uploaded_file($file, $target_file);
-        $result = mysqli_query($conn, "INSERT INTO fotos(image,title) VALUES('$image_file','$title')");
+        $result = mysqli_query($conn, "INSERT INTO fotos(foto,titel) VALUES('$image_file','$titel')");
         if ($result) {
             header("location:index.php?image_success=1");
         } else {

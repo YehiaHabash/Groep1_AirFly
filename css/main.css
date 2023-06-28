@@ -1,8 +1,8 @@
-html{
+html {
     height: 100%;
 }
 
-body{
+body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center, center;
@@ -12,22 +12,22 @@ body{
     /*min-height: 100%;*/
 }
 
-.container{
+.container {
     height: 100%;
     margin-right: auto;
     margin-left: auto;
     width: 1024px;
 }
 
-img{
+.logo {
     height: 120px;
     position: absolute;
     margin-left: auto;
     left: 15px;
 }
 
-.Registreren{
-    background-color: rgb(0,0,0,0.3);
+.Registreren {
+    background-color: rgb(0, 0, 0, 0.3);
     right: 15px;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -35,7 +35,7 @@ img{
     position: fixed;
 }
 
-header{
+header {
     height: 120px;
     text-align: center;
     margin-top: 50px;
@@ -43,16 +43,16 @@ header{
     color: white;
 }
 
-nav{
+nav {
     text-align: center;
     font-size: 13px;
     padding-top: 14px;
     padding-bottom: 14px;
-    background-color: rgb(0,0,0,0.3);
+    background-color: rgb(0, 0, 0, 0.3);
 
 }
 
-main{
+main {
     padding-top: 60px;
     text-align: center;
     font-size: 20px;
@@ -61,12 +61,12 @@ main{
 
 }
 
-footer{
+footer {
     text-align: center;
     padding-top: 100px;
 }
 
-a{
+a {
     padding-right: 10px;
     padding-left: 10px;
     font-family: "Arial Black", cursive;
@@ -76,8 +76,9 @@ a{
 .hover-underline-animation {
     display: inline-block;
     position: relative;
-    color:white;
+    color: white;
 }
+
 /*.Registreren a:active{
     color: red;
 }
@@ -104,7 +105,7 @@ a{
 
 /*------ CSS voor CONTACT Pagina-------*/
 
-.row{
+.row {
     /*margin-top: 5%;*/
     display: flex;
     justify-content: space-between;
@@ -115,13 +116,14 @@ a{
     padding-bottom: 1px;
     line-height: 1.5;
 }
-.contact{
+
+.contact {
     text-align: center;
 }
 
-.contact-col{
+.contact-col {
     flex-basis: 25%;
-    background-color: rgb(0,0,0,0.1);
+    background-color: rgb(0, 0, 0, 0.1);
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
@@ -130,7 +132,7 @@ a{
     box-sizing: border-box;
 }
 
-.contact-col img{
+.contact-col img {
     display: flex;
     padding: 5px 10px;
     padding-right: 43%;
@@ -153,7 +155,7 @@ a{
     transition: 0.5s;
 }*/
 
-.layer{
+.layer {
     background: transparent;
     height: 100%;
     width: 100%;
@@ -162,9 +164,11 @@ a{
     left: 0;
     transition: 0.5s;
 }
-.layer:hover{
+
+.layer:hover {
     background: #75c7fa;
 }
+
 /*.layer p{
     width: 80%;
     font-weight: 100;
@@ -178,7 +182,7 @@ a{
     position: absolute;
 }*/
 
-.layer p{
+.layer p {
     width: 100%;
     font-weight: 100;
     font-size: 17px;
@@ -190,23 +194,26 @@ a{
     transition: 0.5s;
 }
 
-.layer:hover p{
+.layer:hover p {
     bottom: 20%;
     opacity: 1;
 }
-.contact h2{
+
+.contact h2 {
     color: black;
 }
-.contact-col h2{
+
+.contact-col h2 {
     color: black;
 }
-p{
+
+p {
     text-align: center;
 }
 
 /* ------ div layer for E-MAIL en LOCATIE -------*/
 
-.layer2{
+.layer2 {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -219,10 +226,12 @@ p{
     left: 0;
     transition: 0.5s;
 }
-.layer2:hover{
+
+.layer2:hover {
     background: #75c7fa;
 }
-.layer2 p{
+
+.layer2 p {
     width: 100%;
     font-weight: 100;
     font-size: 17px;
@@ -234,12 +243,12 @@ p{
     transition: 0.5s;
 }
 
-.layer2:hover p{
+.layer2:hover p {
     bottom: 25%;
     opacity: 1;
 }
 
-.fa-solid, .fas{
+.fa-solid, .fas {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
@@ -247,7 +256,7 @@ p{
 }
 
 
-.layer2 a{
+.layer2 a {
     color: darkblue;
     text-align: center;
     font-weight: 100;
@@ -256,9 +265,10 @@ p{
 }
 
 
-.layer2 a:hover{
+.layer2 a:hover {
     color: white;
 }
+
 /* unvisited link
 a[href="mailto:"]:link {
     color: red;
@@ -278,5 +288,90 @@ a[href="mailto:"]:link {
 .a:active {
     color: blue;
 }
+ */
+
+/* VOOR PLANNING BUTTON?*
+
+ */
+
+.btn {
+    margin-top: 20px;
+    width: 100px;
+    border: 5px white;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    height: 30px;
+}
+
+/* Style the p tag */
+.btn p {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 30px;
+    transition: all 0.5s ease;
+}
+
+/* Style the first icon with class send */
+.send {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+/* Style the second icon with class send2 */
+.send2 {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    color: #696666;
+    transition: all 0.5s ease;
+}
 
 
+/* Hover effects */
+.btn:hover {
+    background: steelblue;
+    transition: all 0.5s ease;
+}
+
+.btn:hover p {
+    color: #696666;
+    transition: all 0.5s ease;
+    animation: move 1s linear 1s forwards;
+}
+
+.btn:hover .send {
+    top: -50px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover .send2 {
+    top: 15px;
+    transition: all 0.5s ease;
+    animation: sending 1s linear 1s forwards;
+}
+
+
+/* CSS3 animation keyframes */
+@keyframes sending {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translate(40px, -60px);
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-18px);
+    }
+}
