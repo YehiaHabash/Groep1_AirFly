@@ -31,7 +31,7 @@
             <label>Comment</label>
             <input type="text" name="title" class="form-control">
             <br><br>
-            <button name="form_submit" class="btn-primary">Uploaden</button>
+            <button name="form_submit" class="btn">Uploaden</button>
         </form>
 
     </div>
@@ -46,7 +46,7 @@
         <?php $res = mysqli_query($conn, "SELECT* from fotos ORDER by id DESC");
         while ($row = mysqli_fetch_array($res)) {
             echo '<tr> 
-                  <td><img src="img/' . $row['image'] . '" height="200"></td> 
+                  <td><img class="fotos" src="img/' . $row['image'] . '" height="200"></td> 
                   <td>' . $row['title'] . '</td> 
 
 				</tr>';
