@@ -31,7 +31,7 @@
         }
 
         .container:hover {
-            box-shadow: 0 0 10px 5px rgba(255, 0, 0, 0.5);
+            box-shadow: 0 0 10px 5px rgb(42, 165, 255);
         }
     </style>
 </head>
