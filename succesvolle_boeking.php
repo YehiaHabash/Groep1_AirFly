@@ -40,7 +40,7 @@
 <?php
 require_once "database/conn.php";
 
-$sql = "SELECT * FROM vluchten WHERE ";
+$sql = "SELECT * FROM vluchten";
 ?>
 
 <div class="container" onclick="goBack()">
