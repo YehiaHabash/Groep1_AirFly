@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-    <title>Bedankt voor uw reservering</title>
+    <title>Bedankt voor uw reservering!</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -37,17 +36,35 @@
     </style>
 </head>
 <body>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Bedankt voor uw reservering!</title>
-</head>
-<body>
+
+<?php
+require_once "database/conn.php";
+
+$sql = "SELECT * FROM vluchten WHERE ";
+?>
+
 <div class="container" onclick="goBack()">
+    <?php
+    if ($result = $conn->query($sql)) {
+    while ($row = $result->fetch_row()) {
+    $naam = $row[1];
+    $vertrek = $row[2];
+    $bestemming = $row[3];
+    $datum = $row[4];
+    $vliegtuig = $row[5]
+
+
+    ?>
+    <a href="planning.php">
+        <img src="img/SkyHighLogo.png" alt="SkyHighLogo" width="130" align="right">
+    </a>
     <h1>Bedankt voor uw reservering!</h1>
-    <p>Beste [Naam],</p>
-    <p>Bedankt voor het reserveren van een vlucht van [Vertrek] naar [Bestemming] op [Datum].</p>
-    <p>Een bevestiging van uw reservering is verzonden naar het e-mailadres: [E-mail].</p>
+    <p>Beste <span id="name"><?php echo $naam; ?></span>,</p>
+    <p>Bedankt voor het reserveren van een vlucht van <?php echo $bestemming; ?><span id="departure"></span> naar <?php echo $vertrek; ?><span id="destination">
+    <p></p>
+        </span> op <?php echo $datum; ?><span id="date"></span>.</p>
+    <p></p>
+    <p>Een bevestiging van uw reservering is verzonden naar het e-mailadres: <span id="email"></span>.</p>
     <p>We wensen u een prettige reis!</p>
 </div>
 <script>
@@ -55,8 +72,12 @@
         window.history.back();
 
     }
+
+    <?php
+    }
+    }
+    ?>
+
 </script>
 </body>
 </html>
-
-
