@@ -3,6 +3,8 @@
 <head>
     <script src="https://kit.fontawesome.com/87a9ed9bc2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/ledenlijst.css">
+
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
@@ -22,7 +24,7 @@
     <h>CONTACT</h>
     <style>
         body{
-            background-image: url("img/skycontact.jpg");
+            background-image: url("img/clear.jpg");
         }
         </style>
 </main>
