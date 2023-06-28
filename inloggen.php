@@ -33,9 +33,7 @@
             </div>
             <a href="" class="forgot-pwd">Wachtwoord vergeten</a>
 
-
-        <p class="sign-up-text">Nog geen account? <a href="registreren.php">Registreer hier</a></p>
-        <p class="sign-up-text">Admin? <a href="admin_log-in.php"> Klik hier</a></p>
+            <button type="submit" class="submit-btn">inloggen</button>
         </form>
 
     </div>
@@ -67,6 +65,7 @@
 
     $result = mysqli_query($conn, $sql);
     $number = mysqli_num_rows($result);
+    $sql_data = $result->fetch_array();
 
 
     if ($number >= 1) {
