@@ -72,8 +72,8 @@ if (isset($_POST['form_submit'])) {
         $error[] = 'Sorry, only JPG, JPEG, PNG & GIF files are allowed';
     }
 //Set image upload size
-    if ($_FILES["image"]["size"] > 10048576) {
-        $error[] = 'Sorry, your image is too large. Upload less than 1 MB KB in size.';
+    if ($_FILES["image"]["size"] > 5048576) {
+        $error[] = 'Sorry, your image is too large. Upload less than 1 MBin size.';
     }
     if (!isset($error)) {
         // move image in folder

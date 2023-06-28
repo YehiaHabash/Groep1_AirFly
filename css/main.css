@@ -94,8 +94,15 @@ h3 {
 }
 
 footer {
+
+
     text-align: center;
+
     padding-top: 100px;
+}
+
+.weerbericht {
+    right: 0;
 }
 
 a {
@@ -168,6 +175,7 @@ a {
 
 .contact {
     text-align: center;
+    padding-top: 50px;
 }
 
 .contact-col {
@@ -331,4 +339,4 @@ a[href="mailto:"]:link {
 /* selected link
 .a:active {
     color: blue;
-}
+
