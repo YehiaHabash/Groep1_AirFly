@@ -117,8 +117,6 @@ VALUES(
             if (!$result) {
                 echo "Query error";
                 mysqli_close($conn);
-
-
             }
         }
         ?>
@@ -126,6 +124,6 @@ VALUES(
     </div>
     </p>
 </main>
-
+<script src="includes/javascript.js"></script>
 </body>
 </html>

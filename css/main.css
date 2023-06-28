@@ -83,7 +83,7 @@ a{
 }
 .Registreren a:hover{
      color: red;*/
- }
+
 .hover-underline-animation::after {
     content: '';
     position: absolute;

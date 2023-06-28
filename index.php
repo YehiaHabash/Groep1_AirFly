@@ -11,12 +11,6 @@
     <title>Sky High</title>
 </head>
 <body>
-<div class="container">
-
-    <div class="Logo">
-        <img src="img/SkyHighLogo.png" alt="SkyHighLogo">
-
-    </div>
 
 <div class="users">
 
