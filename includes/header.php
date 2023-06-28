@@ -37,7 +37,7 @@
 <?php } ?>
 
 
-<header>Sky <Hi></Hi>gh</header>
+<header>Sky High</header>
 
 <nav>
     <a href="./index.php" class="hover-underline-animation">HOME</a>
