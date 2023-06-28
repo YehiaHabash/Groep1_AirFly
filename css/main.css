@@ -1,8 +1,8 @@
-html{
+html {
     height: 100%;
 }
 
-body{
+body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center, center;
@@ -12,72 +12,76 @@ body{
     /*min-height: 100%;*/
 }
 
-.container{
+.container {
     height: 100%;
     margin-right: auto;
     margin-left: auto;
     width: 1024px;
 }
 
-img{
+.logo {
     height: 120px;
     position: absolute;
     margin-left: auto;
     left: 15px;
 }
 
-.Registreren{
-    background-color: rgb(0,0,0,0.3);
+
     right: 15px;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    /*padding-top: 14px;*/
+    /*padding-bottom: 14px;*/
     font-size: 13px;
     position: fixed;
 }
 
-header{
+
     height: 120px;
     text-align: center;
     margin-top: 50px;
     font-size: 50px;
     color: white;
+    font-style: italic;
+    font-style: oblique;
 }
 
-nav{
+nav {
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
     padding-top: 14px;
     padding-bottom: 14px;
-    background-color: rgb(0,0,0,0.3);
 
-}
-
-main{
-    padding-top: 60px;
     text-align: center;
     font-size: 20px;
-    font-family: "Arial Black", cursive;
+    font-family: "Bookman Old Style";
     color: white;
 
 }
 
-footer{
     text-align: center;
     padding-top: 100px;
 }
 
-a{
+a {
     padding-right: 10px;
     padding-left: 10px;
     font-family: "Arial Black", cursive;
     text-decoration: none;
+
 }
 
 .hover-underline-animation {
+    /*display: inline-block;*/
+    /*list-style: none;*/
+    /*position: relative;*/
+    color: #015381;
+    list-style: none;
     display: inline-block;
+    padding: 12px 30px;
+    background-color: #75c7fa;
     position: relative;
-    color:white;
+
 }
+
 /*.Registreren a:active{
     color: red;
 }
@@ -85,26 +89,36 @@ a{
      color: red;*/
 
 .hover-underline-animation::after {
+    /*content: '';*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*transform: scaleX(0);*/
+    /*height: 2.5px;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*background-color: red;*/
+    /*transform-origin: bottom center;*/
+    /*transition: transform 0.25s ease-out;*/
     content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
+    width: 0%;
     height: 2.5px;
-    bottom: 0;
-    left: 0;
-    background-color: white;
-    transform-origin: bottom center;
-    transition: transform 0.25s ease-out;
+    background: blue;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+
 }
 
+
 .hover-underline-animation:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom center;
+    /*transform: scaleX(1);*/
+    /*transform-origin: bottom center;*/
+    width: 100%;
 }
 
 /*------ CSS voor CONTACT Pagina-------*/
 
-.row{
+.row {
     /*margin-top: 5%;*/
     display: flex;
     justify-content: space-between;
@@ -115,13 +129,14 @@ a{
     padding-bottom: 1px;
     line-height: 1.5;
 }
-.contact{
+
+.contact {
     text-align: center;
 }
 
-.contact-col{
+.contact-col {
     flex-basis: 25%;
-    background-color: rgb(0,0,0,0.1);
+
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
@@ -130,7 +145,7 @@ a{
     box-sizing: border-box;
 }
 
-.contact-col img{
+.contact-col img {
     display: flex;
     padding: 5px 10px;
     padding-right: 43%;
@@ -153,7 +168,7 @@ a{
     transition: 0.5s;
 }*/
 
-.layer{
+.layer {
     background: transparent;
     height: 100%;
     width: 100%;
@@ -162,9 +177,9 @@ a{
     left: 0;
     transition: 0.5s;
 }
-.layer:hover{
-    background: #75c7fa;
+
 }
+
 /*.layer p{
     width: 80%;
     font-weight: 100;
@@ -178,7 +193,7 @@ a{
     position: absolute;
 }*/
 
-.layer p{
+.layer p {
     width: 100%;
     font-weight: 100;
     font-size: 17px;
@@ -190,23 +205,26 @@ a{
     transition: 0.5s;
 }
 
-.layer:hover p{
+.layer:hover p {
     bottom: 20%;
     opacity: 1;
 }
-.contact h2{
+
+.contact h2 {
     color: black;
 }
-.contact-col h2{
+
+.contact-col h2 {
     color: black;
 }
-p{
+
+p {
     text-align: center;
 }
 
 /* ------ div layer for E-MAIL en LOCATIE -------*/
 
-.layer2{
+.layer2 {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -219,10 +237,10 @@ p{
     left: 0;
     transition: 0.5s;
 }
-.layer2:hover{
-    background: #75c7fa;
+
 }
-.layer2 p{
+
+.layer2 p {
     width: 100%;
     font-weight: 100;
     font-size: 17px;
@@ -234,12 +252,12 @@ p{
     transition: 0.5s;
 }
 
-.layer2:hover p{
+.layer2:hover p {
     bottom: 25%;
     opacity: 1;
 }
 
-.fa-solid, .fas{
+.fa-solid, .fas {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
@@ -247,7 +265,7 @@ p{
 }
 
 
-.layer2 a{
+.layer2 a {
     color: darkblue;
     text-align: center;
     font-weight: 100;
@@ -256,9 +274,10 @@ p{
 }
 
 
-.layer2 a:hover{
+.layer2 a:hover {
     color: white;
 }
+
 /* unvisited link
 a[href="mailto:"]:link {
     color: red;
@@ -278,5 +297,9 @@ a[href="mailto:"]:link {
 .a:active {
     color: blue;
 }
+ */
 
+/* VOOR PLANNING BUTTON?*
+
+ */
 

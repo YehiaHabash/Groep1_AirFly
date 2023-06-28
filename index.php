@@ -12,20 +12,17 @@
 </head>
 <body>
 
-<div class="users">
-
-</div>
 <div class="container">
 
     <?php include_once "./includes/header.php"; ?>
-
+</div>
     <main>
         <h>HOME</h>
     </main>
 
     <footer>
         <div style="display: flex; justify-content: center;">
-            <div style="border: 0px solid #d4d4d4; background-color: transparent; padding: 100px; width: 300px; margin-right: 10px;">
+            <div style="border: 0px solid #d4d4d4; background-color: transparent; padding: 80px; width: 300px; margin-right: 10px;">
                 <div id="ww_efff0b1cd1dc8" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl7908"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"#FFFFFF00","cl_font":"rgba(249,248,248,1)","cl_cloud":"#d4d4d4","cl_persp":"#2196F3","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
                     More forecasts: <a href="https://oneweather.org/nl/amsterdam/30_days/" id="ww_efff0b1cd1dc8_u" target="_blank">het weer 30 dagen</a>
                 </div>
@@ -151,7 +148,7 @@
     </footer>
 
 
-</div>
+
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

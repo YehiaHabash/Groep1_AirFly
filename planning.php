@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -108,7 +107,7 @@
             <option>Hilversum air3</option>
         </select>
 
-        <input type="submit" value="Reserveer">
+        <input type="submit" value="Reserveer" class="btn">
 
     </form>
 
