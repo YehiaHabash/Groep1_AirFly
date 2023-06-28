@@ -12,13 +12,10 @@
 </head>
 <body>
 
-<div class="users">
-
-</div>
 <div class="container">
 
     <?php include_once "./includes/header.php"; ?>
-
+</div>
     <main>
         <h>HOME</h>
     </main>
@@ -151,7 +148,7 @@
     </footer>
 
 
-</div>
+
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
