@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
-    <meta name="author" content="Saira Maranan">
+    <meta name="author" content="Saira Mae Maranan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sky High</title>
 </head>
