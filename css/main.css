@@ -8,14 +8,13 @@ body {
     background-position: center, center;
     background-attachment: fixed;
     background-color: gray;
-    background-image: url("../img/Blue.jpg");
+    background-image: url("../img/clear.jpg");
     /*min-height: 100%;*/
 }
 
 .title{
     height: 120px;
     text-align: center;
-    margin-top: 50px;
     font-size: 50px;
     color: white;
     font-style: italic;
@@ -84,7 +83,6 @@ main {
     font-size: 20px;
     font-family: "Bookman Old Style";
     color: white;
-
 }
 
 h3 {
@@ -186,8 +184,6 @@ a {
     overflow: hidden;
     padding: 9px 12px;
     box-sizing: border-box;
-}
-
 }
 
 /*.layer{

@@ -39,7 +39,7 @@
     <div class="row">
         <div class="contact-col">
 
-            <img style="padding-left: 100px" src="img/Telefoon.png">
+            <img src="img/Telefoon.png">
             <h2><br>Bel ons</h2>
 
             <div class="layer">
@@ -51,7 +51,7 @@
         <div class="contact-col">
 
 
-            <img style="padding-left: 100px" src="img/email.png">
+            <img src="img/email.png">
             <h2><br>E-mail ons</h2>
 
             <div class="layer2">
@@ -63,7 +63,7 @@
 
         <div class="contact-col">
 
-            <img style="padding-left: 100px" src="img/location.png">
+            <img src="img/location.png">
             <h2><br>Bezoek ons</h2>
 
             <div class="layer2">

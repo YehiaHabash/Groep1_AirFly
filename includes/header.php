@@ -6,8 +6,6 @@
 <link rel="stylesheet" href="css/header.css">
 <!--<link rel="stylesheet" href="css/main.css">-->
 
-<?php if (isset($_SESSION["user"])) { ?>
-
     <img class="logo" src="img/SkyHighLogo.png" alt="SkyHighLogo" class="logo">
 </div>
 <link rel="stylesheet" href="css/header.css">
@@ -46,7 +44,7 @@
 <?php } ?>
 
 
-<header>Sky <Hi></Hi>gh</header>
+<header>SkyHigh</header>
 
 <nav>
     <a href="./index.php" class="hover-underline-animation">HOME</a>
