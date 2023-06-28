@@ -5,7 +5,6 @@ require_once "database/conn.php";
 <html lang="en">
 <head>
     <script src="https://kit.fontawesome.com/87a9ed9bc2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/ledenlijst.css">
     <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
@@ -28,7 +27,7 @@ require_once "database/conn.php";
         <title>Team Pagina</title>
         <style>
             body{
-                background-image: url("img/clear.jpg");
+                background-image: url("img/Blue.jpg");
             }
             /*.team-container {
                 display: flex;
