@@ -26,7 +26,7 @@
     </script>
 
 
-<?php } else { ?>
+<?php } else {?>
     <div class="Registreren">
         <a href="./registreren.php" class="hover-underline-animation">REGISTREREN</a>
         <a href="./inloggen.php" class="hover-underline-animation">INLOGGEN</a>
@@ -34,7 +34,7 @@
 <?php } ?>
 
 
-<header>Sky High</header>
+<header>Sky <Hi></Hi>gh</header>
 
 <nav>
     <a href="./index.php" class="hover-underline-animation">HOME</a>
