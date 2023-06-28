@@ -55,7 +55,8 @@ label {
 table {
     margin-right: auto;
     margin-left: auto;
-    color: white;
+    color: black;
+    font-size: 18px;
 }
 
 .fotos {
