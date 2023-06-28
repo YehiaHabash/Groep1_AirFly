@@ -3,12 +3,12 @@
 <head>
     <script src="https://kit.fontawesome.com/87a9ed9bc2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/ledenlijst.css">
+    <link rel="stylesheet" href="css/contactt.css">
 
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
-    <meta name="author" content="Saira Mae Maranan">
+    <meta name="author" content="Saira Maranan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sky High</title>
 </head>
@@ -23,8 +23,13 @@
 <main>
     <h>CONTACT</h>
     <style>
+
         body {
             background-image: url("img/clear.jpg");
+
+        body{
+            background-image: url("img/Blue.jpg");
+
         }
     </style>
 </main>

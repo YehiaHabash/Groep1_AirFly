@@ -1,0 +1,248 @@
+Index: css/main.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>html{\r\n    height: 100%;\r\n}\r\n\r\nbody{\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-position: center, center;\r\n    background-attachment: fixed;\r\n    background-color: gray;\r\n    background-image: url(\"../img/Blue.jpg\");\r\n    /*min-height: 100%;*/\r\n}\r\n\r\n.container{\r\n    height: 100%;\r\n    margin-right: auto;\r\n    margin-left: auto;\r\n    width: 1024px;\r\n}\r\n\r\nimg{\r\n    height: 120px;\r\n    position: absolute;\r\n    margin-left: auto;\r\n    left: 15px;\r\n}\r\n\r\n.Registreren{\r\n    /*background-color: rgb(0,0,0,0.3);*/\r\n    list-style: none;\r\n    display: inline-block;\r\n    padding: 15px 17px;\r\n    right: 15px;\r\n    /*padding-top: 14px;*/\r\n    /*padding-bottom: 14px;*/\r\n    font-size: 13px;\r\n    position: fixed;\r\n}\r\n\r\n/*.Registreren:hover{*/\r\n/*    background-color: white;*/\r\n/*}*/\r\n\r\nheader{\r\n    height: 120px;\r\n    text-align: center;\r\n    margin-top: 50px;\r\n    font-size: 50px;\r\n    color: white;\r\n    font-style: italic;\r\n    font-style: oblique;\r\n}\r\n\r\nnav{\r\n    text-align: center;\r\n    font-size: 14px;\r\n    padding-top: 14px;\r\n    padding-bottom: 14px;\r\n    /*background-color: rgb(0,0,0,0.3);*/\r\n\r\n}\r\n\r\n/*.nav {*/\r\n/*    list-style: none;*/\r\n/*    display: inline-block;*/\r\n/*    padding: 15px 20px;*/\r\n/*    background-color: red;*/\r\n/*}*/\r\n\r\nmain{\r\n    padding-top: 30px;\r\n    text-align: center;\r\n    font-size: 20px;\r\n    font-family: \"Bookman Old Style\";\r\n    color: white;\r\n\r\n}\r\nh3{\r\n    font-family: \"Bell MT\", cursive;\r\n}\r\nfooter{\r\n    text-align: center;\r\n    padding-top: 100px;\r\n}\r\n\r\na{\r\n    padding-right: 10px;\r\n    padding-left: 10px;\r\n    font-family: \"Arial Black\", cursive;\r\n    text-decoration: none;\r\n\r\n}\r\n\r\n.hover-underline-animation {\r\n    /*display: inline-block;*/\r\n    /*list-style: none;*/\r\n    /*position: relative;*/\r\n    color: #015381;\r\n    list-style: none;\r\n    display: inline-block;\r\n    padding: 12px 30px;\r\n    background-color: #75c7fa;\r\n    position: relative;\r\n}\r\n\r\n/*.Registreren a:active{\r\n    color: red;\r\n}\r\n.Registreren a:hover{\r\n     color: red;*/\r\n\r\n.hover-underline-animation::after {\r\n    /*content: '';*/\r\n    /*position: absolute;*/\r\n    /*width: 100%;*/\r\n    /*transform: scaleX(0);*/\r\n    /*height: 2.5px;*/\r\n    /*bottom: 0;*/\r\n    /*left: 0;*/\r\n    /*background-color: red;*/\r\n    /*transform-origin: bottom center;*/\r\n    /*transition: transform 0.25s ease-out;*/\r\n    content: '';\r\n    width: 0%;\r\n    height: 2.5px;\r\n    background: blue;\r\n    display: block;\r\n    margin: auto;\r\n    transition: 0.3s;\r\n\r\n}\r\n\r\n\r\n.hover-underline-animation:hover::after {\r\n    /*transform: scaleX(1);*/\r\n    /*transform-origin: bottom center;*/\r\n    width: 100%;\r\n}\r\n\r\n/*------ CSS voor CONTACT Pagina-------*/\r\n\r\n.row{\r\n    /*margin-top: 5%;*/\r\n    display: flex;\r\n    justify-content: space-between;\r\n    width: 80%;\r\n    margin: auto;\r\n    text-align: center;\r\n    padding-top: 30px;\r\n    padding-bottom: 1px;\r\n    line-height: 1.5;\r\n}\r\n.contact{\r\n    text-align: center;\r\n}\r\n\r\n.contact-col{\r\n    flex-basis: 25%;\r\n    /*background-color: rgb(0,0,0,0.5);*/\r\n    background: #3b70dc;\r\n    border-radius: 10px;\r\n    margin-bottom: 30px;\r\n    position: relative;\r\n    overflow: hidden;\r\n    padding: 9px 12px;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.contact-col img{\r\n    display: flex;\r\n    padding: 5px 10px;\r\n    padding-right: 43%;\r\n    margin-top: 20%;\r\n    position: relative;\r\n    width: 25%;\r\n}\r\n\r\n/*.layer{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-content: center;\r\n    flex-wrap: wrap;\r\n    background: transparent;\r\n    height: 100%;\r\n    width: 100%;\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    transition: 0.5s;\r\n}*/\r\n\r\n.layer{\r\n    background: transparent;\r\n    height: 100%;\r\n    width: 100%;\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    transition: 0.5s;\r\n}\r\n.layer:hover{\r\n    background-color: #cc2c2c;\r\n\r\n}\r\n/*.layer p{\r\n    width: 80%;\r\n    font-weight: 100;\r\n    font-size: 17px;\r\n    bottom: 0;\r\n    left: 50%;\r\n    opacity: 0;\r\n    transform: translateY(-50%);\r\n    transition: 0.5s;\r\n    text-align: center;\r\n    position: absolute;\r\n}*/\r\n\r\n.layer p{\r\n    width: 100%;\r\n    font-weight: 100;\r\n    font-size: 17px;\r\n    bottom: 0;\r\n    left: 40%;\r\n    transform: translateX(-40%);\r\n    position: absolute;\r\n    opacity: 0;\r\n    transition: 0.5s;\r\n}\r\n\r\n.layer:hover p{\r\n    bottom: 20%;\r\n    opacity: 1;\r\n}\r\n.contact h2{\r\n    color: black;\r\n}\r\n.contact-col h2{\r\n    color: black;\r\n}\r\np{\r\n    text-align: center;\r\n}\r\n\r\n/* ------ div layer for E-MAIL en LOCATIE -------*/\r\n\r\n.layer2{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-content: center;\r\n    flex-wrap: wrap;\r\n    background: transparent;\r\n    height: 100%;\r\n    width: 100%;\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    transition: 0.5s;\r\n}\r\n.layer2:hover{\r\n    background-color: #cc2c2c;\r\n}\r\n.layer2 p{\r\n    width: 100%;\r\n    font-weight: 100;\r\n    font-size: 17px;\r\n    bottom: 0;\r\n    left: 40%;\r\n    transform: translateX(-40%);\r\n    position: absolute;\r\n    opacity: 0;\r\n    transition: 0.5s;\r\n}\r\n\r\n.layer2:hover p{\r\n    bottom: 25%;\r\n    opacity: 1;\r\n}\r\n\r\n.fa-solid, .fas{\r\n    justify-content: center;\r\n    align-content: center;\r\n    flex-wrap: wrap;\r\n    margin-right: 2%;\r\n}\r\n\r\n\r\n.layer2 a{\r\n    color: darkblue;\r\n    text-align: center;\r\n    font-weight: 100;\r\n    font-size: 17px;\r\n    text-decoration: underline;\r\n}\r\n\r\n\r\n.layer2 a:hover{\r\n    color: white;\r\n}\r\n/* unvisited link\r\na[href=\"mailto:\"]:link {\r\n    color: red;\r\n}\r\n\r\n/* visited link\r\n.a:visited {\r\n    color: green;\r\n}\r\n\r\n/* mouse over link\r\n.a:hover {\r\n    color: hotpink;\r\n}\r\n\r\n/* selected link\r\n.a:active {\r\n    color: blue;\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/main.css b/css/main.css
+--- a/css/main.css	(revision 8d7ba53c0d5f933d9a7310eb09bd6c9779b5c7f8)
++++ b/css/main.css	(date 1687940531085)
+@@ -46,10 +46,11 @@
+     height: 120px;
+     text-align: center;
+     margin-top: 50px;
+-    font-size: 50px;
+-    color: white;
++    font-size: 80px;
++    color: #ffffff;
+     font-style: italic;
+     font-style: oblique;
++    text-shadow: 3px 5px 8px #cc2c2c;
+ }
+ 
+ nav{
+@@ -103,7 +104,11 @@
+     background-color: #75c7fa;
+     position: relative;
+ }
+-
++.hover-underline-animation:hover {
++    /*box-shadow: var(--cyan) 0px 0px 20px;*/
++    /*border: 1px solid var(--cyan)*/
++    background-color: #fe5f55;
++}
+ /*.Registreren a:active{
+     color: red;
+ }
+Index: database/conn.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\n$host = \"localhost\";\r\n$user = \"root\";\r\n$pass = \"\";\r\n$dbname = \"skyhigh\";\r\n\r\n$conn = new mysqli($host, $user, $pass, $dbname);\r\nif ($conn->connect_error) {\r\n    echo(\"connectie is mislukt\");\r\n    die(\"Connectie niet gelukt\");\r\n}\r\n?>\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/database/conn.php b/database/conn.php
+--- a/database/conn.php	(revision 8d7ba53c0d5f933d9a7310eb09bd6c9779b5c7f8)
++++ b/database/conn.php	(date 1687941746444)
+@@ -2,7 +2,7 @@
+ $host = "localhost";
+ $user = "root";
+ $pass = "";
+-$dbname = "skyhigh";
++$dbname = "skyhigh2";
+ 
+ $conn = new mysqli($host, $user, $pass, $dbname);
+ if ($conn->connect_error) {
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"21ff3aa1-e313-4846-a6e9-8d06ec43a25a\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources/77db8f60-d17b-4fe2-a548-f71117e56dec.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/dataSources/77db8f60-d17b-4fe2-a548-f71117e56dec.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/inloggen.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/inloggen.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/registreren.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/registreren.php\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 8d7ba53c0d5f933d9a7310eb09bd6c9779b5c7f8)
++++ b/.idea/workspace.xml	(date 1687942294912)
+@@ -1,11 +1,10 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="21ff3aa1-e313-4846-a6e9-8d06ec43a25a" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77db8f60-d17b-4fe2-a548-f71117e56dec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77db8f60-d17b-4fe2-a548-f71117e56dec.xml" afterDir="false" />
++    <list default="true" id="033246a6-84e9-436f-9e1f-c91a1b0decaf" name="Changes" comment="a">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/inloggen.php" beforeDir="false" afterPath="$PROJECT_DIR$/inloggen.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/registreren.php" beforeDir="false" afterPath="$PROJECT_DIR$/registreren.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/database/conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/conn.php" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -15,11 +14,165 @@
+   <component name="ComposerSettings">
+     <execution />
+   </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="CSS File" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Merge.Settings">
++    <option name="BRANCH" value="origin/Branch_Glenn" />
++  </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$USER_HOME$/OneDrive/Documents/GitHub/Groep1_AirFly/Php/Index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="PhpWorkspaceProjectConfiguration">
++    <include_path>
++      <path value="$PROJECT_DIR$" />
++    </include_path>
++  </component>
++  <component name="ProjectId" id="2RSY3A2pDSEuBXWR8kmoPnva5si" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  }
++}</component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="033246a6-84e9-436f-9e1f-c91a1b0decaf" name="Changes" comment="nieuwe bestanden" />
++      <created>1687244756297</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1687244756297</updated>
++      <workItem from="1687244759002" duration="18394000" />
++      <workItem from="1687417237737" duration="20169000" />
++      <workItem from="1687503840810" duration="932000" />
++      <workItem from="1687504973348" duration="3291000" />
++      <workItem from="1687768599143" duration="4392000" />
++      <workItem from="1687776578805" duration="767000" />
++      <workItem from="1687901107548" duration="1034000" />
++      <workItem from="1687902267313" duration="5318000" />
++      <workItem from="1687936966568" duration="5103000" />
++    </task>
++    <task id="LOCAL-00001" summary="nieuwe bestanden">
++      <created>1687244796523</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1687244796523</updated>
++    </task>
++    <task id="LOCAL-00002" summary="links toegevoegd contact pagina">
++      <created>1687254676913</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1687254676913</updated>
++    </task>
++    <task id="LOCAL-00003" summary="links toegevoegd contact pagina">
++      <created>1687331003054</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1687331003054</updated>
++    </task>
++    <task id="LOCAL-00004" summary="Ledenlijst pagina">
++      <created>1687426286688</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1687426286688</updated>
++    </task>
++    <task id="LOCAL-00005" summary="Ledenlijst pagina">
++      <created>1687426876029</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1687426876029</updated>
++    </task>
++    <task id="LOCAL-00006" summary="Ledenlijst pagina">
++      <created>1687427458381</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1687427458381</updated>
++    </task>
++    <task id="LOCAL-00007" summary="admin">
++      <created>1687472680698</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1687472680698</updated>
++    </task>
++    <task id="LOCAL-00008" summary="contact&amp;ledenlijst pagina bijgewerkt">
++      <created>1687773313813</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1687773313813</updated>
++    </task>
++    <task id="LOCAL-00009" summary="secret pagina verwijderd">
++      <created>1687775974398</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1687775974398</updated>
++    </task>
++    <task id="LOCAL-00010" summary="a">
++      <created>1687901186942</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1687901186942</updated>
++    </task>
++    <task id="LOCAL-00011" summary="a">
++      <created>1687938999761</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1687938999761</updated>
++    </task>
++    <option name="localTasksCounter" value="12" />
+     <servers />
+   </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="nieuwe bestanden" />
++    <MESSAGE value="links toegevoegd contact pagina" />
++    <MESSAGE value="Ledenlijst pagina" />
++    <MESSAGE value="admin" />
++    <MESSAGE value="contact&amp;ledenlijst pagina bijgewerkt" />
++    <MESSAGE value="secret pagina verwijderd" />
++    <MESSAGE value="a" />
++    <option name="LAST_COMMIT_MESSAGE" value="a" />
++  </component>
+ </project>
+\ No newline at end of file

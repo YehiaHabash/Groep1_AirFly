@@ -12,6 +12,16 @@ body {
     /*min-height: 100%;*/
 }
 
+.title{
+    height: 120px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+    font-style: italic;
+    font-style: oblique;
+}
+
 .container {
     height: 100%;
     margin-right: auto;
@@ -82,6 +92,10 @@ h3 {
 }
 
 footer {
+
+
+    text-align: center;
+
     padding-top: 100px;
 }
 
@@ -129,7 +143,7 @@ a {
     content: '';
     width: 0%;
     height: 2.5px;
-    background: blue;
+    background: black;
     display: block;
     margin: auto;
     transition: 0.3s;
@@ -174,13 +188,6 @@ a {
     box-sizing: border-box;
 }
 
-.contact-col img {
-    display: flex;
-    padding: 5px 10px;
-    padding-right: 43%;
-    margin-top: 20%;
-    position: relative;
-    width: 25%;
 }
 
 /*.layer{
@@ -330,5 +337,4 @@ a[href="mailto:"]:link {
 /* selected link
 .a:active {
     color: blue;
-}
-/*
+

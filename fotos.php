@@ -49,7 +49,7 @@
                   <td><img class="fotos" src="img/' . $row['foto'] . '" height="200"></td> 
                   <td>' . $row['titel'] . '</td> 
 
-				</tr>';
+            </tr>';
 
         } ?>
 
