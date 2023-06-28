@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mijn-profiel.css">
     <meta charset="UTF-8">
     <meta name="description" content="Content">
     <meta name="keywords" content="Keywords">
