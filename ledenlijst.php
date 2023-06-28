@@ -35,6 +35,10 @@ require_once "database/conn.php";
                 justify-content: space-between;
                 background-color: black;
             }*/
+            *{
+                margin: 0;
+                padding: 0;
+            }
 
             .team-member {
                 /*margin-top: 5%;*/
@@ -57,7 +61,7 @@ require_once "database/conn.php";
             .team-member .info {
 
                 flex-basis: 27%;
-                background-color: rgb(0,0,0,0.1);
+                /*background-color: rgb(0,0,0,0.1);*/
                 /*background-color: blue;*/
                 border-radius: 10px;
                 margin-bottom: 30px;
@@ -101,11 +105,13 @@ require_once "database/conn.php";
             }
             .info img{
                 display: flex;
-                width: 25%;
+                width: 30%;
                 height: 23%;
                 margin-top: 10%;
                 margin-right: 50px;
-                padding-right: 20%;
+                padding-right: 35%;
+                padding-left: 35%;
+                padding-bottom: 15px;
             }
         </style>
         <script>

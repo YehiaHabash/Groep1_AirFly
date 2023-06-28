@@ -12,6 +12,7 @@
 </head>
 <body>
 
+
 <div class="container">
 
 
@@ -25,10 +26,7 @@
     <head>
 
         <title>Vluchtreservering</title>
-        <style>
 
-
-        </style>
         <script>
             var vliegtuigStatus = {
                 "Hilversum_air1": {
@@ -147,15 +145,13 @@
 vertrek,
 bestemming,
 datum,
-vliegtuig,
-email)
+vliegtuig)
 VALUES(
 '$naam',
 '$vertrek',
 '$bestemming',
 '$datum',
-'$vliegtuig',
-'$user_email')";
+'$vliegtuig')";
 
 
         $result = mysqli_query($conn, $sql);
@@ -167,6 +163,11 @@ VALUES(
         }
     }
     ?>
+    <style>
+        body{
+            background-image: url("img/clear.jpg");
+        }
+    </style>
 
     <div id="successMessage" class="success-message" style="display: none;">
         <!-- Het bericht zal hier worden weergegeven -->

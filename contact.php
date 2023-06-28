@@ -33,9 +33,10 @@
 
         <div class="row">
             <div class="contact-col">
+                <br><br>
 
-                <img style="padding-left: 100px" src="img/Telefoon.png">
-                <h2><br>Bel ons</h2>
+                <img style="padding-left: 100px;"  src="img/Telefoon.png">
+                <h2><br><br>Bel ons<br><br></h2>
 
                 <div class="layer">
                     <p>Telefonisch ondersteuning is beschikbaar <br> van 08:00 uur tot 17:00 uur.<br> <br> Bel ons gerust
@@ -44,10 +45,11 @@
             </div>
 
             <div class="contact-col">
+                <br><br>
 
 
-                <img style="padding-left: 100px" src="img/email.png">
-                <h2><br>E-mail ons</h2>
+                <img style="padding-left: 100px;" src="img/email.png">
+                <h2><br><br>E-mail ons<br><br></h2>
 
                 <div class="layer2">
                     <p>Voor algemene vragen kunt u via e-mail contact met ons opnemen.<br><br>
@@ -57,9 +59,10 @@
             </div>
 
             <div class="contact-col">
+                <br><br>
 
-                <img style="padding-left: 100px" src="img/location.png">
-                <h2><br>Bezoek ons</h2>
+                <img style="padding-left: 100px;" src="img/location.png">
+                <h2><br><br>Bezoek ons<br><br></h2>
 
                 <div class="layer2">
                     <p>Arena 301, 1213 NW <br>Hilversum<br>

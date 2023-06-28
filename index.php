@@ -12,6 +12,7 @@
 </head>
 <body>
 
+
 <div class="users">
 
 </div>
@@ -21,6 +22,7 @@
 
     <main>
         <h>HOME</h>
+
     </main>
 
     <footer>
@@ -64,6 +66,9 @@
                     background: transparent;
 
                 }
+                 body{
+                     background-image: url("img/clear.jpg");
+                 }
 
                 .nav {
                     width: 100%;

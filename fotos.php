@@ -12,6 +12,11 @@
     <title>Sky High</title>
 </head>
 <body>
+<style>
+    body{
+        background-image: url("img/clear.jpg");
+    }
+</style>
 
 <div class="container">
 

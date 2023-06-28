@@ -1,14 +1,17 @@
 html {
     height: 100%;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center, center;
     background-attachment: fixed;
     background-color: gray;
-    background-image: url("../img/clear.jpg");
+    background-image: url("img/clear.jpg");
     /*min-height: 100%;*/
 }
 
@@ -53,18 +56,22 @@ body {
 /*}*/
 
 header {
-    height: 120px;
+    height: 70px;
     text-align: center;
-    margin-top: 50px;
-    font-size: 70px;
-    color: white;
+    /*margin-top: 50px;*/
+    font-size: 50px;
+    color: #ffffff;
     font-style: italic;
     font-style: oblique;
+    font-family: Georgia;
+    background-color: rgb(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-shadow: 0 0 3px #090808, 0 0 5px #1c1919;
+
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
     text-align: center;
     font-size: 14px;
     padding-top: 14px;
@@ -72,6 +79,10 @@ nav {
     /*background-color: rgb(0,0,0,0.3);*/
 
 }
+/*.hover-underline-animation.active{*/
+/*    color: black;*/
+/*    border-bottom: 20px solid black;*/
+/*}*/
 
 /*.nav {*/
 /*    list-style: none;*/
@@ -86,6 +97,7 @@ main {
     font-size: 20px;
     font-family: "Bookman Old Style";
     color: white;
+    /*font-family: "Arial Black", cursive;*/
 
 }
 
@@ -121,7 +133,7 @@ a {
     list-style: none;
     display: inline-block;
     padding: 12px 30px;
-    background-color: rgba(127, 196, 250, 0.71);
+    background-color: #75c7fa;
     position: relative;
 }
 
@@ -181,23 +193,13 @@ a {
 .contact-col {
     flex-basis: 25%;
     /*background-color: rgb(0,0,0,0.5);*/
-    background: #3b70dc;
+    background: #60c3fd;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
     padding: 9px 12px;
     box-sizing: border-box;
-}
-
-.contact-col img {
-    display: flex;
-    padding: 5px 10px;
-    padding-right: 43%;
-    margin-top: 20%;
-    position: relative;
-    width: 25%;
-    left: 100px;
 }
 
 /*.layer{
@@ -252,6 +254,7 @@ a {
     position: absolute;
     opacity: 0;
     transition: 0.5s;
+    color: white;
 }
 
 .layer:hover p {
@@ -301,6 +304,7 @@ p {
     position: absolute;
     opacity: 0;
     transition: 0.5s;
+    color: white;
 }
 
 .layer2:hover p {

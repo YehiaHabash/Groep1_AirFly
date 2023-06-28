@@ -13,7 +13,7 @@
             background-position: center, center;
             background-attachment: fixed;
             background-color: gray;
-            background-image: url("img/Blue.jpg");
+            background-image: url("img/clear.jpg");
             /*min-height: 100%;*/
         }
 
@@ -62,7 +62,7 @@ $sql = "SELECT * FROM vluchten";
     <p>Beste <span id="name"><?php echo $naam; ?></span>,</p>
     <p>Bedankt voor het reserveren van een vlucht van <?php echo $bestemming; ?><span id="departure"></span> naar <?php echo $vertrek; ?><span id="destination">
     <p></p>
-        </span> op <?php echo $datum; ?><span id="date"></span>.</p>
+    </span> op <?php echo $datum; ?><span id="date"></span>.</p>
     <p></p>
     <p>Een bevestiging van uw reservering is verzonden naar het e-mailadres: <span id="email"></span>.</p>
     <p>We wensen u een prettige reis!</p>
