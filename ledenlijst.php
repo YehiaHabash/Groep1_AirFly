@@ -27,7 +27,7 @@ require_once "database/conn.php";
         <title>Team Pagina</title>
         <style>
             body{
-                background-image: url("img/Blue.jpg");
+                background-image: url("img/clear.jpg");
             }
             /*.team-container {
                 display: flex;

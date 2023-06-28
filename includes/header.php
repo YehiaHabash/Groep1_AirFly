@@ -1,17 +1,16 @@
 <?php session_start() ?>
+
 <div class="Logo">
 
     <img src="img/SkyHighLogo.png" alt="SkyHighLogo" class="logo">
 </div>
-<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="../css/header.css">
 <!--<link rel="stylesheet" href="css/main.css">-->
-
-<?php if (isset($_SESSION["user"])) { ?>
 
     <img class="logo" src="img/SkyHighLogo.png" alt="SkyHighLogo" class="logo">
 </div>
-<link rel="stylesheet" href="css/header.css">
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="../css/header.css">
+<link rel="stylesheet" href="../css/main.css">
 
 
 <?php if (isset($_SESSION['user'])) { ?>
